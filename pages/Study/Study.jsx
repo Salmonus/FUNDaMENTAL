@@ -15,9 +15,8 @@ import frenchLangDocs from './french/frenchlangdocs.json';
 import arabicLangDocs from './arabic/arabiclangdocs.json';
 import swahiliLangDocs from './swahili/swahililangdocs.json';
 import portugueseLangDocs from './portuguese/portugueselangdocs.json';
-import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth";
-import { getDoc, setDoc, getFirestore, doc } from "firebase/firestore";
+import { firebase, auth, db } from "../../firebase/config.js";
+import { setDoc, doc } from "firebase/firestore";
 import LernaLangLogo from "../../assets/images/LernaLangLogo.png";
 import HappyImage from "./happy.png";
 import SadImage from "./sad.png";
@@ -28,22 +27,11 @@ const TEST_TYPES = [
   { label: 'Sentences', value: 'sentences' },
 ];
 
-const firebaseConfig = {
-  apiKey: "AIzaSyDcmij22OZD2q8NH1xKNdTxF5YWifsjuzo",
-  authDomain: "data-7c154.firebaseapp.com",
-  databaseURL: "https://data-7c154-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "data-7c154",
-  storageBucket: "data-7c154.appspot.com",
-  messagingSenderId: "930371260166",
-  appId: "1:930371260166:web:7bb09a2b5e2947eef41887",
-  measurementId: "G-WJ0QT1WVEJ"
-};
-
 const GUIDE_LANGUAGES = ['french', 'arabic', 'swahili', 'portuguese'];
 
-const firebase = initializeApp(firebaseConfig);
-const auth = getAuth(firebase);
-const db = getFirestore(firebase);
+const firebase = firebase;
+const auth = auth;
+const db = db;
 
 const Study = ({ navigation }) => {
   const [language, setLanguage] = useState('');
