@@ -1,0 +1,3602 @@
+[
+    {
+        "id": 1,
+        "type": "words",
+        "topic": "tech",
+        "question": "Computer",
+        "options": [
+            "Ordinateur",
+            "Informatique",
+            "Calculatrice"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 2,
+        "type": "words",
+        "topic": "tech",
+        "question": "Smartphone",
+        "options": [
+            "Téléphone intelligent",
+            "Mobile",
+            "Téléphone portable"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 3,
+        "type": "words",
+        "topic": "tech",
+        "question": "Internet",
+        "options": [
+            "Internet",
+            "Toile",
+            "Réseau"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 4,
+        "type": "words",
+        "topic": "tech",
+        "question": "Software",
+        "options": [
+            "Logiciel",
+            "Programme",
+            "Application"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 5,
+        "type": "words",
+        "topic": "tech",
+        "question": "Hardware",
+        "options": [
+            "Matériel",
+            "Équipement",
+            "Composant"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 6,
+        "type": "words",
+        "topic": "tech",
+        "question": "Network",
+        "options": [
+            "Réseau",
+            "Connexion",
+            "Entrelacement"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 7,
+        "type": "words",
+        "topic": "tech",
+        "question": "Data",
+        "options": [
+            "Données",
+            "Informations",
+            "Chiffres"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 8,
+        "type": "words",
+        "topic": "tech",
+        "question": "Algorithm",
+        "options": [
+            "Algorithme",
+            "Procédure",
+            "Méthode"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 9,
+        "type": "words",
+        "topic": "tech",
+        "question": "Cloud",
+        "options": [
+            "Nuage",
+            "Cloud",
+            "Ciel"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 10,
+        "type": "words",
+        "topic": "tech",
+        "question": "Cybersecurity",
+        "options": [
+            "Sécurité informatique",
+            "Sécurité en ligne",
+            "Cybersécurité"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 11,
+        "type": "words",
+        "topic": "tech",
+        "question": "Artificial Intelligence",
+        "options": [
+            "Intelligence artificielle",
+            "IA",
+            "Intelligence synthétique"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 12,
+        "type": "words",
+        "topic": "tech",
+        "question": "Machine Learning",
+        "options": [
+            "Apprentissage automatique",
+            "Machine Learning",
+            "Apprentissage machine"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 13,
+        "type": "words",
+        "topic": "tech",
+        "question": "Virtual Reality",
+        "options": [
+            "Réalité virtuelle",
+            "VR",
+            "Vision virtuelle"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 14,
+        "type": "words",
+        "topic": "tech",
+        "question": "Augmented Reality",
+        "options": [
+            "Réalité augmentée",
+            "AR",
+            "Réalité améliorée"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 15,
+        "type": "words",
+        "topic": "tech",
+        "question": "Blockchain",
+        "options": [
+            "Chaîne de blocs",
+            "Blockchain",
+            "Chaîne de transaction"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 16,
+        "type": "words",
+        "topic": "tech",
+        "question": "Coding",
+        "options": [
+            "Codage",
+            "Programmation",
+            "Écriture de code"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 17,
+        "type": "words",
+        "topic": "tech",
+        "question": "Encryption",
+        "options": [
+            "Chiffrement",
+            "Encryption",
+            "Cryptage"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 18,
+        "type": "words",
+        "topic": "tech",
+        "question": "Automation",
+        "options": [
+            "Automatisation",
+            "Automation",
+            "Automatique"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 19,
+        "type": "words",
+        "topic": "tech",
+        "question": "Digital",
+        "options": [
+            "Numérique",
+            "Digital",
+            "Électronique"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 20,
+        "type": "words",
+        "topic": "tech",
+        "question": "Wi-Fi",
+        "options": [
+            "Wi-Fi",
+            "Connexion sans fil",
+            "Réseau sans fil"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 21,
+        "type": "words",
+        "topic": "tech",
+        "question": "5G",
+        "options": [
+            "5G",
+            "Technologie 5G",
+            "Réseau 5G"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 22,
+        "type": "words",
+        "topic": "tech",
+        "question": "App",
+        "options": [
+            "Application",
+            "App",
+            "Programme"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 23,
+        "type": "words",
+        "topic": "tech",
+        "question": "Website",
+        "options": [
+            "Site web",
+            "Site internet",
+            "Page web"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 24,
+        "type": "words",
+        "topic": "tech",
+        "question": "Sensor",
+        "options": [
+            "Capteur",
+            "Sensor",
+            "Détecteur"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 25,
+        "type": "words",
+        "topic": "tech",
+        "question": "Drone",
+        "options": [
+            "Drone",
+            "Véhicule aérien sans pilote",
+            "Aéronef télépiloté"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 26,
+        "type": "words",
+        "topic": "tech",
+        "question": "GPS",
+        "options": [
+            "GPS",
+            "Système de positionnement global",
+            "Localisation géographique"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 27,
+        "type": "words",
+        "topic": "tech",
+        "question": "Robot",
+        "options": [
+            "Robot",
+            "Automate",
+            "Androïde"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 28,
+        "type": "words",
+        "topic": "tech",
+        "question": "Biometrics",
+        "options": [
+            "Biométrie",
+            "Mesures biométriques",
+            "Techniques biométriques"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 29,
+        "type": "words",
+        "topic": "tech",
+        "question": "Nanotechnology",
+        "options": [
+            "Nanotechnologie",
+            "Nano-ingénierie",
+            "Science des nanomatériaux"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 30,
+        "type": "words",
+        "topic": "tech",
+        "question": "Quantum Computing",
+        "options": [
+            "Informatique quantique",
+            "Calcul quantique",
+            "Ordinateur quantique"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 31,
+        "type": "words",
+        "topic": "tech",
+        "question": "Internet of Things (IoT)",
+        "options": [
+            "Internet des objets (IdO)",
+            "Réseau d'objets connectés",
+            "Internet des appareils"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 32,
+        "type": "words",
+        "topic": "tech",
+        "question": "Wearable",
+        "options": [
+            "Objet connecté",
+            "Accessoire intelligent",
+            "Vêtement connecté"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 33,
+        "type": "words",
+        "topic": "tech",
+        "question": "Smart Home",
+        "options": [
+            "Maison intelligente",
+            "Habitat connecté",
+            "Domicile intelligent"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 34,
+        "type": "words",
+        "topic": "tech",
+        "question": "Big Data",
+        "options": [
+            "Données massives",
+            "Gros volume de données",
+            "Méga-données"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 35,
+        "type": "words",
+        "topic": "tech",
+        "question": "E-commerce",
+        "options": [
+            "Commerce électronique",
+            "Achat en ligne",
+            "Vente en ligne"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 36,
+        "type": "words",
+        "topic": "tech",
+        "question": "Cryptocurrency",
+        "options": [
+            "Cryptomonnaie",
+            "Monnaie virtuelle",
+            "Devises numériques"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 37,
+        "type": "words",
+        "topic": "tech",
+        "question": "Gaming",
+        "options": [
+            "Jeux vidéo",
+            "Jeu électronique",
+            "Divertissement interactif"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 38,
+        "type": "words",
+        "topic": "tech",
+        "question": "Augmented Reality",
+        "options": [
+            "Réalité augmentée",
+            "AR",
+            "Réalité améliorée"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 39,
+        "type": "words",
+        "topic": "tech",
+        "question": "Virtual Reality",
+        "options": [
+            "Réalité virtuelle",
+            "VR",
+            "Vision virtuelle"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 40,
+        "type": "words",
+        "topic": "tech",
+        "question": "Cloud Computing",
+        "options": [
+            "Informatique en nuage",
+            "Calcul en nuage",
+            "Services de cloud"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 41,
+        "type": "words",
+        "topic": "tech",
+        "question": "Information Technology",
+        "options": [
+            "Technologie de l'information",
+            "Informatique",
+            "Technologie numérique"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 42,
+        "type": "words",
+        "topic": "tech",
+        "question": "User Interface",
+        "options": [
+            "Interface utilisateur",
+            "UI",
+            "Interface graphique"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 43,
+        "type": "words",
+        "topic": "tech",
+        "question": "User Experience",
+        "options": [
+            "Expérience utilisateur",
+            "UX",
+            "Expérience de l'utilisateur"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 44,
+        "type": "words",
+        "topic": "tech",
+        "question": "Server",
+        "options": [
+            "Serveur",
+            "Serveur informatique",
+            "Ordinateur central"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 45,
+        "type": "words",
+        "topic": "tech",
+        "question": "Streaming",
+        "options": [
+            "Diffusion en continu",
+            "Streaming",
+            "Transfert continu"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 46,
+        "type": "words",
+        "topic": "tech",
+        "question": "Biotechnology",
+        "options": [
+            "Biotechnologie",
+            "Ingénierie biologique",
+            "Science biologique"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 47,
+        "type": "words",
+        "topic": "tech",
+        "question": "Renewable Energy",
+        "options": [
+            "Énergie renouvelable",
+            "Énergie propre",
+            "Sources d'énergie durables"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 48,
+        "type": "words",
+        "topic": "tech",
+        "question": "Nanomaterials",
+        "options": [
+            "Nanomatériaux",
+            "Matériaux nanostructurés",
+            "Substances nanoscopiques"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 49,
+        "type": "words",
+        "topic": "tech",
+        "question": "Innovation",
+        "options": [
+            "Innovation",
+            "Développement",
+            "Créativité"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 50,
+        "type": "words",
+        "topic": "tech",
+        "question": "Digitalization",
+        "options": [
+            "Numérisation",
+            "Transformation numérique",
+            "Conversion digitale"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 51,
+        "type": "words",
+        "topic": "politics",
+        "question": "Government",
+        "options": [
+            "Gouvernement",
+            "Administration",
+            "État"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 52,
+        "type": "words",
+        "topic": "politics",
+        "question": "President",
+        "options": [
+            "Président",
+            "Chef d'État",
+            "Dirigeant"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 53,
+        "type": "words",
+        "topic": "politics",
+        "question": "Parliament",
+        "options": [
+            "Parlement",
+            "Assemblée",
+            "Chambre"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 54,
+        "type": "words",
+        "topic": "politics",
+        "question": "Democracy",
+        "options": [
+            "Démocratie",
+            "Régime démocratique",
+            "État de droit"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 55,
+        "type": "words",
+        "topic": "politics",
+        "question": "Election",
+        "options": [
+            "Élection",
+            "Vote",
+            "Scrutin"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 56,
+        "type": "words",
+        "topic": "politics",
+        "question": "Constitution",
+        "options": [
+            "Constitution",
+            "Charte",
+            "Loi fondamentale"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 57,
+        "type": "words",
+        "topic": "politics",
+        "question": "Law",
+        "options": [
+            "Loi",
+            "Règlement",
+            "Législation"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 58,
+        "type": "words",
+        "topic": "politics",
+        "question": "Policy",
+        "options": [
+            "Politique",
+            "Stratégie",
+            "Directive"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 59,
+        "type": "words",
+        "topic": "politics",
+        "question": "Citizen",
+        "options": [
+            "Citoyen",
+            "Résident",
+            "Habitant"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 60,
+        "type": "words",
+        "topic": "politics",
+        "question": "Voter",
+        "options": [
+            "Électeur",
+            "Voteur",
+            "Citoyen votant"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 61,
+        "type": "words",
+        "topic": "politics",
+        "question": "Campaign",
+        "options": [
+            "Campagne",
+            "Campagne électorale",
+            "Action militante"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 62,
+        "type": "words",
+        "topic": "politics",
+        "question": "Opposition",
+        "options": [
+            "Opposition",
+            "Opposants",
+            "Contre-pouvoir"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 63,
+        "type": "words",
+        "topic": "politics",
+        "question": "Party",
+        "options": [
+            "Parti",
+            "Formation politique",
+            "Association politique"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 64,
+        "type": "words",
+        "topic": "politics",
+        "question": "Minister",
+        "options": [
+            "Ministre",
+            "Responsable",
+            "Dirigeant"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 65,
+        "type": "words",
+        "topic": "politics",
+        "question": "Prime Minister",
+        "options": [
+            "Premier ministre",
+            "Chef de gouvernement",
+            "Dirigeant principal"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 66,
+        "type": "words",
+        "topic": "politics",
+        "question": "Cabinet",
+        "options": [
+            "Cabinet",
+            "Gouvernement",
+            "Conseil des ministres"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 67,
+        "type": "words",
+        "topic": "politics",
+        "question": "Legislature",
+        "options": [
+            "Législature",
+            "Assemblée législative",
+            "Chambre législative"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 68,
+        "type": "words",
+        "topic": "politics",
+        "question": "Judiciary",
+        "options": [
+            "Pouvoir judiciaire",
+            "Magistrature",
+            "Système judiciaire"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 69,
+        "type": "words",
+        "topic": "politics",
+        "question": "Executive",
+        "options": [
+            "Pouvoir exécutif",
+            "Exécutif",
+            "Bras exécutif"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 70,
+        "type": "words",
+        "topic": "politics",
+        "question": "Legislature",
+        "options": [
+            "Législature",
+            "Assemblée législative",
+            "Chambre législative"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 71,
+        "type": "words",
+        "topic": "politics",
+        "question": "Sovereignty",
+        "options": [
+            "Souveraineté",
+            "Indépendance",
+            "Pouvoir souverain"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 72,
+        "type": "words",
+        "topic": "politics",
+        "question": "Diplomacy",
+        "options": [
+            "Diplomatie",
+            "Relations internationales",
+            "Art diplomatique"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 73,
+        "type": "words",
+        "topic": "politics",
+        "question": "Corruption",
+        "options": [
+            "Corruption",
+            "Mauvaise gestion",
+            "Déloyauté"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 74,
+        "type": "words",
+        "topic": "politics",
+        "question": "Accountability",
+        "options": [
+            "Reddition de comptes",
+            "Responsabilité",
+            "Imputabilité"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 75,
+        "type": "words",
+        "topic": "politics",
+        "question": "Policy",
+        "options": [
+            "Politique",
+            "Stratégie",
+            "Directive"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 76,
+        "type": "words",
+        "topic": "politics",
+        "question": "Transparency",
+        "options": [
+            "Transparence",
+            "Clarté",
+            "Translucidité"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 77,
+        "type": "words",
+        "topic": "politics",
+        "question": "Rule of Law",
+        "options": [
+            "État de droit",
+            "Principe de légalité",
+            "Loi suprême"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 78,
+        "type": "words",
+        "topic": "politics",
+        "question": "Civil Rights",
+        "options": [
+            "Droits civils",
+            "Droits citoyens",
+            "Libertés civiles"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 79,
+        "type": "words",
+        "topic": "politics",
+        "question": "Human Rights",
+        "options": [
+            "Droits de l'homme",
+            "Droits humains",
+            "Libertés fondamentales"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 80,
+        "type": "words",
+        "topic": "politics",
+        "question": "Constitutionality",
+        "options": [
+            "Constitutionnalité",
+            "Conformité à la Constitution",
+            "Légalité"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 81,
+        "type": "words",
+        "topic": "politics",
+        "question": "Political Party",
+        "options": [
+            "Parti politique",
+            "Formation politique",
+            "Regroupement politique"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 82,
+        "type": "words",
+        "topic": "politics",
+        "question": "Ideology",
+        "options": [
+            "Idéologie",
+            "Doctrine politique",
+            "Vision politique"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 83,
+        "type": "words",
+        "topic": "politics",
+        "question": "Activism",
+        "options": [
+            "Activisme",
+            "Militantisme",
+            "Engagement politique"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 84,
+        "type": "words",
+        "topic": "politics",
+        "question": "Civic Engagement",
+        "options": [
+            "Engagement citoyen",
+            "Participation civique",
+            "Action civique"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 85,
+        "type": "words",
+        "topic": "politics",
+        "question": "Public Service",
+        "options": [
+            "Service public",
+            "Service au public",
+            "Mission publique"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 86,
+        "type": "words",
+        "topic": "politics",
+        "question": "Political Process",
+        "options": [
+            "Processus politique",
+            "Processus électoral",
+            "Chemin politique"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 87,
+        "type": "words",
+        "topic": "politics",
+        "question": "Public Policy",
+        "options": [
+            "Politique publique",
+            "Stratégie publique",
+            "Orientation publique"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 88,
+        "type": "words",
+        "topic": "politics",
+        "question": "Autonomy",
+        "options": [
+            "Autonomie",
+            "Indépendance",
+            "Liberté"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 89,
+        "type": "words",
+        "topic": "politics",
+        "question": "Federalism",
+        "options": [
+            "Fédéralisme",
+            "Système fédéral",
+            "Structure fédérale"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 90,
+        "type": "words",
+        "topic": "politics",
+        "question": "Decentralization",
+        "options": [
+            "Décentralisation",
+            "Déconcentration",
+            "Répartition des pouvoirs"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 91,
+        "type": "words",
+        "topic": "politics",
+        "question": "Public Office",
+        "options": [
+            "Charge publique",
+            "Poste public",
+            "Fonction publique"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 92,
+        "type": "words",
+        "topic": "politics",
+        "question": "Governance",
+        "options": [
+            "Gouvernance",
+            "Direction",
+            "Administration"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 93,
+        "type": "words",
+        "topic": "politics",
+        "question": "Statehood",
+        "options": [
+            "Statut d'État",
+            "État souverain",
+            "État de droit"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 94,
+        "type": "words",
+        "topic": "politics",
+        "question": "Nationalism",
+        "options": [
+            "Nationalisme",
+            "Chauvinisme",
+            "Patriotisme"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 95,
+        "type": "words",
+        "topic": "politics",
+        "question": "International Relations",
+        "options": [
+            "Relations internationales",
+            "Diplomatie internationale",
+            "Coopération internationale"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 96,
+        "type": "words",
+        "topic": "politics",
+        "question": "Diplomat",
+        "options": [
+            "Diplomate",
+            "Représentant diplomatique",
+            "Envoyé"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 97,
+        "type": "words",
+        "topic": "politics",
+        "question": "Negotiation",
+        "options": [
+            "Négociation",
+            "Pourparlers",
+            "Discussion"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 98,
+        "type": "words",
+        "topic": "politics",
+        "question": "Treaty",
+        "options": [
+            "Traité",
+            "Accord",
+            "Convention"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 99,
+        "type": "words",
+        "topic": "politics",
+        "question": "Ambassador",
+        "options": [
+            "Ambassadeur",
+            "Représentant diplomatique",
+            "Émissaire"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 100,
+        "type": "words",
+        "topic": "politics",
+        "question": "Referendum",
+        "options": [
+            "Référendum",
+            "Consultation populaire",
+            "Vote populaire"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 101,
+        "type": "words",
+        "topic": "employment",
+        "question": "Employment",
+        "options": [
+            "Emploi",
+            "Travail",
+            "Occupation"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 102,
+        "type": "words",
+        "topic": "employment",
+        "question": "Occupation",
+        "options": [
+            "Occupation",
+            "Profession",
+            "Métier"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 103,
+        "type": "words",
+        "topic": "employment",
+        "question": "Career",
+        "options": [
+            "Carrière",
+            "Parcours professionnel",
+            "Trajectoire de carrière"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 104,
+        "type": "words",
+        "topic": "employment",
+        "question": "Job",
+        "options": [
+            "Emploi",
+            "Travail",
+            "Poste"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 105,
+        "type": "words",
+        "topic": "employment",
+        "question": "Profession",
+        "options": [
+            "Profession",
+            "Métier",
+            "Activité professionnelle"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 106,
+        "type": "words",
+        "topic": "employment",
+        "question": "Workplace",
+        "options": [
+            "Lieu de travail",
+            "Endroit de travail",
+            "Bureau"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 107,
+        "type": "words",
+        "topic": "employment",
+        "question": "Office",
+        "options": [
+            "Bureau",
+            "Local",
+            "Établissement"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 108,
+        "type": "words",
+        "topic": "employment",
+        "question": "Colleague",
+        "options": [
+            "Collègue",
+            "Camarade",
+            "Confrère"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 109,
+        "type": "words",
+        "topic": "employment",
+        "question": "Boss",
+        "options": [
+            "Patron",
+            "Supérieur",
+            "Chef"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 110,
+        "type": "words",
+        "topic": "employment",
+        "question": "Employee",
+        "options": [
+            "Employé",
+            "Salarié",
+            "Travailleur"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 111,
+        "type": "words",
+        "topic": "employment",
+        "question": "Entrepreneur",
+        "options": [
+            "Entrepreneur",
+            "Chef d'entreprise",
+            "Créateur d'entreprise"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 112,
+        "type": "words",
+        "topic": "employment",
+        "question": "Income",
+        "options": [
+            "Revenu",
+            "Rémunération",
+            "Gains"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 113,
+        "type": "words",
+        "topic": "employment",
+        "question": "Salary",
+        "options": [
+            "Salaire",
+            "Rémunération",
+            "Traitement"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 114,
+        "type": "words",
+        "topic": "employment",
+        "question": "Wage",
+        "options": [
+            "Salaire",
+            "Rémunération",
+            "Gains horaires"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 115,
+        "type": "words",
+        "topic": "employment",
+        "question": "Promotion",
+        "options": [
+            "Promotion",
+            "Avancement",
+            "Élévation de poste"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 116,
+        "type": "words",
+        "topic": "employment",
+        "question": "Responsibility",
+        "options": [
+            "Responsabilité",
+            "Devoir",
+            "Charge"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 117,
+        "type": "words",
+        "topic": "employment",
+        "question": "Deadline",
+        "options": [
+            "Date limite",
+            "Échéance",
+            "Date butoir"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 118,
+        "type": "words",
+        "topic": "employment",
+        "question": "Project",
+        "options": [
+            "Projet",
+            "Mission",
+            "Travail"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 119,
+        "type": "words",
+        "topic": "employment",
+        "question": "Task",
+        "options": [
+            "Tâche",
+            "Mission",
+            "Travail"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 120,
+        "type": "words",
+        "topic": "employment",
+        "question": "Teamwork",
+        "options": [
+            "Travail d'équipe",
+            "Collaboration",
+            "Coopération"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 121,
+        "type": "words",
+        "topic": "employment",
+        "question": "Collaboration",
+        "options": [
+            "Collaboration",
+            "Coopération",
+            "Travail en commun"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 122,
+        "type": "words",
+        "topic": "employment",
+        "question": "Interview",
+        "options": [
+            "Entretien",
+            "Entrevue",
+            "Interview"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 123,
+        "type": "words",
+        "topic": "employment",
+        "question": "Resume",
+        "options": [
+            "Curriculum vitae",
+            "CV",
+            "Résumé"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 124,
+        "type": "words",
+        "topic": "employment",
+        "question": "Skills",
+        "options": [
+            "Compétences",
+            "Aptitudes",
+            "Qualités"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 125,
+        "type": "words",
+        "topic": "employment",
+        "question": "Qualifications",
+        "options": [
+            "Qualifications",
+            "Titres",
+            "Compétences"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 126,
+        "type": "words",
+        "topic": "employment",
+        "question": "Training",
+        "options": [
+            "Formation",
+            "Entraînement",
+            "Apprentissage"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 127,
+        "type": "words",
+        "topic": "employment",
+        "question": "Development",
+        "options": [
+            "Développement",
+            "Évolution",
+            "Progression"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 128,
+        "type": "words",
+        "topic": "employment",
+        "question": "Performance",
+        "options": [
+            "Performance",
+            "Rendement",
+            "Prestation"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 129,
+        "type": "words",
+        "topic": "employment",
+        "question": "Productivity",
+        "options": [
+            "Productivité",
+            "Efficacité",
+            "Rendement"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 130,
+        "type": "words",
+        "topic": "employment",
+        "question": "Office hours",
+        "options": [
+            "Heures de bureau",
+            "Horaires de travail",
+            "Travail de bureau"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 131,
+        "type": "words",
+        "topic": "employment",
+        "question": "Shift",
+        "options": [
+            "Quart de travail",
+            "Horaires",
+            "Roulement"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 132,
+        "type": "words",
+        "topic": "employment",
+        "question": "Workload",
+        "options": [
+            "Charge de travail",
+            "Volume de travail",
+            "Tâches à accomplir"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 133,
+        "type": "words",
+        "topic": "employment",
+        "question": "Overtime",
+        "options": [
+            "Heures supplémentaires",
+            "Temps supplémentaire",
+            "Travail en heures supplémentaires"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 134,
+        "type": "words",
+        "topic": "employment",
+        "question": "Work-life balance",
+        "options": [
+            "Équilibre travail-vie",
+            "Équilibre entre travail et vie",
+            "Harmonie travail-vie"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 135,
+        "type": "words",
+        "topic": "employment",
+        "question": "Networking",
+        "options": [
+            "Réseautage",
+            "Mise en réseau",
+            "Réseau de contacts"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 136,
+        "type": "words",
+        "topic": "employment",
+        "question": "Self-employed",
+        "options": [
+            "Travailleur indépendant",
+            "Auto-entrepreneur",
+            "Travailleur autonome"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 137,
+        "type": "words",
+        "topic": "employment",
+        "question": "Freelance",
+        "options": [
+            "Travailleur indépendant",
+            "Freelance",
+            "Travailleur autonome"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 138,
+        "type": "words",
+        "topic": "employment",
+        "question": "Remote work",
+        "options": [
+            "Télétravail",
+            "Travail à distance",
+            "Travail en télétravail"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 139,
+        "type": "words",
+        "topic": "employment",
+        "question": "Client",
+        "options": [
+            "Client",
+            "Clientèle",
+            "Commanditaire"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 140,
+        "type": "words",
+        "topic": "employment",
+        "question": "Customer",
+        "options": [
+            "Client",
+            "Clientèle",
+            "Acheteur"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 141,
+        "type": "words",
+        "topic": "employment",
+        "question": "Meeting",
+        "options": [
+            "Réunion",
+            "Rencontre",
+            "Rassemblement"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 142,
+        "type": "words",
+        "topic": "employment",
+        "question": "Conference",
+        "options": [
+            "Conférence",
+            "Colloque",
+            "Réunion"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 143,
+        "type": "words",
+        "topic": "employment",
+        "question": "Presentation",
+        "options": [
+            "Présentation",
+            "Exposé",
+            "Intervention"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 144,
+        "type": "words",
+        "topic": "employment",
+        "question": "Commute",
+        "options": [
+            "Trajet domicile-travail",
+            "Navette",
+            "Voyage"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 145,
+        "type": "words",
+        "topic": "employment",
+        "question": "Retirement",
+        "options": [
+            "Retraite",
+            "Préretraite",
+            "Fin de carrière"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 146,
+        "type": "words",
+        "topic": "employment",
+        "question": "Pension",
+        "options": [
+            "Pension",
+            "Retraite",
+            "Allocation de retraite"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 147,
+        "type": "words",
+        "topic": "employment",
+        "question": "Benefits",
+        "options": [
+            "Avantages",
+            "Privilèges",
+            "Avantages sociaux"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 148,
+        "type": "words",
+        "topic": "employment",
+        "question": "Uniform",
+        "options": [
+            "Uniforme",
+            "Tenu",
+            "Habit"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 149,
+        "type": "words",
+        "topic": "employment",
+        "question": "Workspace",
+        "options": [
+            "Espace de travail",
+            "Bureau",
+            "Poste de travail"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 150,
+        "type": "words",
+        "topic": "employment",
+        "question": "Labor",
+        "options": [
+            "Travail",
+            "Main-d'œuvre",
+            "Force de travail"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 151,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Family",
+        "options": [
+            "Famille",
+            "Foyer",
+            "Parenté"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 152,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Friend",
+        "options": [
+            "Ami",
+            "Copain",
+            "Compagnon"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 153,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Sibling",
+        "options": [
+            "Frère ou sœur",
+            "Fratrie",
+            "Consanguin"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 154,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Parent",
+        "options": [
+            "Parent",
+            "Père ou mère",
+            "Géniteur"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 155,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Child",
+        "options": [
+            "Enfant",
+            "Fils ou fille",
+            "Descendant"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 156,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Cousin",
+        "options": [
+            "Cousin(e)",
+            "Parent éloigné",
+            "Parent de second degré"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 157,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Aunt",
+        "options": [
+            "Tante",
+            "Parente",
+            "Familière"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 158,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Uncle",
+        "options": [
+            "Oncle",
+            "Parent",
+            "Familial"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 159,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Grandparent",
+        "options": [
+            "Grand-parent",
+            "Aïeul",
+            "Ancêtre"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 160,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Nephew",
+        "options": [
+            "Neveu",
+            "Parent",
+            "Famille"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 161,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Niece",
+        "options": [
+            "Nièce",
+            "Parent",
+            "Famille"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 162,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Spouse",
+        "options": [
+            "Conjoint(e)",
+            "Époux/Épouse",
+            "Partenaire"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 163,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Partner",
+        "options": [
+            "Partenaire",
+            "Associé",
+            "Collaborateur"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 164,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Kin",
+        "options": [
+            "Parent",
+            "Famille",
+            "Proche"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 165,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Relative",
+        "options": [
+            "Parent",
+            "Proche",
+            "Famille"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 166,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "In-law",
+        "options": [
+            "Belle-famille",
+            "Par alliance",
+            "Parent de son conjoint"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 167,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Godparent",
+        "options": [
+            "Parrain/Marraine",
+            "Parrainage",
+            "Parent spirituel"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 168,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Ancestor",
+        "options": [
+            "Ancêtre",
+            "Ascendant",
+            "Parent"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 169,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Descendant",
+        "options": [
+            "Descendant",
+            "Postérité",
+            "Progéniture"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 170,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Clan",
+        "options": [
+            "Clan",
+            "Famille",
+            "Groupe"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 171,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Tribe",
+        "options": [
+            "Tribu",
+            "Groupe",
+            "Peuple"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 172,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Community",
+        "options": [
+            "Communauté",
+            "Collectivité",
+            "Groupe"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 173,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Comrade",
+        "options": [
+            "Camarade",
+            "Compagnon",
+            "Collègue"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 174,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Confidant",
+        "options": [
+            "Confident",
+            "Ami proche",
+            "Proche"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 175,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Ally",
+        "options": [
+            "Allié",
+            "Collaborateur",
+            "Soutien"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 176,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Acquaintance",
+        "options": [
+            "Connaissance",
+            "Relation",
+            "Rencontre"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 177,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Neighbour",
+        "options": [
+            "Voisin",
+            "Résident",
+            "Habitant"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 178,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Playmate",
+        "options": [
+            "Camarde de jeu",
+            "Compagnon de jeu",
+            "Ami de jeu"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 179,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Pal",
+        "options": [
+            "Ami",
+            "Complice",
+            "Compagnon"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 180,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Chum",
+        "options": [
+            "Copain",
+            "Ami",
+            "Compagnon"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 181,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Bestie",
+        "options": [
+            "Meilleur(e) ami(e)",
+            "Intime",
+            "Proche"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 182,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Buddy",
+        "options": [
+            "Camrade",
+            "Copain",
+            "Compagnon"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 183,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Cohort",
+        "options": [
+            "Cohorte",
+            "Groupe",
+            "Compagnie"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 184,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Supporter",
+        "options": [
+            "Supporteur",
+            "Soutien",
+            "Fan"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 185,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Mentor",
+        "options": [
+            "Mentor",
+            "Guide",
+            "Conseiller"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 186,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Protector",
+        "options": [
+            "Protecteur",
+            "Gardien",
+            "Défenseur"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 187,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Guardian",
+        "options": [
+            "Gardien",
+            "Tuteur",
+            "Protecteur"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 188,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Caregiver",
+        "options": [
+            "Aidant",
+            "Preneur en charge",
+            "Soignant"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 189,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Mentor",
+        "options": [
+            "Mentor",
+            "Guide",
+            "Conseiller"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 190,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Role model",
+        "options": [
+            "Modèle à suivre",
+            "Exemple",
+            "Modèle de comportement"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 191,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Elder",
+        "options": [
+            "Aîné(e)",
+            "Ancien(ne)",
+            "Plus âgé(e)"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 192,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Younger",
+        "options": [
+            "Cadet(te)",
+            "Plus jeune",
+            "Junior"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 193,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Generation",
+        "options": [
+            "Génération",
+            "Époque",
+            "Ère"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 194,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Heritage",
+        "options": [
+            "Héritage",
+            "Patrimoine",
+            "Transmission"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 195,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Tradition",
+        "options": [
+            "Tradition",
+            "Usage",
+            "Coutume"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 196,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Culture",
+        "options": [
+            "Culture",
+            "Civilisation",
+            "Patrimoine"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 197,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Unity",
+        "options": [
+            "Unité",
+            "Union",
+            "Solidarité"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 198,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Harmony",
+        "options": [
+            "Harmonie",
+            "Équilibre",
+            "Concordance"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 199,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Love",
+        "options": [
+            "Amour",
+            "Affection",
+            "Tendresse"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 200,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Bond",
+        "options": [
+            "Lien",
+            "Attachement",
+            "Relation"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 201,
+        "type": "words",
+        "topic": "school",
+        "question": "Classroom",
+        "options": [
+            "Salle de classe",
+            "Classe",
+            "Local"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 202,
+        "type": "words",
+        "topic": "school",
+        "question": "Teacher",
+        "options": [
+            "Enseignant(e)",
+            "Professeur(e)",
+            "Maître(sse)"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 203,
+        "type": "words",
+        "topic": "school",
+        "question": "Student",
+        "options": [
+            "Étudiant(e)",
+            "Élève",
+            "Apprenant(e)"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 204,
+        "type": "words",
+        "topic": "school",
+        "question": "Education",
+        "options": [
+            "Éducation",
+            "Enseignement",
+            "Formation"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 205,
+        "type": "words",
+        "topic": "school",
+        "question": "Learning",
+        "options": [
+            "Apprentissage",
+            "Étude",
+            "Acquisition des connaissances"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 206,
+        "type": "words",
+        "topic": "school",
+        "question": "Curriculum",
+        "options": [
+            "Programme",
+            "Curriculum",
+            "Plan d'études"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 207,
+        "type": "words",
+        "topic": "school",
+        "question": "Subjects",
+        "options": [
+            "Matières",
+            "Sujets",
+            "Cours"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 208,
+        "type": "words",
+        "topic": "school",
+        "question": "Homework",
+        "options": [
+            "Devoirs",
+            "Travail à domicile",
+            "Tâches"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 209,
+        "type": "words",
+        "topic": "school",
+        "question": "Assignment",
+        "options": [
+            "Affectation",
+            "Tâche",
+            "Mission"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 210,
+        "type": "words",
+        "topic": "school",
+        "question": "Test",
+        "options": [
+            "Examen",
+            "Épreuve",
+            "Test"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 211,
+        "type": "words",
+        "topic": "school",
+        "question": "Exam",
+        "options": [
+            "Examen",
+            "Épreuve",
+            "Test"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 212,
+        "type": "words",
+        "topic": "school",
+        "question": "Grades",
+        "options": [
+            "Notes",
+            "Résultats",
+            "Moyennes"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 213,
+        "type": "words",
+        "topic": "school",
+        "question": "Textbook",
+        "options": [
+            "Manuel",
+            "Livre de cours",
+            "Manuel scolaire"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 214,
+        "type": "words",
+        "topic": "school",
+        "question": "Notebook",
+        "options": [
+            "Cahier",
+            "Carnet",
+            "Bloc-notes"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 215,
+        "type": "words",
+        "topic": "school",
+        "question": "Pen",
+        "options": [
+            "Stylo",
+            "Plume",
+            "Bille"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 216,
+        "type": "words",
+        "topic": "school",
+        "question": "Pencil",
+        "options": [
+            "Crayon",
+            "Mine",
+            "Pencil"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 217,
+        "type": "words",
+        "topic": "school",
+        "question": "Backpack",
+        "options": [
+            "Sac à dos",
+            "Cartable",
+            "Sac d'écolier"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 218,
+        "type": "words",
+        "topic": "school",
+        "question": "Desk",
+        "options": [
+            "Bureau",
+            "Pupitre",
+            "Table"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 219,
+        "type": "words",
+        "topic": "school",
+        "question": "Chair",
+        "options": [
+            "Chaise",
+            "Siège",
+            "Chaise d'école"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 220,
+        "type": "words",
+        "topic": "school",
+        "question": "Whiteboard",
+        "options": [
+            "Tableau blanc",
+            "Tableau effaçable",
+            "Tableau"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 221,
+        "type": "words",
+        "topic": "school",
+        "question": "Chalkboard",
+        "options": [
+            "Tableau noir",
+            "Ardoise",
+            "Tableau"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 222,
+        "type": "words",
+        "topic": "school",
+        "question": "Projector",
+        "options": [
+            "Projecteur",
+            "Rétroprojecteur",
+            "Appareil de projection"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 223,
+        "type": "words",
+        "topic": "school",
+        "question": "Lecture",
+        "options": [
+            "Cours magistral",
+            "Conférence",
+            "Leçon"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 224,
+        "type": "words",
+        "topic": "school",
+        "question": "Study",
+        "options": [
+            "Étude",
+            "Travail",
+            "Apprentissage"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 225,
+        "type": "words",
+        "topic": "school",
+        "question": "Library",
+        "options": [
+            "Bibliothèque",
+            "Librairie",
+            "Salle de lecture"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 226,
+        "type": "words",
+        "topic": "school",
+        "question": "Research",
+        "options": [
+            "Recherche",
+            "Étude",
+            "Recherches"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 227,
+        "type": "words",
+        "topic": "school",
+        "question": "Report",
+        "options": [
+            "Rapport",
+            "Compte rendu",
+            "Reportage"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 228,
+        "type": "words",
+        "topic": "school",
+        "question": "Essay",
+        "options": [
+            "Essai",
+            "Composition",
+            "Rédaction"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 229,
+        "type": "words",
+        "topic": "school",
+        "question": "Presentation",
+        "options": [
+            "Présentation",
+            "Exposé",
+            "Présentation orale"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 230,
+        "type": "words",
+        "topic": "school",
+        "question": "Science",
+        "options": [
+            "Sciences",
+            "Science",
+            "Science"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 231,
+        "type": "words",
+        "topic": "school",
+        "question": "Mathematics",
+        "options": [
+            "Mathématiques",
+            "Mathématique",
+            "Calcul"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 232,
+        "type": "words",
+        "topic": "school",
+        "question": "History",
+        "options": [
+            "Histoire",
+            "Passé",
+            "Historique"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 233,
+        "type": "words",
+        "topic": "school",
+        "question": "Geography",
+        "options": [
+            "Géographie",
+            "Géographique",
+            "Localisation"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 234,
+        "type": "words",
+        "topic": "school",
+        "question": "Literature",
+        "options": [
+            "Littérature",
+            "Livre",
+            "Œuvre"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 235,
+        "type": "words",
+        "topic": "school",
+        "question": "Art",
+        "options": [
+            "Art",
+            "Art plastique",
+            "Création artistique"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 236,
+        "type": "words",
+        "topic": "school",
+        "question": "Music",
+        "options": [
+            "Musique",
+            "Mélodie",
+            "Composition musicale"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 237,
+        "type": "words",
+        "topic": "school",
+        "question": "Physical Education",
+        "options": [
+            "Éducation physique",
+            "EPS",
+            "Activités sportives"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 238,
+        "type": "words",
+        "topic": "school",
+        "question": "Computer Lab",
+        "options": [
+            "Laboratoire informatique",
+            "Salle informatique",
+            "Labo d'informatique"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 239,
+        "type": "words",
+        "topic": "school",
+        "question": "Extracurricular",
+        "options": [
+            "Extracurriculaire",
+            "Activités parascolaires",
+            "Activités extrascolaires"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 240,
+        "type": "words",
+        "topic": "school",
+        "question": "Club",
+        "options": [
+            "Club",
+            "Groupe",
+            "Association"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 241,
+        "type": "words",
+        "topic": "school",
+        "question": "Principal",
+        "options": [
+            "Principal",
+            "Directeur",
+            "Chef d'établissement"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 242,
+        "type": "words",
+        "topic": "school",
+        "question": "Counselor",
+        "options": [
+            "Conseiller(ère)",
+            "Conseiller d'orientation",
+            "Conseil"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 243,
+        "type": "words",
+        "topic": "school",
+        "question": "Uniform",
+        "options": [
+            "Uniforme",
+            "Tenu(e)",
+            "Tenue scolaire"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 244,
+        "type": "words",
+        "topic": "school",
+        "question": "Bell",
+        "options": [
+            "Cloche",
+            "Sonnerie",
+            "Carillon"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 245,
+        "type": "words",
+        "topic": "school",
+        "question": "Recess",
+        "options": [
+            "Récréation",
+            "Pause",
+            "Temps libre"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 246,
+        "type": "words",
+        "topic": "school",
+        "question": "Lunch",
+        "options": [
+            "Déjeuner",
+            "Repas",
+            "Pause déjeuner"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 247,
+        "type": "words",
+        "topic": "school",
+        "question": "Playground",
+        "options": [
+            "Cour de récréation",
+            "Terrain de jeu",
+            "Espace de jeu"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 248,
+        "type": "words",
+        "topic": "school",
+        "question": "Graduation",
+        "options": [
+            "Diplôme",
+            "Remise des diplômes",
+            "Cérémonie de remise des diplômes"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 249,
+        "type": "words",
+        "topic": "school",
+        "question": "Diploma",
+        "options": [
+            "Diplôme",
+            "Certificat",
+            "Attestation"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 250,
+        "type": "words",
+        "topic": "school",
+        "question": "School Bus",
+        "options": [
+            "Bus scolaire",
+            "Autobus",
+            "Transport scolaire"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 251,
+        "type": "words",
+        "topic": "daily",
+        "question": "Sun",
+        "options": [
+            "Soleil",
+            "Sun",
+            "Lumière du jour"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 252,
+        "type": "words",
+        "topic": "daily",
+        "question": "Moon",
+        "options": [
+            "Lune",
+            "Moon",
+            "Astéroïde"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 253,
+        "type": "words",
+        "topic": "daily",
+        "question": "Sky",
+        "options": [
+            "Ciel",
+            "Sky",
+            "Nuages"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 254,
+        "type": "words",
+        "topic": "daily",
+        "question": "Water",
+        "options": [
+            "Eau",
+            "Water",
+            "Fluide"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 255,
+        "type": "words",
+        "topic": "daily",
+        "question": "Food",
+        "options": [
+            "Nourriture",
+            "Food",
+            "Aliment"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 256,
+        "type": "words",
+        "topic": "daily",
+        "question": "Family",
+        "options": [
+            "Famille",
+            "Family",
+            "Parenté"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 257,
+        "type": "words",
+        "topic": "daily",
+        "question": "Village",
+        "options": [
+            "Village",
+            "Hamlet",
+            "Petite ville"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 258,
+        "type": "words",
+        "topic": "daily",
+        "question": "Market",
+        "options": [
+            "Marché",
+            "Market",
+            "Commerce"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 259,
+        "type": "words",
+        "topic": "daily",
+        "question": "Farm",
+        "options": [
+            "Ferme",
+            "Farm",
+            "Exploitation agricole"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 260,
+        "type": "words",
+        "topic": "daily",
+        "question": "River",
+        "options": [
+            "Rivière",
+            "River",
+            "Cours d'eau"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 261,
+        "type": "words",
+        "topic": "daily",
+        "question": "Tree",
+        "options": [
+            "Arbre",
+            "Tree",
+            "Plante"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 262,
+        "type": "words",
+        "topic": "daily",
+        "question": "Animal",
+        "options": [
+            "Animal",
+            "Creature",
+            "Bête"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 263,
+        "type": "words",
+        "topic": "daily",
+        "question": "Plant",
+        "options": [
+            "Plante",
+            "Plant",
+            "Végétal"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 264,
+        "type": "words",
+        "topic": "daily",
+        "question": "Rain",
+        "options": [
+            "Pluie",
+            "Rain",
+            "Averse"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 265,
+        "type": "words",
+        "topic": "daily",
+        "question": "Fire",
+        "options": [
+            "Feu",
+            "Fire",
+            "Incendie"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 266,
+        "type": "words",
+        "topic": "daily",
+        "question": "House",
+        "options": [
+            "Maison",
+            "House",
+            "Résidence"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 267,
+        "type": "words",
+        "topic": "daily",
+        "question": "Street",
+        "options": [
+            "Rue",
+            "Street",
+            "Voie"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 268,
+        "type": "words",
+        "topic": "daily",
+        "question": "School",
+        "options": [
+            "École",
+            "School",
+            "Établissement scolaire"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 269,
+        "type": "words",
+        "topic": "daily",
+        "question": "Child",
+        "options": [
+            "Enfant",
+            "Child",
+            "Bébé"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 270,
+        "type": "words",
+        "topic": "daily",
+        "question": "Friend",
+        "options": [
+            "Ami",
+            "Friend",
+            "Compagnon"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 271,
+        "type": "words",
+        "topic": "daily",
+        "question": "Health",
+        "options": [
+            "Santé",
+            "Health",
+            "Bien-être"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 272,
+        "type": "words",
+        "topic": "daily",
+        "question": "Work",
+        "options": [
+            "Travail",
+            "Work",
+            "Occupation"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 273,
+        "type": "words",
+        "topic": "daily",
+        "question": "Money",
+        "options": [
+            "Argent",
+            "Money",
+            "Finance"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 274,
+        "type": "words",
+        "topic": "daily",
+        "question": "Time",
+        "options": [
+            "Temps",
+            "Time",
+            "Période"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 275,
+        "type": "words",
+        "topic": "daily",
+        "question": "Morning",
+        "options": [
+            "Matin",
+            "Morning",
+            "Aube"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 276,
+        "type": "words",
+        "topic": "daily",
+        "question": "Evening",
+        "options": [
+            "Soir",
+            "Evening",
+            "Nuit"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 277,
+        "type": "words",
+        "topic": "daily",
+        "question": "Night",
+        "options": [
+            "Nuit",
+            "Night",
+            "Ténèbres"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 278,
+        "type": "words",
+        "topic": "daily",
+        "question": "Day",
+        "options": [
+            "Jour",
+            "Day",
+            "Journée"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 279,
+        "type": "words",
+        "topic": "daily",
+        "question": "Love",
+        "options": [
+            "Amour",
+            "Love",
+            "Affection"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 280,
+        "type": "words",
+        "topic": "daily",
+        "question": "Music",
+        "options": [
+            "Musique",
+            "Music",
+            "Mélodie"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 281,
+        "type": "words",
+        "topic": "daily",
+        "question": "Dance",
+        "options": [
+            "Danse",
+            "Dance",
+            "Chorégraphie"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 282,
+        "type": "words",
+        "topic": "daily",
+        "question": "Smile",
+        "options": [
+            "Sourire",
+            "Smile",
+            "Rire"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 283,
+        "type": "words",
+        "topic": "daily",
+        "question": "Laugh",
+        "options": [
+            "Rire",
+            "Laugh",
+            "Sourire"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 284,
+        "type": "words",
+        "topic": "daily",
+        "question": "Talk",
+        "options": [
+            "Parler",
+            "Talk",
+            "Discuter"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 285,
+        "type": "words",
+        "topic": "daily",
+        "question": "Walk",
+        "options": [
+            "Marcher",
+            "Walk",
+            "Promenade"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 286,
+        "type": "words",
+        "topic": "daily",
+        "question": "Eat",
+        "options": [
+            "Manger",
+            "Eat",
+            "Repas"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 287,
+        "type": "words",
+        "topic": "daily",
+        "question": "Drink",
+        "options": [
+            "Boire",
+            "Drink",
+            "Consommation"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 288,
+        "type": "words",
+        "topic": "daily",
+        "question": "Sleep",
+        "options": [
+            "Dormir",
+            "Sleep",
+            "Sommeil"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 289,
+        "type": "words",
+        "topic": "daily",
+        "question": "Play",
+        "options": [
+            "Jouer",
+            "Play",
+            "Partie"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 290,
+        "type": "words",
+        "topic": "daily",
+        "question": "Read",
+        "options": [
+            "Lire",
+            "Read",
+            "Lecture"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 291,
+        "type": "words",
+        "topic": "daily",
+        "question": "Write",
+        "options": [
+            "Écrire",
+            "Write",
+            "Rédiger"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 292,
+        "type": "words",
+        "topic": "daily",
+        "question": "Learn",
+        "options": [
+            "Apprendre",
+            "Learn",
+            "Étudier"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 293,
+        "type": "words",
+        "topic": "daily",
+        "question": "Help",
+        "options": [
+            "Aider",
+            "Help",
+            "Assistance"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 294,
+        "type": "words",
+        "topic": "daily",
+        "question": "Clean",
+        "options": [
+            "Nettoyer",
+            "Clean",
+            "Propreté"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 295,
+        "type": "words",
+        "topic": "daily",
+        "question": "Cook",
+        "options": [
+            "Cuisiner",
+            "Cook",
+            "Préparer"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 296,
+        "type": "words",
+        "topic": "daily",
+        "question": "Share",
+        "options": [
+            "Partager",
+            "Share",
+            "Diviser"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 297,
+        "type": "words",
+        "topic": "daily",
+        "question": "Visit",
+        "options": [
+            "Visiter",
+            "Visit",
+            "Explorer"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 298,
+        "type": "words",
+        "topic": "daily",
+        "question": "Rest",
+        "options": [
+            "Reposer",
+            "Rest",
+            "Pause"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 299,
+        "type": "words",
+        "topic": "daily",
+        "question": "Watch",
+        "options": [
+            "Regarder",
+            "Watch",
+            "Observer"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 300,
+        "type": "words",
+        "topic": "daily",
+        "question": "Listen",
+        "options": [
+            "Écouter",
+            "Listen",
+            "Audition"
+        ],
+        "answer": 1
+    }
+]

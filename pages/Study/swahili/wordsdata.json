@@ -1,0 +1,3602 @@
+[
+    {
+        "id": 1,
+        "type": "words",
+        "topic": "tech",
+        "question": "Computer",
+        "options": [
+            "Kompyuta",
+            "Tarakilishi",
+            "Kompyuta"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 2,
+        "type": "words",
+        "topic": "tech",
+        "question": "Smartphone",
+        "options": [
+            "Simu ya mkononi",
+            "Simu janja",
+            "Kifaa cha mkononi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 3,
+        "type": "words",
+        "topic": "tech",
+        "question": "Internet",
+        "options": [
+            "Mtandao",
+            "Tovuti",
+            "Wavuti"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 4,
+        "type": "words",
+        "topic": "tech",
+        "question": "Software",
+        "options": [
+            "Programu",
+            "Haremu",
+            "Nguvu"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 5,
+        "type": "words",
+        "topic": "tech",
+        "question": "Hardware",
+        "options": [
+            "Vifaa",
+            "Chuma",
+            "Kifaa cha kimwili"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 6,
+        "type": "words",
+        "topic": "tech",
+        "question": "Network",
+        "options": [
+            "Mtandao",
+            "Ugavi",
+            "Mfumo"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 7,
+        "type": "words",
+        "topic": "tech",
+        "question": "Data",
+        "options": [
+            "Takwimu",
+            "Hifadhi",
+            "Nyenzo"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 8,
+        "type": "words",
+        "topic": "tech",
+        "question": "Algorithm",
+        "options": [
+            "Algoriti",
+            "Tarjama",
+            "Kigezo"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 9,
+        "type": "words",
+        "topic": "tech",
+        "question": "Cloud",
+        "options": [
+            "Mawingu",
+            "Wingu",
+            "Mvua"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 10,
+        "type": "words",
+        "topic": "tech",
+        "question": "Cybersecurity",
+        "options": [
+            "Usalama wa mtandao",
+            "Ulinzi wa mtandao",
+            "Salama ya kimtandao"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 11,
+        "type": "words",
+        "topic": "tech",
+        "question": "Artificial Intelligence",
+        "options": [
+            "Akili bandia",
+            "Ujanja wa kimitambo",
+            "Inteligensia bandia"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 12,
+        "type": "words",
+        "topic": "tech",
+        "question": "Machine Learning",
+        "options": [
+            "Kujifunza kwa mashine",
+            "Kujifunza kwa kompyuta",
+            "Ujifunzaji wa mashine"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 13,
+        "type": "words",
+        "topic": "tech",
+        "question": "Virtual Reality",
+        "options": [
+            "Uhalisia wa kubuni",
+            "Hali halisi ya uumbaji",
+            "Ukweli wa kubuni"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 14,
+        "type": "words",
+        "topic": "tech",
+        "question": "Augmented Reality",
+        "options": [
+            "Ukweli ulioboreshwa",
+            "Uhalisi ulioongezwa",
+            "Ukweli wa kuboreshwa"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 15,
+        "type": "words",
+        "topic": "tech",
+        "question": "Blockchain",
+        "options": [
+            "Kamba ya kuzuia",
+            "Kamba iliyobanwa",
+            "Mnyororo wa vitalu"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 16,
+        "type": "words",
+        "topic": "tech",
+        "question": "Coding",
+        "options": [
+            "Ukodishaji",
+            "Kodi",
+            "Ukificho"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 17,
+        "type": "words",
+        "topic": "tech",
+        "question": "Encryption",
+        "options": [
+            "Ufichamishaji",
+            "Ufunikaji",
+            "Uchovyoaji"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 18,
+        "type": "words",
+        "topic": "tech",
+        "question": "Automation",
+        "options": [
+            "Kiotomatiki",
+            "Uwiano",
+            "Automu"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 19,
+        "type": "words",
+        "topic": "tech",
+        "question": "Digital",
+        "options": [
+            "Kidijitali",
+            "Kiarafa",
+            "Tarakilishi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 20,
+        "type": "words",
+        "topic": "tech",
+        "question": "Wi-Fi",
+        "options": [
+            "Mtandao wa Wi",
+            "Mawasiliano wa Wi",
+            "Uunganisho wa Wi"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 21,
+        "type": "words",
+        "topic": "tech",
+        "question": "5G",
+        "options": [
+            "5J",
+            "5G",
+            "5K"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 22,
+        "type": "words",
+        "topic": "tech",
+        "question": "App",
+        "options": [
+            "Programu",
+            "Applikesheni",
+            "Funga"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 23,
+        "type": "words",
+        "topic": "tech",
+        "question": "Website",
+        "options": [
+            "Tovuti",
+            "Mtandao",
+            "Kamusi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 24,
+        "type": "words",
+        "topic": "tech",
+        "question": "Sensor",
+        "options": [
+            "Chuja",
+            "Kipima",
+            "Kiwango"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 25,
+        "type": "words",
+        "topic": "tech",
+        "question": "Drone",
+        "options": [
+            "Kifaa cha kuruka",
+            "Droni",
+            "Kiwango"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 26,
+        "type": "words",
+        "topic": "tech",
+        "question": "GPS",
+        "options": [
+            "GPS",
+            "Ramani ya kielektroniki",
+            "Njia ya kielektroniki"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 27,
+        "type": "words",
+        "topic": "tech",
+        "question": "Robot",
+        "options": [
+            "Roboti",
+            "Mtu-bingwa",
+            "Kisanduku"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 28,
+        "type": "words",
+        "topic": "tech",
+        "question": "Biometrics",
+        "options": [
+            "Vipimo vya maumbile",
+            "Bioteknolojia",
+            "Viumbe hai"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 29,
+        "type": "words",
+        "topic": "tech",
+        "question": "Nanotechnology",
+        "options": [
+            "Nanoteknolojia",
+            "Teknolojia ndogo",
+            "Kiwango kidogo"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 30,
+        "type": "words",
+        "topic": "tech",
+        "question": "Quantum Computing",
+        "options": [
+            "Kompyuta za Quanta",
+            "Hesabu za Quanta",
+            "Hesabu kubwa"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 31,
+        "type": "words",
+        "topic": "tech",
+        "question": "Internet of Things (IoT)",
+        "options": [
+            "Mtandao wa Vitu (IoT)",
+            "Tovuti za Vitu (IoT)",
+            "Mtandao wa Mambo (IoT)"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 32,
+        "type": "words",
+        "topic": "tech",
+        "question": "Wearable",
+        "options": [
+            "Vaa",
+            "Kuvaa",
+            "Vitu vya kuvaa"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 33,
+        "type": "words",
+        "topic": "tech",
+        "question": "Smart Home",
+        "options": [
+            "Nyumba ya Kifahari",
+            "Nyumba ya Akili",
+            "Nyumba ya Kijanja"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 34,
+        "type": "words",
+        "topic": "tech",
+        "question": "Big Data",
+        "options": [
+            "Takwimu Kubwa",
+            "Kiasi kikubwa",
+            "Kubwa ya Data"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 35,
+        "type": "words",
+        "topic": "tech",
+        "question": "E-commerce",
+        "options": [
+            "Biashara Mtandaoni",
+            "Biashara ya Kielectroniki",
+            "Biashara ya Kikompyuta"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 36,
+        "type": "words",
+        "topic": "tech",
+        "question": "Cryptocurrency",
+        "options": [
+            "Fedha za Siri",
+            "Sarafu ya Kielektroniki",
+            "Sarafu ya Siri"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 37,
+        "type": "words",
+        "topic": "tech",
+        "question": "Gaming",
+        "options": [
+            "Michezo",
+            "Kucheza",
+            "Mchezo"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 38,
+        "type": "words",
+        "topic": "tech",
+        "question": "Augmented Reality",
+        "options": [
+            "Ukweli ulioboreshwa",
+            "Uhalisi ulioongezwa",
+            "Ukweli wa kuboreshwa"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 39,
+        "type": "words",
+        "topic": "tech",
+        "question": "Virtual Reality",
+        "options": [
+            "Uhalisia wa kubuni",
+            "Hali halisi ya uumbaji",
+            "Ukweli wa kubuni"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 40,
+        "type": "words",
+        "topic": "tech",
+        "question": "Cloud Computing",
+        "options": [
+            "Kompyuta ya Wingu",
+            "Uhifadhi wa Wingu",
+            "Kompyuta Kubwa"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 41,
+        "type": "words",
+        "topic": "tech",
+        "question": "Information Technology",
+        "options": [
+            "Teknolojia ya Habari",
+            "Habari za Teknolojia",
+            "Teknolojia ya Ujuzi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 42,
+        "type": "words",
+        "topic": "tech",
+        "question": "User Interface",
+        "options": [
+            "Kiolesura cha Mtumiaji",
+            "Njia ya Mtumiaji",
+            "Sehemu ya Mtumiaji"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 43,
+        "type": "words",
+        "topic": "tech",
+        "question": "User Experience",
+        "options": [
+            "Uzoefu wa Mtumiaji",
+            "Uzoefu wa Kielektroniki",
+            "Uzoefu wa Kifahari"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 44,
+        "type": "words",
+        "topic": "tech",
+        "question": "Server",
+        "options": [
+            "Seva",
+            "Huduma",
+            "Huduma ya Kukaribisha"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 45,
+        "type": "words",
+        "topic": "tech",
+        "question": "Streaming",
+        "options": [
+            "Mtiririko",
+            "Kupitia",
+            "Kuongezeka"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 46,
+        "type": "words",
+        "topic": "tech",
+        "question": "Biotechnology",
+        "options": [
+            "Bioteknolojia",
+            "Teknolojia ya Kibaiolojia",
+            "Mchakato wa Bioteknolojia"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 47,
+        "type": "words",
+        "topic": "tech",
+        "question": "Renewable Energy",
+        "options": [
+            "Nishati Inayoweza Kujengwa",
+            "Nishati ya Kujenga",
+            "Nishati Iliyopya"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 48,
+        "type": "words",
+        "topic": "tech",
+        "question": "Nanomaterials",
+        "options": [
+            "Vifaa vya Nano",
+            "Nyenzo ndogo",
+            "Vifaa vya Kukata"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 49,
+        "type": "words",
+        "topic": "tech",
+        "question": "Innovation",
+        "options": [
+            "Ubunifu",
+            "Mapinduzi",
+            "Mabadiliko"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 50,
+        "type": "words",
+        "topic": "tech",
+        "question": "Digitalization",
+        "options": [
+            "Kidigitali",
+            "Kielektroniki",
+            "Digitali"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 51,
+        "type": "words",
+        "topic": "politics",
+        "question": "Government",
+        "options": [
+            "Serikali",
+            "Utawala",
+            "Mamlaka"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 52,
+        "type": "words",
+        "topic": "politics",
+        "question": "President",
+        "options": [
+            "Rais",
+            "Kiongozi Mkuu",
+            "Mheshimiwa"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 53,
+        "type": "words",
+        "topic": "politics",
+        "question": "Parliament",
+        "options": [
+            "Bunge",
+            "Baraza la Wawakilishi",
+            "Chombo cha Sheria"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 54,
+        "type": "words",
+        "topic": "politics",
+        "question": "Democracy",
+        "options": [
+            "Demokrasia",
+            "Udikteta",
+            "Utaratibu wa Utawala"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 55,
+        "type": "words",
+        "topic": "politics",
+        "question": "Election",
+        "options": [
+            "Uchaguzi",
+            "Kura",
+            "Upigaji Kura"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 56,
+        "type": "words",
+        "topic": "politics",
+        "question": "Constitution",
+        "options": [
+            "Katiba",
+            "Sheria",
+            "Mkataba"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 57,
+        "type": "words",
+        "topic": "politics",
+        "question": "Law",
+        "options": [
+            "Sheria",
+            "Amri",
+            "Kanuni"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 58,
+        "type": "words",
+        "topic": "politics",
+        "question": "Policy",
+        "options": [
+            "Sera",
+            "Njia",
+            "Mwelekeo"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 59,
+        "type": "words",
+        "topic": "politics",
+        "question": "Citizen",
+        "options": [
+            "Mwananchi",
+            "Raia",
+            "Wakazi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 60,
+        "type": "words",
+        "topic": "politics",
+        "question": "Voter",
+        "options": [
+            "Mpiga Kura",
+            "Mshiriki",
+            "Mwenyeji"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 61,
+        "type": "words",
+        "topic": "politics",
+        "question": "Campaign",
+        "options": [
+            "Kampeni",
+            "Harakati",
+            "Mapambano"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 62,
+        "type": "words",
+        "topic": "politics",
+        "question": "Opposition",
+        "options": [
+            "Upinzani",
+            "Kinyume",
+            "Kukataliwa"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 63,
+        "type": "words",
+        "topic": "politics",
+        "question": "Party",
+        "options": [
+            "Chama",
+            "Sherehe",
+            "Kikundi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 64,
+        "type": "words",
+        "topic": "politics",
+        "question": "Minister",
+        "options": [
+            "Waziri",
+            "Afisa",
+            "Mtumishi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 65,
+        "type": "words",
+        "topic": "politics",
+        "question": "Prime Minister",
+        "options": [
+            "Waziri Mkuu",
+            "Kiongozi Mkuu wa Serikali",
+            "Mkuu wa Chama"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 66,
+        "type": "words",
+        "topic": "politics",
+        "question": "Cabinet",
+        "options": [
+            "Baraza la Mawaziri",
+            "Sanduku",
+            "Kinyume cha Sanduku"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 67,
+        "type": "words",
+        "topic": "politics",
+        "question": "Legislature",
+        "options": [
+            "Bunge",
+            "Sheria",
+            "Mamlaka ya Kisheria"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 68,
+        "type": "words",
+        "topic": "politics",
+        "question": "Judiciary",
+        "options": [
+            "Mahakama",
+            "Hukumu",
+            "Uamuzi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 69,
+        "type": "words",
+        "topic": "politics",
+        "question": "Executive",
+        "options": [
+            "Utendaji",
+            "Mkusanyiko",
+            "Kazi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 70,
+        "type": "words",
+        "topic": "politics",
+        "question": "Sovereignty",
+        "options": [
+            "Uhuru",
+            "Mamlaka",
+            "Uwezo"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 71,
+        "type": "words",
+        "topic": "politics",
+        "question": "Diplomacy",
+        "options": [
+            "Diplomasia",
+            "Uhusiano wa Kimataifa",
+            "Mahusiano ya Nchi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 72,
+        "type": "words",
+        "topic": "politics",
+        "question": "Corruption",
+        "options": [
+            "Rushwa",
+            "Ufisadi",
+            "Udanganyifu"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 73,
+        "type": "words",
+        "topic": "politics",
+        "question": "Accountability",
+        "options": [
+            "Uwajibikaji",
+            "Jukumu",
+            "Utii"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 74,
+        "type": "words",
+        "topic": "politics",
+        "question": "Government",
+        "options": [
+            "Serikali",
+            "Utawala",
+            "Mamlaka"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 75,
+        "type": "words",
+        "topic": "politics",
+        "question": "Government",
+        "options": [
+            "Serikali",
+            "Utawala",
+            "Mamlaka"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 76,
+        "type": "words",
+        "topic": "politics",
+        "question": "Transparency",
+        "options": [
+            "Uwazi",
+            "Nuru",
+            "Uangavu"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 77,
+        "type": "words",
+        "topic": "politics",
+        "question": "Rule of Law",
+        "options": [
+            "Utawala wa Sheria",
+            "Amri ya Sheria",
+            "Kanuni ya Utawala"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 78,
+        "type": "words",
+        "topic": "politics",
+        "question": "Civil Rights",
+        "options": [
+            "Haki za Kiraia",
+            "Uwiano wa Raia",
+            "Haki za Raia"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 79,
+        "type": "words",
+        "topic": "politics",
+        "question": "Human Rights",
+        "options": [
+            "Haki za Binadamu",
+            "Haki za Watu",
+            "Haki za Kibinadamu"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 80,
+        "type": "words",
+        "topic": "politics",
+        "question": "Constitutionality",
+        "options": [
+            "Katibani",
+            "Sheriani",
+            "Halali ya Katiba"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 81,
+        "type": "words",
+        "topic": "politics",
+        "question": "Political Party",
+        "options": [
+            "Chama cha Siasa",
+            "Sherehe ya Kisiasa",
+            "Kundi la Kisiasa"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 82,
+        "type": "words",
+        "topic": "politics",
+        "question": "Ideology",
+        "options": [
+            "Ideolojia",
+            "Fikra",
+            "Imani ya Kisiasa"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 83,
+        "type": "words",
+        "topic": "politics",
+        "question": "Activism",
+        "options": [
+            "Uanaharakati",
+            "Harakati",
+            "Mapambano"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 84,
+        "type": "words",
+        "topic": "politics",
+        "question": "Civic Engagement",
+        "options": [
+            "Ushiriki wa Kiraia",
+            "Uanaharakati wa Raia",
+            "Kushiriki Kiraia"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 85,
+        "type": "words",
+        "topic": "politics",
+        "question": "Public Service",
+        "options": [
+            "Huduma ya Umma",
+            "Huduma kwa Umma",
+            "Kuhudumu kwa Umma"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 86,
+        "type": "words",
+        "topic": "politics",
+        "question": "Political Process",
+        "options": [
+            "Mchakato wa Kisiasa",
+            "Tarariba ya Kisiasa",
+            "Mfumo wa Kisiasa"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 87,
+        "type": "words",
+        "topic": "politics",
+        "question": "Public Policy",
+        "options": [
+            "Sera ya Umma",
+            "Sera kwa Umma",
+            "Sera ya Kijamii"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 88,
+        "type": "words",
+        "topic": "politics",
+        "question": "Autonomy",
+        "options": [
+            "Uhuru",
+            "Utawala",
+            "Uwezo wa Kujitawala"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 89,
+        "type": "words",
+        "topic": "politics",
+        "question": "Federalism",
+        "options": [
+            "Shirikisho",
+            "Muungano",
+            "Chama cha Kitaifa"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 90,
+        "type": "words",
+        "topic": "politics",
+        "question": "Decentralization",
+        "options": [
+            "Kuweka Madaraka",
+            "Kutawanya Madaraka",
+            "Kuhamisha Madaraka"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 91,
+        "type": "words",
+        "topic": "politics",
+        "question": "Public Office",
+        "options": [
+            "Ofisi ya Umma",
+            "Ofisi kwa Umma",
+            "Ofisi ya Serikali"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 92,
+        "type": "words",
+        "topic": "politics",
+        "question": "Governance",
+        "options": [
+            "Utawala",
+            "Udhibiti",
+            "Uongozi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 93,
+        "type": "words",
+        "topic": "politics",
+        "question": "Statehood",
+        "options": [
+            "Uhuru wa Nchi",
+            "Hali ya Kitaifa",
+            "Dola"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 94,
+        "type": "words",
+        "topic": "politics",
+        "question": "Nationalism",
+        "options": [
+            "Uzalendo",
+            "Taifa",
+            "Kitaifa"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 95,
+        "type": "words",
+        "topic": "politics",
+        "question": "International Relations",
+        "options": [
+            "Mahusiano ya Kimataifa",
+            "Uhusiano wa Nchi",
+            "Uhusiano wa Kimataifa"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 96,
+        "type": "words",
+        "topic": "politics",
+        "question": "Diplomat",
+        "options": [
+            "Diplomasia",
+            "Mwanadiplomasia",
+            "Mwakilishi wa Kimataifa"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 97,
+        "type": "words",
+        "topic": "politics",
+        "question": "Negotiation",
+        "options": [
+            "Mazungumzo",
+            "Majadiliano",
+            "Mazungumzo ya Mkataba"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 98,
+        "type": "words",
+        "topic": "politics",
+        "question": "Treaty",
+        "options": [
+            "Mkataba",
+            "Itifaki",
+            "Muafaka"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 99,
+        "type": "words",
+        "topic": "politics",
+        "question": "Ambassador",
+        "options": [
+            "Balozi",
+            "Mwakilishi",
+            "Wakala wa Kimataifa"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 100,
+        "type": "words",
+        "topic": "politics",
+        "question": "Referendum",
+        "options": [
+            "Kura ya Maoni",
+            "Kura ya Wapigakura",
+            "Kura ya Uamuzi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 101,
+        "type": "words",
+        "topic": "work",
+        "question": "Employment",
+        "options": [
+            "Ajira",
+            "Kazi",
+            "Nafasi ya kazi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 102,
+        "type": "words",
+        "topic": "work",
+        "question": "Occupation",
+        "options": [
+            "Shughuli",
+            "Kazi",
+            "Ufundi"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 103,
+        "type": "words",
+        "topic": "work",
+        "question": "Career",
+        "options": [
+            "Njia ya kazi",
+            "Maisha ya kazi",
+            "Safari ya kazi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 104,
+        "type": "words",
+        "topic": "work",
+        "question": "Job",
+        "options": [
+            "Kazi",
+            "Shughuli",
+            "Kibarua"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 105,
+        "type": "words",
+        "topic": "work",
+        "question": "Profession",
+        "options": [
+            "Taaluma",
+            "Kazi",
+            "Ufundi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 106,
+        "type": "words",
+        "topic": "work",
+        "question": "Workplace",
+        "options": [
+            "Mahali pa kazi",
+            "Sehemu ya kazi",
+            "Ofisi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 107,
+        "type": "words",
+        "topic": "work",
+        "question": "Office",
+        "options": [
+            "Ofisi",
+            "Chumba cha kazi",
+            "Sehemu ya kazi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 108,
+        "type": "words",
+        "topic": "work",
+        "question": "Colleague",
+        "options": [
+            "Mshirika",
+            "Mwenzangu kazini",
+            "Rafiki wa kazi"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 109,
+        "type": "words",
+        "topic": "work",
+        "question": "Boss",
+        "options": [
+            "Mkuu",
+            "Bosi",
+            "Afisa mkuu"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 110,
+        "type": "words",
+        "topic": "work",
+        "question": "Employee",
+        "options": [
+            "Mfanyakazi",
+            "Mwajiriwa",
+            "Muajiriwa"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 111,
+        "type": "words",
+        "topic": "work",
+        "question": "Entrepreneur",
+        "options": [
+            "Mjasiriamali",
+            "Biashara",
+            "Mwanzishaji wa kampuni"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 112,
+        "type": "words",
+        "topic": "work",
+        "question": "Income",
+        "options": [
+            "Kipato",
+            "Mapato",
+            "Faida"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 113,
+        "type": "words",
+        "topic": "work",
+        "question": "Salary",
+        "options": [
+            "Mshahara",
+            "Kipato",
+            "Malipo"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 114,
+        "type": "words",
+        "topic": "work",
+        "question": "Wage",
+        "options": [
+            "Mshahara",
+            "Ada",
+            "Malipo"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 115,
+        "type": "words",
+        "topic": "work",
+        "question": "Promotion",
+        "options": [
+            "Kuongezwa cheo",
+            "Matangazo",
+            "Mara kwa mara"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 116,
+        "type": "words",
+        "topic": "work",
+        "question": "Responsibility",
+        "options": [
+            "Jukumu",
+            "Majukumu",
+            "Wajibu"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 117,
+        "type": "words",
+        "topic": "work",
+        "question": "Deadline",
+        "options": [
+            "Mwisho wa muda",
+            "Tarehe ya mwisho",
+            "Muda wa mwisho"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 118,
+        "type": "words",
+        "topic": "work",
+        "question": "Project",
+        "options": [
+            "Mradi",
+            "Kazi",
+            "Kipande cha kazi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 119,
+        "type": "words",
+        "topic": "work",
+        "question": "Task",
+        "options": [
+            "Kazi",
+            "Jukumu",
+            "Kibarua"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 120,
+        "type": "words",
+        "topic": "work",
+        "question": "Teamwork",
+        "options": [
+            "Kufanya kazi kwa pamoja",
+            "Kushirikiana",
+            "Ushirikiano wa timu"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 121,
+        "type": "words",
+        "topic": "work",
+        "question": "Collaboration",
+        "options": [
+            "Ushirikiano",
+            "Kushirikiana",
+            "Washirika"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 122,
+        "type": "words",
+        "topic": "work",
+        "question": "Interview",
+        "options": [
+            "Mahojiano",
+            "Mkutano",
+            "Mazungumzo"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 123,
+        "type": "words",
+        "topic": "work",
+        "question": "Resume",
+        "options": [
+            "Wasifu",
+            "Historia ya kazi",
+            "Taarifa binafsi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 124,
+        "type": "words",
+        "topic": "work",
+        "question": "Skills",
+        "options": [
+            "Ujuzi",
+            "Stadi",
+            "Elimu"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 125,
+        "type": "words",
+        "topic": "work",
+        "question": "Qualifications",
+        "options": [
+            "Sifa",
+            "Vigezo",
+            "Ustahiki"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 126,
+        "type": "words",
+        "topic": "work",
+        "question": "Training",
+        "options": [
+            "Mafunzo",
+            "Ufundishaji",
+            "Elimu"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 127,
+        "type": "words",
+        "topic": "work",
+        "question": "Development",
+        "options": [
+            "Maendeleo",
+            "Kuongeza",
+            "Uboreshaji"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 128,
+        "type": "words",
+        "topic": "work",
+        "question": "Performance",
+        "options": [
+            "Utendaji",
+            "Kazi",
+            "Ufanisi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 129,
+        "type": "words",
+        "topic": "work",
+        "question": "Productivity",
+        "options": [
+            "Uzalishaji",
+            "Ufanisi",
+            "Bidhaa"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 130,
+        "type": "words",
+        "topic": "work",
+        "question": "Office hours",
+        "options": [
+            "Masaa ya ofisi",
+            "Wakati wa kazi",
+            "Muda wa ofisi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 131,
+        "type": "words",
+        "topic": "work",
+        "question": "Shift",
+        "options": [
+            "Zamu",
+            "Mabadiliko",
+            "Kubadilishana"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 132,
+        "type": "words",
+        "topic": "work",
+        "question": "Workload",
+        "options": [
+            "Mizigo ya kazi",
+            "Kazi nyingi",
+            "Jukumu la kazi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 133,
+        "type": "words",
+        "topic": "work",
+        "question": "Overtime",
+        "options": [
+            "Muda wa ziada",
+            "Kazi za ziada",
+            "Zamu ya ziada"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 134,
+        "type": "words",
+        "topic": "work",
+        "question": "Work-life balance",
+        "options": [
+            "Usawa kati ya kazi na maisha",
+            "Mizani ya kazi na maisha",
+            "Kazi na maisha"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 135,
+        "type": "words",
+        "topic": "work",
+        "question": "Networking",
+        "options": [
+            "Mtandao wa mahusiano",
+            "Unganisho",
+            "Majumuisho"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 136,
+        "type": "words",
+        "topic": "work",
+        "question": "Self-employed",
+        "options": [
+            "Kujiajiri",
+            "Kujitegemea",
+            "Kujitumikisha"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 137,
+        "type": "words",
+        "topic": "work",
+        "question": "Freelance",
+        "options": [
+            "Mkataba binafsi",
+            "Kujitegemea",
+            "Fundi huru"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 138,
+        "type": "words",
+        "topic": "work",
+        "question": "Remote work",
+        "options": [
+            "Kazi kwa mbali",
+            "Kazi ya umbali",
+            "Kazi isiyo ya ofisi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 139,
+        "type": "words",
+        "topic": "work",
+        "question": "Client",
+        "options": [
+            "Mteja",
+            "Wateja",
+            "Wafanyakazi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 140,
+        "type": "words",
+        "topic": "work",
+        "question": "Customer",
+        "options": [
+            "Mteja",
+            "Wateja",
+            "Nunuzi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 141,
+        "type": "words",
+        "topic": "work",
+        "question": "Meeting",
+        "options": [
+            "Mkutano",
+            "Majadiliano",
+            "Mzungumzo"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 142,
+        "type": "words",
+        "topic": "work",
+        "question": "Conference",
+        "options": [
+            "Mkutano",
+            "Kongamano",
+            "Kongamano la kazi"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 143,
+        "type": "words",
+        "topic": "work",
+        "question": "Presentation",
+        "options": [
+            "Uwasilishaji",
+            "Mawasilisho",
+            "Mkutano"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 144,
+        "type": "words",
+        "topic": "work",
+        "question": "Commute",
+        "options": [
+            "Safari ya kazi",
+            "Kusafiri",
+            "Safari ya kwenda kazini"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 145,
+        "type": "words",
+        "topic": "work",
+        "question": "Retirement",
+        "options": [
+            "Kustaafu",
+            "Kumaliza kazi",
+            "Kustaafisha"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 146,
+        "type": "words",
+        "topic": "work",
+        "question": "Pension",
+        "options": [
+            "Mkopo wa kustaafu",
+            "Mafao",
+            "Pensheni"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 147,
+        "type": "words",
+        "topic": "work",
+        "question": "Benefits",
+        "options": [
+            "Faida",
+            "Malipo",
+            "Ustawi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 148,
+        "type": "words",
+        "topic": "work",
+        "question": "Uniform",
+        "options": [
+            "Vazi la kazi",
+            "Nguo",
+            "Vazi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 149,
+        "type": "words",
+        "topic": "work",
+        "question": "Workspace",
+        "options": [
+            "Eneo la kazi",
+            "Nafasi ya kazi",
+            "Mahali pa kazi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 150,
+        "type": "words",
+        "topic": "work",
+        "question": "Labor",
+        "options": [
+            "Kazi",
+            "Ajira",
+            "Kujituma"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 151,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Family",
+        "options": [
+            "Familia",
+            "Kaya",
+            "Ndugu"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 152,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Friend",
+        "options": [
+            "Rafiki",
+            "Mpenzi",
+            "Shoga"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 153,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Sibling",
+        "options": [
+            "Ndugu wa damu",
+            "Ndugu",
+            "Ndugu wa tumbo"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 154,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Parent",
+        "options": [
+            "Mzazi",
+            "Mama au Baba",
+            "Wazazi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 155,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Child",
+        "options": [
+            "Mtoto",
+            "Mwana",
+            "Watoto"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 156,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Cousin",
+        "options": [
+            "Binamu",
+            "Pacha wa damu",
+            "Cousin"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 157,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Aunt",
+        "options": [
+            "Shangazi",
+            "Bibi",
+            "Bibi mdogo"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 158,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Uncle",
+        "options": [
+            "Mjomba",
+            "Babu",
+            "Mjomba mdogo"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 159,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Grandparent",
+        "options": [
+            "Babu",
+            "Mjomba",
+            "Babu wa kuzaa"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 160,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Nephew",
+        "options": [
+            "Mpwa",
+            "Mwana wa dada",
+            "Mpwa wa kiume"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 161,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Niece",
+        "options": [
+            "Mjukuu",
+            "Mwana wa kaka au dada",
+            "Mjukuu wa kike"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 162,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Spouse",
+        "options": [
+            "Mwenzi",
+            "Mume au Mke",
+            "Mpenzi wa ndoa"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 163,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Partner",
+        "options": [
+            "Mshirika",
+            "Mpenzi",
+            "Mshirika wa maisha"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 164,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Kin",
+        "options": [
+            "Ndugu",
+            "Jamaa",
+            "Ukaribu wa damu"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 165,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Relative",
+        "options": [
+            "Mjamaa",
+            "Ndugu wa damu",
+            "Jamaa"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 166,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "In-law",
+        "options": [
+            "Mjamaa wa ndoa",
+            "Mama au Baba wa ndoa",
+            "Jamaa wa ndoa"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 167,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Godparent",
+        "options": [
+            "Mlezi wa kiroho",
+            "Baba au Mama wa kiroho",
+            "Mlezi wa Mungu"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 168,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Ancestor",
+        "options": [
+            "Mzazi wa zamani",
+            "Mzee wa ukoo",
+            "Mzazi"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 169,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Descendant",
+        "options": [
+            "Mzao",
+            "Mwana wa mzaa",
+            "Kizazi kijacho"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 170,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Clan",
+        "options": [
+            "Koo",
+            "Ukoo",
+            "Kizazi"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 171,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Tribe",
+        "options": [
+            "Kabila",
+            "Jamaa",
+            "Umoja wa kabila"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 172,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Community",
+        "options": [
+            "Jamii",
+            "Kijiji",
+            "Umoja wa watu"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 173,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Comrade",
+        "options": [
+            "Rafiki wa vita",
+            "Mshirika",
+            "Mpiganaji"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 174,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Confidant",
+        "options": [
+            "Rafiki wa siri",
+            "Mshawishi",
+            "Mshirika wa ndani"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 175,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Ally",
+        "options": [
+            "Mshirika",
+            "Rafiki",
+            "Mshirika wa vita"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 176,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Acquaintance",
+        "options": [
+            "Mjuzi",
+            "Mtu wa kufahamu",
+            "Rafiki wa karibu"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 177,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Neighbour",
+        "options": [
+            "Jirani",
+            "Mkazi wa karibu",
+            "Rafiki wa karibu"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 178,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Playmate",
+        "options": [
+            "Mcheza rika",
+            "Rafiki wa mchezo",
+            "Mtu wa kucheza"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 179,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Pal",
+        "options": [
+            "Rafiki",
+            "Mshirika",
+            "Mpenzi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 180,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Chum",
+        "options": [
+            "Rafiki wa karibu",
+            "Mtu wa karibu",
+            "Rafiki wa dhati"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 181,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Bestie",
+        "options": [
+            "Rafiki wa karibu sana",
+            "Rafiki wa karibu",
+            "Rafiki wa maisha"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 182,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Buddy",
+        "options": [
+            "Rafiki",
+            "Mshirika",
+            "Mpiganaji mwenzangu"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 183,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Cohort",
+        "options": [
+            "Kundi la watu",
+            "Kikosi",
+            "Rafiki wa karibu"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 184,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Supporter",
+        "options": [
+            "Msaada",
+            "Mshirika",
+            "Mnufaika"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 185,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Mentor",
+        "options": [
+            "Mlezi",
+            "Mshauri",
+            "Mwalimu"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 186,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Protector",
+        "options": [
+            "Mlinzi",
+            "Babu",
+            "Mjomba"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 187,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Guardian",
+        "options": [
+            "Mlezi",
+            "Mlinzi",
+            "Babu"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 188,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Caregiver",
+        "options": [
+            "Mhudumu",
+            "Mlezi",
+            "Mtoa huduma"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 189,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Mentor",
+        "options": [
+            "Mlezi",
+            "Mshauri",
+            "Mwalimu"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 190,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Role model",
+        "options": [
+            "Kielelezo",
+            "Mfano",
+            "Mwalimu"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 191,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Elder",
+        "options": [
+            "Mzee",
+            "Mzee wa ukoo",
+            "Baba wa ukoo"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 192,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Younger",
+        "options": [
+            "Mdogo",
+            "Mdogo wa ukoo",
+            "Kijana"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 193,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Generation",
+        "options": [
+            "Kizazi",
+            "Kizazi cha babu",
+            "Kizazi cha watoto"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 194,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Heritage",
+        "options": [
+            "Urithi",
+            "Mali",
+            "Mzazi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 195,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Tradition",
+        "options": [
+            "Desturi",
+            "Tamaduni",
+            "Agizo"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 196,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Culture",
+        "options": [
+            "Utamaduni",
+            "Desturi",
+            "Tamaduni"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 197,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Unity",
+        "options": [
+            "Umoto",
+            "Umoja",
+            "Muungano"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 198,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Harmony",
+        "options": [
+            "Uzuri",
+            "Ufanisi",
+            "Uwiano"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 199,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Love",
+        "options": [
+            "Upendo",
+            "Mapenzi",
+            "Moyo"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 200,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Bond",
+        "options": [
+            "Kitanzi",
+            "Uhusiano",
+            "Mshikamano"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 201,
+        "type": "words",
+        "topic": "school",
+        "question": "Classroom",
+        "options": [
+            "Darasa",
+            "Madarasa",
+            "Chumba cha masomo"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 202,
+        "type": "words",
+        "topic": "school",
+        "question": "Teacher",
+        "options": [
+            "Mwalimu",
+            "Mfundishaji",
+            "Msimamizi"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 203,
+        "type": "words",
+        "topic": "school",
+        "question": "Student",
+        "options": [
+            "Mwanafunzi",
+            "Mhitimu",
+            "Mshiriki"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 204,
+        "type": "words",
+        "topic": "school",
+        "question": "Education",
+        "options": [
+            "Elimu",
+            "Mafunzo",
+            "Mkufunzi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 205,
+        "type": "words",
+        "topic": "school",
+        "question": "Learning",
+        "options": [
+            "Kujifunza",
+            "Mafunzo",
+            "Ufundishaji"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 206,
+        "type": "words",
+        "topic": "school",
+        "question": "Curriculum",
+        "options": [
+            "Mtaala",
+            "Mpangilio wa masomo",
+            "Maelekezo"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 207,
+        "type": "words",
+        "topic": "school",
+        "question": "Subjects",
+        "options": [
+            "Masomo",
+            "Majumuisho",
+            "Mafunzo"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 208,
+        "type": "words",
+        "topic": "school",
+        "question": "Homework",
+        "options": [
+            "Kazi za nyumbani",
+            "Mafunzo nyumbani",
+            "Mazoezi ya nyumbani"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 209,
+        "type": "words",
+        "topic": "school",
+        "question": "Assignment",
+        "options": [
+            "Kazi",
+            "Kazi ya ziada",
+            "Kazi ya kutolewa"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 210,
+        "type": "words",
+        "topic": "school",
+        "question": "Test",
+        "options": [
+            "Mtihani",
+            "Majaribio",
+            "Kipimo"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 211,
+        "type": "words",
+        "topic": "school",
+        "question": "Exam",
+        "options": [
+            "Mtihani",
+            "Mitihani",
+            "Kipimo"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 212,
+        "type": "words",
+        "topic": "school",
+        "question": "Grades",
+        "options": [
+            "Alama",
+            "Daraja",
+            "Matokeo"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 213,
+        "type": "words",
+        "topic": "school",
+        "question": "Textbook",
+        "options": [
+            "Kitabu cha kiada",
+            "Kitabu",
+            "Kitabu cha mafunzo"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 214,
+        "type": "words",
+        "topic": "school",
+        "question": "Notebook",
+        "options": [
+            "Kitabu cha maelezo",
+            "Kitabu",
+            "Kitabu cha masomo"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 215,
+        "type": "words",
+        "topic": "school",
+        "question": "Pen",
+        "options": [
+            "Kalamu",
+            "Karatasi",
+            "Kipande cha plastiki"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 216,
+        "type": "words",
+        "topic": "school",
+        "question": "Pencil",
+        "options": [
+            "Karatasi",
+            "Kipande cha mbao",
+            "Kalamu ya grafiti"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 217,
+        "type": "words",
+        "topic": "school",
+        "question": "Backpack",
+        "options": [
+            "Mzigo",
+            "Mfuko wa mgongoni",
+            "Kifuko"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 218,
+        "type": "words",
+        "topic": "school",
+        "question": "Desk",
+        "options": [
+            "Dawati",
+            "Meza",
+            "Kitanda"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 219,
+        "type": "words",
+        "topic": "school",
+        "question": "Chair",
+        "options": [
+            "Kiti",
+            "Kochi",
+            "Kijiti"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 220,
+        "type": "words",
+        "topic": "school",
+        "question": "Whiteboard",
+        "options": [
+            "Ubao mweupe",
+            "Ubao",
+            "Ubao wa kusafisha"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 221,
+        "type": "words",
+        "topic": "school",
+        "question": "Chalkboard",
+        "options": [
+            "Ubao wa chaki",
+            "Ubao",
+            "Ubao wa mawe"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 222,
+        "type": "words",
+        "topic": "school",
+        "question": "Projector",
+        "options": [
+            "Kipanya",
+            "Projector",
+            "Kamera"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 223,
+        "type": "words",
+        "topic": "school",
+        "question": "Lecture",
+        "options": [
+            "Mihadhara",
+            "Mhadhara",
+            "Kikao"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 224,
+        "type": "words",
+        "topic": "school",
+        "question": "Study",
+        "options": [
+            "Kusoma",
+            "Kujifunza",
+            "Mafunzo"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 225,
+        "type": "words",
+        "topic": "school",
+        "question": "Library",
+        "options": [
+            "Maktaba",
+            "Jumba la vitabu",
+            "Nyumba ya maarifa"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 226,
+        "type": "words",
+        "topic": "school",
+        "question": "Research",
+        "options": [
+            "Utafiti",
+            "Uchunguzi",
+            "Kutafiti"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 227,
+        "type": "words",
+        "topic": "school",
+        "question": "Report",
+        "options": [
+            "Ripoti",
+            "Taarifa",
+            "Hesabu"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 228,
+        "type": "words",
+        "topic": "school",
+        "question": "Essay",
+        "options": [
+            "Insha",
+            "Maandishi",
+            "Maelezo"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 229,
+        "type": "words",
+        "topic": "school",
+        "question": "Presentation",
+        "options": [
+            "Uwasilishaji",
+            "Mawasilisho",
+            "Kutolewa"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 230,
+        "type": "words",
+        "topic": "school",
+        "question": "Science",
+        "options": [
+            "Sayansi",
+            "Elimu",
+            "Majaribio"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 231,
+        "type": "words",
+        "topic": "school",
+        "question": "Mathematics",
+        "options": [
+            "Hisabati",
+            "Mathayo",
+            "Hesabu"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 232,
+        "type": "words",
+        "topic": "school",
+        "question": "History",
+        "options": [
+            "Historia",
+            "Hadithi",
+            "Kumbukumbu"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 233,
+        "type": "words",
+        "topic": "school",
+        "question": "Geography",
+        "options": [
+            "Jiografia",
+            "Nafasi",
+            "Mazingira"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 234,
+        "type": "words",
+        "topic": "school",
+        "question": "Literature",
+        "options": [
+            "Fasihi",
+            "Kazi za fasihi",
+            "Vitabu"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 235,
+        "type": "words",
+        "topic": "school",
+        "question": "Art",
+        "options": [
+            "Sanaa",
+            "Sanaa za ubunifu",
+            "Sanaa ya maonyesho"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 236,
+        "type": "words",
+        "topic": "school",
+        "question": "Music",
+        "options": [
+            "Muziki",
+            "Vyombo vya muziki",
+            "Muziki wa nyimbo"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 237,
+        "type": "words",
+        "topic": "school",
+        "question": "Physical Education",
+        "options": [
+            "Elimu ya mwili",
+            "Mazoezi ya mwili",
+            "Mafunzo ya mwili"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 238,
+        "type": "words",
+        "topic": "school",
+        "question": "Computer Lab",
+        "options": [
+            "Maabara ya kompyuta",
+            "Chumba cha kompyuta",
+            "Karakana ya kompyuta"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 239,
+        "type": "words",
+        "topic": "school",
+        "question": "Extracurricular",
+        "options": [
+            "Shughuli za ziada",
+            "Michezo",
+            "Mazoezi ya nyongeza"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 240,
+        "type": "words",
+        "topic": "school",
+        "question": "Club",
+        "options": [
+            "Klabu",
+            "Chama",
+            "Kikundi"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 241,
+        "type": "words",
+        "topic": "school",
+        "question": "Principal",
+        "options": [
+            "Mkuu wa shule",
+            "Mwalimu mkuu",
+            "Afisa mkuu"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 242,
+        "type": "words",
+        "topic": "school",
+        "question": "Counselor",
+        "options": [
+            "Mshauri",
+            "Mlinzi",
+            "Mchungaji"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 243,
+        "type": "words",
+        "topic": "school",
+        "question": "Uniform",
+        "options": [
+            "Barakoa",
+            "Vazi la shule",
+            "Nguo za kazi"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 244,
+        "type": "words",
+        "topic": "school",
+        "question": "Bell",
+        "options": [
+            "Kengele",
+            "Kengele ya shule",
+            "Kengele ya saa"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 245,
+        "type": "words",
+        "topic": "school",
+        "question": "Recess",
+        "options": [
+            "Mapumziko",
+            "Muda wa chakula",
+            "Muda wa kucheza"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 246,
+        "type": "words",
+        "topic": "school",
+        "question": "Lunch",
+        "options": [
+            "Chakula cha mchana",
+            "Chakula cha jioni",
+            "Chakula cha asubuhi"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 247,
+        "type": "words",
+        "topic": "school",
+        "question": "Playground",
+        "options": [
+            "Uwanja wa michezo",
+            "Uwanja wa kucheza",
+            "Uwanja wa burudani"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 248,
+        "type": "words",
+        "topic": "school",
+        "question": "Graduation",
+        "options": [
+            "Mahafali",
+            "Kuhitimu",
+            "Kuondoka"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 249,
+        "type": "words",
+        "topic": "school",
+        "question": "Diploma",
+        "options": [
+            "Cheti",
+            "Stashahada",
+            "Diploma"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 250,
+        "type": "words",
+        "topic": "school",
+        "question": "School Bus",
+        "options": [
+            "Bas la shule",
+            "Bas la abiria",
+            "Bas la mafunzo"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 251,
+        "type": "words",
+        "topic": "daily",
+        "question": "Sun",
+        "options": [
+            "Jua",
+            "Mwezi",
+            "Anga"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 252,
+        "type": "words",
+        "topic": "daily",
+        "question": "Moon",
+        "options": [
+            "Jua",
+            "Mwezi",
+            "Anga"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 253,
+        "type": "words",
+        "topic": "daily",
+        "question": "Sky",
+        "options": [
+            "Mbingu",
+            "Anga",
+            "Upepo"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 254,
+        "type": "words",
+        "topic": "daily",
+        "question": "Water",
+        "options": [
+            "Maji",
+            "Chumvi",
+            "Kinywaji"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 255,
+        "type": "words",
+        "topic": "daily",
+        "question": "Food",
+        "options": [
+            "Chakula",
+            "Vyakula",
+            "Kula"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 256,
+        "type": "words",
+        "topic": "daily",
+        "question": "Family",
+        "options": [
+            "Familia",
+            "Kaya",
+            "Ndugu"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 257,
+        "type": "words",
+        "topic": "daily",
+        "question": "Village",
+        "options": [
+            "Kijiji",
+            "Mji",
+            "Mtaa"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 258,
+        "type": "words",
+        "topic": "daily",
+        "question": "Market",
+        "options": [
+            "Soko",
+            "Duka",
+            "Maduka"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 259,
+        "type": "words",
+        "topic": "daily",
+        "question": "Farm",
+        "options": [
+            "Shamba",
+            "Kilimo",
+            "Mashamba"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 260,
+        "type": "words",
+        "topic": "daily",
+        "question": "River",
+        "options": [
+            "Mto",
+            "Maji",
+            "Uso wa maji"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 261,
+        "type": "words",
+        "topic": "daily",
+        "question": "Tree",
+        "options": [
+            "Mti",
+            "Mkia",
+            "Vitu vya asili"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 262,
+        "type": "words",
+        "topic": "daily",
+        "question": "Animal",
+        "options": [
+            "Mnyama",
+            "Wanyama",
+            "Kiumbe hai"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 263,
+        "type": "words",
+        "topic": "daily",
+        "question": "Plant",
+        "options": [
+            "Mmea",
+            "Mimea",
+            "Zao"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 264,
+        "type": "words",
+        "topic": "daily",
+        "question": "Rain",
+        "options": [
+            "Mvua",
+            "Maji",
+            "Uvua"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 265,
+        "type": "words",
+        "topic": "daily",
+        "question": "Fire",
+        "options": [
+            "Moto",
+            "Joto",
+            "Miali"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 266,
+        "type": "words",
+        "topic": "daily",
+        "question": "House",
+        "options": [
+            "Nyumba",
+            "Jengo",
+            "Makazi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 267,
+        "type": "words",
+        "topic": "daily",
+        "question": "Street",
+        "options": [
+            "Barabara",
+            "Mtaa",
+            "Lami"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 268,
+        "type": "words",
+        "topic": "daily",
+        "question": "School",
+        "options": [
+            "Shule",
+            "Chuo",
+            "Taasisi"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 269,
+        "type": "words",
+        "topic": "daily",
+        "question": "Child",
+        "options": [
+            "Mtoto",
+            "Watoto",
+            "Kizazi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 270,
+        "type": "words",
+        "topic": "daily",
+        "question": "Friend",
+        "options": [
+            "Rafiki",
+            "Mpenzi",
+            "Shoga"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 271,
+        "type": "words",
+        "topic": "daily",
+        "question": "Health",
+        "options": [
+            "Afya",
+            "Ustawi",
+            "Nguvu"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 272,
+        "type": "words",
+        "topic": "daily",
+        "question": "Work",
+        "options": [
+            "Kazi",
+            "Shughuli",
+            "Ufanyaji kazi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 273,
+        "type": "words",
+        "topic": "daily",
+        "question": "Money",
+        "options": [
+            "Fedha",
+            "Pesa",
+            "Thamani"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 274,
+        "type": "words",
+        "topic": "daily",
+        "question": "Time",
+        "options": [
+            "Muda",
+            "Wakati",
+            "Kipindi"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 275,
+        "type": "words",
+        "topic": "daily",
+        "question": "Morning",
+        "options": [
+            "Asubuhi",
+            "Mchana",
+            "Usiku"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 276,
+        "type": "words",
+        "topic": "daily",
+        "question": "Evening",
+        "options": [
+            "Jioni",
+            "Usiku",
+            "Mchana"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 277,
+        "type": "words",
+        "topic": "daily",
+        "question": "Night",
+        "options": [
+            "Usiku",
+            "Jioni",
+            "Mchana"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 278,
+        "type": "words",
+        "topic": "daily",
+        "question": "Day",
+        "options": [
+            "Siku",
+            "Mchana",
+            "Usiku"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 279,
+        "type": "words",
+        "topic": "daily",
+        "question": "Love",
+        "options": [
+            "Upendo",
+            "Mahaba",
+            "Nakupenda"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 280,
+        "type": "words",
+        "topic": "daily",
+        "question": "Music",
+        "options": [
+            "Muziki",
+            "Ngoma",
+            "Sauti"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 281,
+        "type": "words",
+        "topic": "daily",
+        "question": "Dance",
+        "options": [
+            "Kucheza",
+            "Ngoma",
+            "Michezo"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 282,
+        "type": "words",
+        "topic": "daily",
+        "question": "Smile",
+        "options": [
+            "Tabasamu",
+            "Kicheko",
+            "Uso"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 283,
+        "type": "words",
+        "topic": "daily",
+        "question": "Laugh",
+        "options": [
+            "Kicheko",
+            "Tabasamu",
+            "Cheka"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 284,
+        "type": "words",
+        "topic": "daily",
+        "question": "Talk",
+        "options": [
+            "Kusema",
+            "Mazungumzo",
+            "Andika"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 285,
+        "type": "words",
+        "topic": "daily",
+        "question": "Walk",
+        "options": [
+            "Kutembea",
+            "Safari",
+            "Ondoka"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 286,
+        "type": "words",
+        "topic": "daily",
+        "question": "Eat",
+        "options": [
+            "Kula",
+            "Chakula",
+            "Vyakula"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 287,
+        "type": "words",
+        "topic": "daily",
+        "question": "Drink",
+        "options": [
+            "Kunywa",
+            "Maji",
+            "Chakula"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 288,
+        "type": "words",
+        "topic": "daily",
+        "question": "Sleep",
+        "options": [
+            "Lala",
+            "Pumzika",
+            "Kazi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 289,
+        "type": "words",
+        "topic": "daily",
+        "question": "Play",
+        "options": [
+            "Kucheza",
+            "Michezo",
+            "Furahi"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 290,
+        "type": "words",
+        "topic": "daily",
+        "question": "Read",
+        "options": [
+            "Soma",
+            "Kusoma",
+            "Chapisha"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 291,
+        "type": "words",
+        "topic": "daily",
+        "question": "Write",
+        "options": [
+            "Andika",
+            "Kuandika",
+            "Chapisha"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 292,
+        "type": "words",
+        "topic": "daily",
+        "question": "Learn",
+        "options": [
+            "Jifunze",
+            "Elimu",
+            "Soma"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 293,
+        "type": "words",
+        "topic": "daily",
+        "question": "Help",
+        "options": [
+            "Saidia",
+            "Msaada",
+            "Mshikamano"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 294,
+        "type": "words",
+        "topic": "daily",
+        "question": "Clean",
+        "options": [
+            "Safisha",
+            "Usafi",
+            "Vumbi"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 295,
+        "type": "words",
+        "topic": "daily",
+        "question": "Cook",
+        "options": [
+            "Andaa chakula",
+            "Pika",
+            "Chakula"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 296,
+        "type": "words",
+        "topic": "daily",
+        "question": "Share",
+        "options": [
+            "Shiriki",
+            "Washirika",
+            "Washirikina"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 297,
+        "type": "words",
+        "topic": "daily",
+        "question": "Visit",
+        "options": [
+            "Tembelea",
+            "Zuru",
+            "Nenda"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 298,
+        "type": "words",
+        "topic": "daily",
+        "question": "Rest",
+        "options": [
+            "Pumzika",
+            "Mapumziko",
+            "Jenga"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 299,
+        "type": "words",
+        "topic": "daily",
+        "question": "Watch",
+        "options": [
+            "Tazama",
+            "Angalia",
+            "Ona"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 300,
+        "type": "words",
+        "topic": "daily",
+        "question": "Listen",
+        "options": [
+            "Sikiliza",
+            "Wasikilizaji",
+            "Wasikilizanaji"
+        ],
+        "answer": 1
+    }
+]

@@ -11,32 +11,32 @@ import Study from "../../pages/Study/Study";
 
 const Tab = createBottomTabNavigator();
 
-const BottomBarNavigator = ({ chatStarted }) => {
+const BottomBarNavigator = () => {
   return (
     <Tab.Navigator
       screenOptions={{ headerShown: false, tabBarShowLabel: false }}
     >
-      <Tab.Screen
-        name="Chat"
-        component={chatStarted ? Chat : ChatOptions}
-        options={{
-          tabBarIcon: ({ focused }) => (
-            <ChatIcon
-              height={"40px"}
-              width={"40px"}
-              color={focused ? "#000" : "#808080"}
-            />
-          ),
-        }}
-      />
       <Tab.Screen
         name="Study"
         component={Study}
         options={{
           tabBarIcon: ({ focused }) => (
             <StudyIcon
-              height={"45px"}
-              width={"45px"}
+              height={"35px"}
+              width={"35px"}
+              color={focused ? "#000" : "#808080"}
+            />
+          ),
+        }}
+      />
+      <Tab.Screen
+        name="Chat"
+        component={Chat}
+        options={{
+          tabBarIcon: ({ focused }) => (
+            <ChatIcon
+              height={"30px"}
+              width={"30px"}
               color={focused ? "#000" : "#808080"}
             />
           ),
@@ -49,8 +49,8 @@ const BottomBarNavigator = ({ chatStarted }) => {
           tabBarIcon: ({ focused }) => {
             return (
               <HistoryIcon
-                height={"50px"}
-                width={"50px"}
+                height={"35px"}
+                width={"35px"}
                 color={focused ? "#000" : "#808080"}
               />
             );
@@ -63,8 +63,8 @@ const BottomBarNavigator = ({ chatStarted }) => {
         options={{
           tabBarIcon: ({ focused }) => (
             <ProfileIcon
-              height={"32px"}
-              width={"32px"}
+              height={"23px"}
+              width={"23px"}
               color={focused ? "#000" : "#808080"}
             />
           ),

@@ -9,72 +9,89 @@ import {
 } from "react-native";
 import { ChatBubble, ChatInputField, Header } from "../../components";
 import { LadderIcon, BackIcon } from "../../assets/icons";
-import { OPENAI_MODEL, OPENAI_CHAT_REQUEST_URL, OPENAI_API_KEY } from "@env";
 import { storeConversation } from "../../firebase/config";
 import { AuthContext } from "../../Contexts/AuthContext";
 
-const MAX_CONVERSATION_LENGTH = 2;
-const MAX_RETRIES = 3;
+const OPENAI_MODEL = "gpt-3.5-turbo";
+const OPENAI_CHAT_REQUEST_URL = "https://api.openai.com/v1/chat/completions";
+const OPENAI_API_KEY = "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";
+
+const systemMessage = {
+  role: "system",
+  content:
+    "You are a friendly and helpful language learning tutor called Fundy. Ask this user a question in English about basic english conversation so that they can practice speaking and writing English. Note that they are a basic level speaker. In your conversation with them ask one question at a time, wait for their responses and reply thoughtfully with short and concise questions. Remind the user that the max conversation length is 20. THe user is most likely from Africa and in developing country, so take in mind ad when he or she wants to talk in Arabic, french, or swahili, use that language also.",
+};
+
+const MAX_CONVERSATION_LENGTH = 20;
 
 const Chat = ({ route, navigation }) => {
-  const { language, topic, proficiency } = route.params;
-  const [chatComponents, setChatComponents] = useState([]);
-  const [chatCount, setChatCount] = useState(0);
-  const scrollViewRef = useRef(null);
-  const [chatEnded, setChatEnded] = useState(false);
+  const language = "English";
+  const topic = "basic english conversation";
+  const proficiency = "Basic";
   const [messages, setMessages] = useState([
     {
       role: "system",
-      content: `You are a friendly and helpful language learning tutor called Lerna. Ask this user a question in ${language} about ${topic} so that they can practice speaking and writing ${language}. Note that they are a ${proficiency} level speaker. In your conversation with them ask one question at a time, wait for their responses and reply thoughtfully with short and concise quesitons.`,
+      content: `You are a friendly and helpful language learning tutor called Fundy. Ask this user a question in ${language} about ${topic} so that they can practice speaking and writing ${language}. Note that they are a ${proficiency} level speaker. In your conversation with them ask one question at a time, wait for their responses and reply thoughtfully with short and concise questions.`,
     },
   ]);
+
   const endConversationMessage = {
     role: "system",
     content: `End the conversation with the user by saying thanks for chatting and goodbye in ${language}`,
   };
 
+  const [chatComponents, setChatComponents] = useState([]);
+  const [chatCount, setChatCount] = useState(0);
+  const scrollViewRef = useRef(null);
+  const [chatEnded, setChatEnded] = useState(false);
   const { authUserId } = useContext(AuthContext);
 
-  // function for sending a message to the api
-  const getMessage = async (messages) => {
-    let response = null;
-    let retryCount = 0;
-    let messageData = null;
-    // TODO: Add retry logic
+  const getMessage = async (chatMessages) => {
+    let apiMessages = chatMessages.map((messageObject) => {
+      let role = "";
+      if (messageObject.role === "assistant") {
+        role = "assistant";
+      } else {
+        role = "user";
+      }
+      return { role: role, content: messageObject.content };
+    });
+
+    const apiRequestBody = {
+      model: OPENAI_MODEL,
+      messages: [systemMessage, ...apiMessages],
+    };
+
     try {
-      response = await fetch(OPENAI_CHAT_REQUEST_URL, {
+      const response = await fetch(OPENAI_CHAT_REQUEST_URL, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
           Authorization: `Bearer ${OPENAI_API_KEY}`,
         },
-        body: JSON.stringify({
-          model: OPENAI_MODEL,
-          messages: messages,
-          max_tokens: 150,
-        }),
+        body: JSON.stringify(apiRequestBody),
       });
-      // After retrying if response is server_error, throw error
+
       if (!response.ok) {
         const error = await response.json();
         console.error("OpenAI API Error:", error);
         throw new Error("OpenAI API Error");
       }
 
-      // If response is ok, return message data
-      messageData = await response.json();
-      console.log("Message data ", messageData);
+      const messageData = await response.json();
       return {
         role: "assistant",
-        content: messageData?.choices?.[0]?.message?.content,
+        content: messageData.choices[0].message.content,
       };
     } catch (error) {
-      console.log("Error getting message from OpenAI");
-      console.log(error);
+      console.log("Error getting message from OpenAI", error);
+      return {
+        role: "assistant",
+        content: "I'm sorry, but I can't provide a response at the moment.",
+      };
     }
   };
 
-  // Loads initial question from Lerna
   useEffect(() => {
     getMessage(messages).then((messageData) => {
       setMessages([...messages, messageData]);
@@ -87,12 +104,9 @@ const Chat = ({ route, navigation }) => {
       );
       setChatComponents([...chatComponents, newChat]);
       setChatCount(chatCount + 1);
-      console.log("chatCount ", chatCount);
-      console.log("UseEffect Done");
     });
   }, []);
 
-  // Scrolls to the bottom of the chat when a new message is added
   useEffect(() => {
     if (scrollViewRef.current) {
       scrollViewRef.current.scrollToEnd({ animated: true });
@@ -100,25 +114,17 @@ const Chat = ({ route, navigation }) => {
   }, [chatComponents]);
 
   const handleSendResponse = (input) => {
-    // Add user message to chat
     const newChat = (
       <ChatBubble key={chatCount} text={input} leftBubble={false} />
     );
-    const updatedMessages =
-      chatComponents.length >= MAX_CONVERSATION_LENGTH
-        ? [
-            ...messages,
-            { role: "user", content: input },
-            endConversationMessage,
-          ]
-        : [...messages, { role: "user", content: input }];
-    const updatedChatComponents = [...chatComponents, newChat];
+    const updatedMessages = [
+      ...messages,
+      { role: "user", content: input },
+    ];
     setMessages(updatedMessages);
-    setChatComponents(updatedChatComponents);
+    setChatComponents((prev) => [...prev, newChat]);
     setChatCount(chatCount + 1);
-    setChatEnded(chatComponents.length >= MAX_CONVERSATION_LENGTH);
 
-    // Add Lerna's response to chat
     getMessage(updatedMessages).then((messageData) => {
       const newChat = (
         <ChatBubble
@@ -128,27 +134,30 @@ const Chat = ({ route, navigation }) => {
         />
       );
       setMessages([...updatedMessages, messageData]);
-      setChatComponents([...updatedChatComponents, newChat]);
+      setChatComponents((prev) => [...prev, newChat]);
       setChatCount(chatCount + 2);
     });
+
+    if (chatComponents.length >= MAX_CONVERSATION_LENGTH) {
+      setChatEnded(true);
+      setMessages([...messages, endConversationMessage]);
+    }
   };
 
   const submitResponse = () => {
-    // store chat in firebase db
     storeConversation(messages, authUserId, language, topic, proficiency)
       .then(() => {
-        navigation.navigate("Chat Options");
+        navigation.navigate("Chat History");
       })
       .catch((error) => {
-        console.log("Error storing conversation in firebase. Try again.");
-        console.log(error);
+        console.log("Error storing conversation in firebase. Try again.", error);
       });
   };
 
   return (
     <SafeAreaView style={styles.container}>
       <Header
-        text="Chat with Lerna"
+        text="Chat with Fundy"
         leftButton={
           <TouchableOpacity onPress={() => navigation.goBack()}>
             <BackIcon height={30} width={30} />
@@ -156,7 +165,7 @@ const Chat = ({ route, navigation }) => {
         }
         rightButton={<LadderIcon height={30} width={30} />}
       />
-      <KeyboardAvoidingView behavior="padding" style={styles.scrollView}>
+      <KeyboardAvoidingView behavior="height" style={styles.scrollView}>
         <ScrollView
           style={{ flex: 1 }}
           contentContainerStyle={styles.contentContainer}

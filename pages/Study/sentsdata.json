@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "question": "Type the sentence: Marcus goes to the market.",
+        "type": "sentence",
+        "topic": "daily",
+        "answer": [
+            "Marcus",
+            "goes",
+            "to",
+            "the",
+            "market"
+        ]
+    },
+    {
+        "id": 2,
+        "question": "Type the sentence: Marcus goes to the market.",
+        "answer": [
+            "Marcus",
+            "goes",
+            "to",
+            "the",
+            "market"
+        ]
+    }
+]

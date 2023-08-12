@@ -56,8 +56,8 @@ const SignIn = ({ navigation }) => {
           }
           rightButton={<LadderIcon height={30} width={30} />}
         />
-        <View style={{ margin: 60 }}>
-          <LernaLangLogo height={150} width={100} />
+        <View style={{ margin: 0 }}>
+          <LernaLangLogo height={300} width={200} />
         </View>
         <Text style={styles.error}>{errorMessage}</Text>
         <View style={styles.inputsView}>
@@ -121,7 +121,7 @@ const styles = StyleSheet.create({
     borderColor: "#000",
     borderWidth: 1,
     borderStyle: "solid",
-    marginTop: 10,
+    marginTop: 0,
     marginBottom: 10,
     marginLeft: 30,
     marginRight: 30,

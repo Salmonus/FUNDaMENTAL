@@ -7,11 +7,11 @@ import { EmailIcon, AccountIcon } from "../../assets/icons";
 const Landing = ({ navigation }) => {
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.titleStyles}>Get Started</Text>
+      <Text style={styles.titleStyles}>Hi, I'm Fundy!</Text>
       <View style={styles.logoStyles}>
-        <LernaLangLogo height={150} width={100} />
+        <LernaLangLogo height={300} width={300} />
         <Text style={styles.slogan}>
-          Start practicing your language learning with Lerna{" "}
+          Learn with Fundy,{"\n"} Earn with FUNDaMENTAL{" "}
         </Text>
       </View>
       <View style={styles.signInButtonStyles}>
@@ -41,24 +41,26 @@ const styles = StyleSheet.create({
     height: "100%",
   },
   titleStyles: {
-    marginBottom: 30,
-    marginTop: 30,
+    paddingTop: 150,
+    marginBottom: 0,
+    marginTop: 0,
     fontSize: 35,
     fontWeight: "bold",
     color: "#000",
   },
   logoStyles: {
     flexDirection: "column",
-    marginTop: 40,
-    marginBottom: 40,
+    marginTop: 10,
+    marginBottom: 10,
     alignItems: "center",
   },
   signInButtonStyles: {
     bottom: 0,
+    paddingBottom: 150,
   },
   slogan: {
-    marginTop: 30,
-    padding: 40,
+    marginTop: 0,
+    padding: 0,
     textAlign: "center",
     fontSize: 20,
     fontWeight: "thin",

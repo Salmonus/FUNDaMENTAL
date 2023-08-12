@@ -46,7 +46,7 @@ const ChatOptions = ({ route, navigation }) => {
   return (
     <SafeAreaView style={styles.container}>
       <Header
-        text="Chat Options"
+        text="ChatOptions"
         leftButton={<LadderIcon height={30} width={30} />}
         rightButton={null}
       />

@@ -1,0 +1,2990 @@
+[
+    {
+        "id": 1,
+        "type": "blanks",
+        "question": "The ___ plays a crucial role in governing the country.",
+        "options": [
+            "government",
+            "campaign",
+            "constitution"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 2,
+        "type": "blanks",
+        "question": "The ___ is the head of state and represents the nation.",
+        "options": [
+            "president",
+            "voter",
+            "opposition"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 3,
+        "type": "blanks",
+        "question": "The ___ debates and passes laws for the country.",
+        "options": [
+            "parliament",
+            "constitution",
+            "corruption"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 4,
+        "type": "blanks",
+        "question": "___ allows citizens to participate in decision-making.",
+        "options": [
+            "Democracy",
+            "judiciary",
+            "diplomacy"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 5,
+        "type": "blanks",
+        "question": "During an , people choose their leaders.",
+        "options": [
+            "election",
+            "corruption",
+            "party"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 6,
+        "type": "blanks",
+        "question": "The ___ outlines the fundamental laws of the country.",
+        "options": [
+            "constitution",
+            "judiciary",
+            "voter"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 7,
+        "type": "blanks",
+        "question": "The ___ ensures order and justice in society.",
+        "options": [
+            "law",
+            "policy",
+            "campaign"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 8,
+        "type": "blanks",
+        "question": "Government ___ guide decision-making and actions.",
+        "options": [
+            "policies",
+            "opposition",
+            "ministers"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 9,
+        "type": "blanks",
+        "question": "Every ___ has rights and responsibilities.",
+        "options": [
+            "citizen",
+            "government",
+            "sovereignty"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 10,
+        "type": "blanks",
+        "question": "As a ___ in the upcoming elections, he studies the candidates.",
+        "options": [
+            "voter",
+            "party",
+            "opposition"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 11,
+        "type": "blanks",
+        "question": "The ___ team focused on engaging the public.",
+        "options": [
+            "campaign",
+            "constitution",
+            "policy"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 12,
+        "type": "blanks",
+        "question": "The ___ provides an alternative viewpoint to the government.",
+        "options": [
+            "opposition",
+            "parliament",
+            "cabinet"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 13,
+        "type": "blanks",
+        "question": "Members of a ___ work together to promote their ideals.",
+        "options": [
+            "party",
+            "judiciary",
+            "cabinet"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 14,
+        "type": "blanks",
+        "question": "The ___ of Foreign Affairs handles international relations.",
+        "options": [
+            "minister",
+            "prime minister",
+            "citizen"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 15,
+        "type": "blanks",
+        "question": "The ___ leads the executive branch of the government.",
+        "options": [
+            "prime minister",
+            "president",
+            "minister"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 16,
+        "type": "blanks",
+        "question": "The ___ discusses and makes important decisions.",
+        "options": [
+            "cabinet",
+            "constitution",
+            "parliament"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 17,
+        "type": "blanks",
+        "question": "The ___ enacts and amends laws for the country.",
+        "options": [
+            "legislature",
+            "judiciary",
+            "party"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 18,
+        "type": "blanks",
+        "question": "The ___ ensures justice and interprets the law.",
+        "options": [
+            "judiciary",
+            "legislature",
+            "executive"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 19,
+        "type": "blanks",
+        "question": "The ___ branch implements and enforces laws.",
+        "options": [
+            "executive",
+            "cabinet",
+            "constitution"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 20,
+        "type": "blanks",
+        "question": "The ___ oversees the legislative process.",
+        "options": [
+            "legislature",
+            "election",
+            "corruption"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 21,
+        "type": "blanks",
+        "question": "The ___ represents the people and their interests.",
+        "options": [
+            "legislature",
+            "opposition",
+            "constitution"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 22,
+        "type": "blanks",
+        "question": "National ___ is vital for decision-making and governance.",
+        "options": [
+            "sovereignty",
+            "demonstration",
+            "election"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 23,
+        "type": "blanks",
+        "question": " plays a key role in maintaining international relations.",
+        "options": [
+            "Diplomacy",
+            "law",
+            "voter"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 24,
+        "type": "blanks",
+        "question": "Efforts to combat ___ are crucial for a just society.",
+        "options": [
+            "corruption",
+            "campaign",
+            "policy"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 25,
+        "type": "blanks",
+        "question": "___ ensures that leaders are answerable for their actions.",
+        "options": [
+            "Accountability",
+            "opposition",
+            "constitution"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 26,
+        "type": "blanks",
+        "question": "___ in government decision-making builds trust.",
+        "options": [
+            "Transparency",
+            "Rule of Law",
+            "Civil Rights"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 27,
+        "type": "blanks",
+        "question": "The ___ ensures fair and just governance.",
+        "options": [
+            "Rule of Law",
+            "Civil Rights",
+            "Human Rights"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 28,
+        "type": "blanks",
+        "question": "___ protect individuals' freedoms and equality.",
+        "options": [
+            "Civil Rights",
+            "Human Rights",
+            "Constitutionality"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 29,
+        "type": "blanks",
+        "question": "___ advocate for the well-being of all people.",
+        "options": [
+            "Human Rights",
+            "Constitutionality",
+            "Political Party"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 30,
+        "type": "blanks",
+        "question": "___ ensures that laws align with the constitution.",
+        "options": [
+            "Constitutionality",
+            "Political Party",
+            "Ideology"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 31,
+        "type": "blanks",
+        "question": "A ___ represents specific political beliefs.",
+        "options": [
+            "Political Party",
+            "Ideology",
+            "Activism"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 32,
+        "type": "blanks",
+        "question": "An ___ shapes a group's goals and actions.",
+        "options": [
+            "Ideology",
+            "Activism",
+            "Civic Engagement"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 33,
+        "type": "blanks",
+        "question": "___ aims to create social and political change.",
+        "options": [
+            "Activism",
+            "Civic Engagement",
+            "Public Service"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 34,
+        "type": "blanks",
+        "question": "___ involves participating in community decisions.",
+        "options": [
+            "Civic Engagement",
+            "Public Service",
+            "Political Process"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 35,
+        "type": "blanks",
+        "question": "___ is dedicated to serving the public.",
+        "options": [
+            "Public Service",
+            "Political Process",
+            "Public Policy"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 36,
+        "type": "blanks",
+        "question": "The ___ encompasses activities of government.",
+        "options": [
+            "Political Process",
+            "Public Policy",
+            "Autonomy"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 37,
+        "type": "blanks",
+        "question": "___ shape the course of government actions.",
+        "options": [
+            "Public Policy",
+            "Autonomy",
+            "Federalism"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 38,
+        "type": "blanks",
+        "question": "___ grants regions self-governing powers.",
+        "options": [
+            "Autonomy",
+            "Federalism",
+            "Decentralization"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 39,
+        "type": "blanks",
+        "question": "___ distributes power between central and local bodies.",
+        "options": [
+            "Federalism",
+            "Decentralization",
+            "Public Office"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 40,
+        "type": "blanks",
+        "question": "___ enhances local decision-making and governance.",
+        "options": [
+            "Decentralization",
+            "Public Office",
+            "Governance"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 41,
+        "type": "blanks",
+        "question": "Holding ___ comes with responsibilities to the public.",
+        "options": [
+            "Public Office",
+            "Governance",
+            "Statehood"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 42,
+        "type": "blanks",
+        "question": "Effective ___ ensures efficient administration.",
+        "options": [
+            "Governance",
+            "Statehood",
+            "Nationalism"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 43,
+        "type": "blanks",
+        "question": "___ signifies a recognized sovereign territory.",
+        "options": [
+            "Statehood",
+            "Nationalism",
+            "International Relations"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 44,
+        "type": "blanks",
+        "question": "___ fosters unity and pride in one's country.",
+        "options": [
+            "Nationalism",
+            "International Relations",
+            "Diplomat"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 45,
+        "type": "blanks",
+        "question": "___ involves interactions between nations.",
+        "options": [
+            "International Relations",
+            "Diplomat",
+            "Negotiation"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 46,
+        "type": "blanks",
+        "question": "A ___ represents a country in foreign matters.",
+        "options": [
+            "Diplomat",
+            "Negotiation",
+            "Treaty"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 47,
+        "type": "blanks",
+        "question": "___ is essential for peaceful resolution of conflicts.",
+        "options": [
+            "Negotiation",
+            "Treaty",
+            "Ambassador"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 48,
+        "type": "blanks",
+        "question": "A ___ establishes terms between nations.",
+        "options": [
+            "Treaty",
+            "Ambassador",
+            "Referendum"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 49,
+        "type": "blanks",
+        "question": "An ___ represents their country's interests abroad.",
+        "options": [
+            "Ambassador",
+            "Referendum",
+            "Transparency"
+        ],
+        "answer": 1,
+        "topic": "politics"
+    },
+    {
+        "id": 51,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "Strong bonds within ___ contribute to a sense of belonging.",
+        "options": [
+            "family",
+            "partner",
+            "community"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 52,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "A loyal ___ stands by you through thick and thin.",
+        "options": [
+            "friend",
+            "kin",
+            "tribe"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 53,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "Growing up with a ___ often leads to lifelong connections.",
+        "options": [
+            "sibling",
+            "aunt",
+            "comrade"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 54,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "A nurturing ___ provides guidance and support.",
+        "options": [
+            "parent",
+            "uncle",
+            "ancestor"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 55,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "The joy of raising a ___ is a rewarding experience.",
+        "options": [
+            "child",
+            "spouse",
+            "relative"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 56,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "Gathering with ___ during special occasions strengthens ties.",
+        "options": [
+            "cousins",
+            "partners",
+            "clan"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 57,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "She received wisdom from her ___ on family traditions.",
+        "options": [
+            "aunt",
+            "nephew",
+            "descendant"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 58,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "An encouraging ___ guides and imparts life lessons.",
+        "options": [
+            "uncle",
+            "kin",
+            "in-law"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 59,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "Her close bond with her ___ creates cherished memories.",
+        "options": [
+            "grandparents",
+            "niece",
+            "godparent"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 60,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "He shares a strong connection with his ___ who is like a brother.",
+        "options": [
+            "nephew",
+            "sibling",
+            "ancestor"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 61,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "Her ___ is a source of joy and laughter.",
+        "options": [
+            "niece",
+            "grandparent",
+            "spouse"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 62,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "A devoted ___ stands by your side in all endeavors.",
+        "options": [
+            "spouse",
+            "partner",
+            "kin"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 63,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "A supportive ___ plays a key role in shared responsibilities.",
+        "options": [
+            "partner",
+            "relative",
+            "in-law"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 64,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "A sense of ___ connects individuals to their roots.",
+        "options": [
+            "kin",
+            "clan",
+            "community"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 65,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "The family reunion brought together ___ from different generations.",
+        "options": [
+            "relatives",
+            "partners",
+            "cousins"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 66,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "He married into a loving ___ and gained new connections.",
+        "options": [
+            "in-law",
+            "friend",
+            "spouse"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 67,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "A caring ___ supports spiritual growth and guidance.",
+        "options": [
+            "godparent",
+            "aunt",
+            "parent"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 68,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "Learning about family history connects us to our ___.",
+        "options": [
+            "ancestors",
+            "clan",
+            "sibling"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 69,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "He feels a deep connection to his ___ who paved the way.",
+        "options": [
+            "descendants",
+            "grandparent",
+            "relative"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 70,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "The ___ gatherings are filled with music and traditions.",
+        "options": [
+            "clan",
+            "community",
+            "tribe"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 71,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "Traditions passed down within the ___ hold deep meaning.",
+        "options": [
+            "tribe",
+            "family",
+            "kin"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 72,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "Close-knit ___ offer mutual support and solidarity.",
+        "options": [
+            "community",
+            "friend",
+            "partner"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 73,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "He considers his childhood ___ as lifelong companions.",
+        "options": [
+            "comrades",
+            "siblings",
+            "relatives"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 74,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "She confides in her ___ about her deepest thoughts.",
+        "options": [
+            "confidant",
+            "partner",
+            "sibling"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 75,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "In times of need, an ___ offers unwavering support.",
+        "options": [
+            "ally",
+            "aunt",
+            "parent"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 76,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "She became fast ___ with her new colleague.",
+        "options": [
+            "acquaintances",
+            "playmates",
+            "mentors"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 77,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "The friendly ___ next door often lends a helping hand.",
+        "options": [
+            "neighbor",
+            "supporter",
+            "bestie"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 78,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "In childhood, he had a loyal ___ for outdoor adventures.",
+        "options": [
+            "playmate",
+            "mentor",
+            "guardian"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 79,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "They've been ___ since kindergarten and share many memories.",
+        "options": [
+            "pals",
+            "role models",
+            "elders"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 80,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "He considers her a close ___ and confides in her often.",
+        "options": [
+            "chum",
+            "generation",
+            "tradition"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 81,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "She and her childhood ___ have an unbreakable bond.",
+        "options": [
+            "besties",
+            "heritage",
+            "culture"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 82,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "He and his ___ explored the African wilderness together.",
+        "options": [
+            "buddies",
+            "unity",
+            "supporters"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 83,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "They are part of the same ___ working towards a common goal.",
+        "options": [
+            "cohort",
+            "harmony",
+            "mentor"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 84,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "He is a dedicated ___ of environmental conservation.",
+        "options": [
+            "supporter",
+            "love",
+            "tradition"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 85,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "She sought guidance from a seasoned ___ in her career.",
+        "options": [
+            "mentor",
+            "role model",
+            "generation"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 86,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "His ___ instincts kicked in when he protected the vulnerable.",
+        "options": [
+            "protector",
+            "elders",
+            "heritage"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 87,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "As a ___ of his community, he looks out for everyone.",
+        "options": [
+            "guardian",
+            "youngers",
+            "buddies"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 88,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "Her role as a ___ involves taking care of her elderly parents.",
+        "options": [
+            "caregiver",
+            "cohort",
+            "neighbor"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 89,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "He seeks guidance from an experienced ___ to enhance his skills.",
+        "options": [
+            "mentor",
+            "generation",
+            "neighbor"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 90,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "Her grandmother is a ___ of wisdom and kindness.",
+        "options": [
+            "role model",
+            "heritage",
+            "neighbor"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 91,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "The ___ members of the community share their insights.",
+        "options": [
+            "elders",
+            "supporters",
+            "mentors"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 92,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "He looks up to his ___ sister for guidance and advice.",
+        "options": [
+            "younger",
+            "unity",
+            "neighbor"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 93,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "The passing down of stories preserves the ___ of the culture.",
+        "options": [
+            "heritage",
+            "bond",
+            "cohort"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 94,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "Participating in traditional ceremonies connects us to our ___.",
+        "options": [
+            "traditions",
+            "love",
+            "playmates"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 95,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "Cultural ___ is expressed through art, music, and dance.",
+        "options": [
+            "culture",
+            "supporter",
+            "guardian"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 96,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "Community gatherings promote a sense of ___ among residents.",
+        "options": [
+            "unity",
+            "mentor",
+            "generation"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 97,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "The diverse cultures coexist in ___ and mutual respect.",
+        "options": [
+            "harmony",
+            "elder",
+            "neighbor"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 98,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "The ___ between family members is a source of strength.",
+        "options": [
+            "love",
+            "protector",
+            "playmate"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 99,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "Sharing experiences creates a strong ___ among friends.",
+        "options": [
+            "bond",
+            "mentor",
+            "tradition"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 100,
+        "topic": "friends & family",
+        "type": "blanks",
+        "question": "The ___ of the community comes together during festivals.",
+        "options": [
+            "cohort",
+            "heritage",
+            "neighbor"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 101,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "A ___ is a device used to process and store information.",
+        "options": [
+            "Computer",
+            "Smartphone",
+            "Internet"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 102,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "A ___ is a handheld device that combines communication and computing capabilities.",
+        "options": [
+            "Computer",
+            "Smartphone",
+            "Internet"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 103,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "The ___ is a global network of connected computers and servers.",
+        "options": [
+            "Internet",
+            "Software",
+            "Network"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 104,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ refers to the programs and applications used on a computer.",
+        "options": [
+            "Software",
+            "Hardware",
+            "Network"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 105,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ refers to the physical components of a computer system.",
+        "options": [
+            "Software",
+            "Hardware",
+            "Network"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 106,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "A ___ is a system of interconnected devices and computers.",
+        "options": [
+            "Software",
+            "Hardware",
+            "Network"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 107,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ is raw information or facts that can be processed.",
+        "options": [
+            "Data",
+            "Algorithm",
+            "Cloud"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 108,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "An ___ is a set of instructions for solving a problem or performing a task.",
+        "options": [
+            "Data",
+            "Algorithm",
+            "Cloud"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 109,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ computing involves accessing and storing data and programs over the internet.",
+        "options": [
+            "Data",
+            "Algorithm",
+            "Cloud"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 110,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ focuses on protecting computer systems from theft, damage, or unauthorized access.",
+        "options": [
+            "Cybersecurity",
+            "Artificial Intelligence",
+            "Machine Learning"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 111,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ involves creating machines that can mimic human intelligence and behavior.",
+        "options": [
+            "Cybersecurity",
+            "Artificial Intelligence",
+            "Machine Learning"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 112,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ is a subset of AI that enables systems to learn and improve from experience.",
+        "options": [
+            "Cybersecurity",
+            "Artificial Intelligence",
+            "Machine Learning"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 113,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ Reality (VR) immerses users in a simulated environment.",
+        "options": [
+            "Virtual",
+            "Augmented",
+            "Blockchain"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 114,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ Reality (AR) overlays digital content onto the real world.",
+        "options": [
+            "Virtual",
+            "Augmented",
+            "Blockchain"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 115,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ is a digital ledger that records transactions across multiple computers.",
+        "options": [
+            "Virtual",
+            "Augmented",
+            "Blockchain"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 116,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ is the process of writing instructions for a computer to perform specific tasks.",
+        "options": [
+            "Coding",
+            "Encryption",
+            "Automation"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 117,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ is the process of converting data into a code to prevent unauthorized access.",
+        "options": [
+            "Coding",
+            "Encryption",
+            "Automation"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 118,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ involves the use of technology to perform tasks without human intervention.",
+        "options": [
+            "Coding",
+            "Encryption",
+            "Automation"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 119,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ refers to anything related to digitized information or processes.",
+        "options": [
+            "Digital",
+            "Wi-Fi",
+            "5G"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 120,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ allows electronic devices to connect to the internet wirelessly.",
+        "options": [
+            "Digital",
+            "Wi-Fi",
+            "5G"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 121,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ is the fifth generation of mobile network technology.",
+        "options": [
+            "Digital",
+            "Wi-Fi",
+            "5G"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 122,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "An ___ is a software application designed for a specific purpose or task.",
+        "options": [
+            "App",
+            "Website",
+            "Sensor"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 123,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "A ___ is a collection of related web pages accessible through the internet.",
+        "options": [
+            "App",
+            "Website",
+            "Sensor"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 124,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "A ___ is a device that detects and responds to physical stimuli.",
+        "options": [
+            "App",
+            "Website",
+            "Sensor"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 125,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "A ___ is an unmanned aerial vehicle that can be remotely controlled.",
+        "options": [
+            "Drone",
+            "Blockchain",
+            "Coding"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 126,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "A ___ is a system that provides positioning information using satellites.",
+        "options": [
+            "GPS",
+            "Robot",
+            "Biometrics"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 127,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "A ___ is a programmable machine capable of carrying out tasks autonomously.",
+        "options": [
+            "GPS",
+            "Robot",
+            "Biometrics"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 128,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ involves the use of unique biological traits for identification.",
+        "options": [
+            "GPS",
+            "Robot",
+            "Biometrics"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 129,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ involves manipulating matter at the nanoscale for various applications.",
+        "options": [
+            "Nanotechnology",
+            "Quantum Computing",
+            "IoT"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 130,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ is a field of study focused on developing powerful computers based on quantum mechanics.",
+        "options": [
+            "Nanotechnology",
+            "Quantum Computing",
+            "IoT"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 131,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "The ___ refers to a network of connected devices that can communicate and share data.",
+        "options": [
+            "Nanotechnology",
+            "Quantum Computing",
+            "IoT"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 132,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "A ___ is a device worn on the body that can track health and fitness data.",
+        "options": [
+            "Wearable",
+            "Smart Home",
+            "Big Data"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 133,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "A ___ is a residence equipped with smart devices for automation and control.",
+        "options": [
+            "Wearable",
+            "Smart Home",
+            "Big Data"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 134,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ refers to extremely large and complex data sets that require specialized processing.",
+        "options": [
+            "Wearable",
+            "Smart Home",
+            "Big Data"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 135,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ is the buying and selling of goods and services over the internet.",
+        "options": [
+            "E-commerce",
+            "Cryptocurrency",
+            "Gaming"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 136,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ is a digital or virtual form of currency that uses cryptography for security.",
+        "options": [
+            "E-commerce",
+            "Cryptocurrency",
+            "Gaming"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 137,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ involves playing electronic games, often through online platforms.",
+        "options": [
+            "E-commerce",
+            "Cryptocurrency",
+            "Gaming"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 138,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ overlays digital content onto the real world, enhancing the user's experience.",
+        "options": [
+            "Augmented Reality",
+            "Virtual Reality",
+            "Cloud Computing"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 139,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ immerses users in a simulated environment that feels real but is computer-generated.",
+        "options": [
+            "Augmented Reality",
+            "Virtual Reality",
+            "Cloud Computing"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 140,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ involves delivering computing services over the internet.",
+        "options": [
+            "Augmented Reality",
+            "Virtual Reality",
+            "Cloud Computing"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 141,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ refers to the use of technology to process, store, and transmit information.",
+        "options": [
+            "Information Technology",
+            "User Interface",
+            "User Experience"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 142,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ focuses on designing interfaces that allow users to interact with technology.",
+        "options": [
+            "Information Technology",
+            "User Interface",
+            "User Experience"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 143,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ refers to the overall experience a user has when interacting with technology.",
+        "options": [
+            "Information Technology",
+            "User Interface",
+            "User Experience"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 144,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "A ___ is a computer or system that manages network resources.",
+        "options": [
+            "Server",
+            "Streaming",
+            "Biotechnology"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 145,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ involves transmitting data in a continuous flow over a network.",
+        "options": [
+            "Server",
+            "Streaming",
+            "Biotechnology"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 146,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ refers to the use of biological systems and organisms to develop products and applications.",
+        "options": [
+            "Server",
+            "Streaming",
+            "Biotechnology"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 147,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ involves harnessing natural resources to generate power without depletion.",
+        "options": [
+            "Renewable Energy",
+            "Nanomaterials",
+            "Innovation"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 148,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ are materials engineered at the nanoscale for various applications.",
+        "options": [
+            "Renewable Energy",
+            "Nanomaterials",
+            "Innovation"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 149,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ involves creating new ideas, products, or methods to address challenges.",
+        "options": [
+            "Renewable Energy",
+            "Nanomaterials",
+            "Innovation"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 150,
+        "topic": "tech",
+        "type": "blanks",
+        "question": "___ involves the integration of digital technology into various aspects of life and society.",
+        "options": [
+            "Digitalization",
+            "Nanotechnology",
+            "Quantum Computing"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 151,
+        "topic": "school",
+        "type": "blanks",
+        "question": "In the ***, students gather to learn from the teacher.",
+        "options": [
+            "Classroom",
+            "Teacher",
+            "Student"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 152,
+        "topic": "school",
+        "type": "blanks",
+        "question": "The ___ imparts knowledge and guides students in their studies.",
+        "options": [
+            "Classroom",
+            "Teacher",
+            "Student"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 153,
+        "topic": "school",
+        "type": "blanks",
+        "question": "The ___ is actively engaged in the process of learning.",
+        "options": [
+            "Classroom",
+            "Teacher",
+            "Student"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 154,
+        "topic": "school",
+        "type": "blanks",
+        "question": "*** is the process of acquiring knowledge, skills, and values.",
+        "options": [
+            "Education",
+            "Learning",
+            "Curriculum"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 155,
+        "topic": "school",
+        "type": "blanks",
+        "question": "___ is a continuous journey that enhances intellectual growth.",
+        "options": [
+            "Education",
+            "Learning",
+            "Curriculum"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 156,
+        "topic": "school",
+        "type": "blanks",
+        "question": "The ___ outlines the subjects and content taught in a school.",
+        "options": [
+            "Education",
+            "Learning",
+            "Curriculum"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 157,
+        "topic": "school",
+        "type": "blanks",
+        "question": "Students study various ___ such as math, science, and history.",
+        "options": [
+            "Subjects",
+            "Homework",
+            "Assignment"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 158,
+        "topic": "school",
+        "type": "blanks",
+        "question": "Completing ___ helps reinforce classroom lessons.",
+        "options": [
+            "Subjects",
+            "Homework",
+            "Assignment"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 159,
+        "topic": "school",
+        "type": "blanks",
+        "question": "An ___ is a task given to students to assess their understanding.",
+        "options": [
+            "Subjects",
+            "Homework",
+            "Assignment"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 160,
+        "topic": "school",
+        "type": "blanks",
+        "question": "A ___ evaluates a student's knowledge on a specific topic.",
+        "options": [
+            "Test",
+            "Exam",
+            "Grades"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 161,
+        "topic": "school",
+        "type": "blanks",
+        "question": "An ___ is a more comprehensive assessment of a student's learning.",
+        "options": [
+            "Test",
+            "Exam",
+            "Grades"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 162,
+        "topic": "school",
+        "type": "blanks",
+        "question": "___ reflect a student's performance in various subjects.",
+        "options": [
+            "Test",
+            "Exam",
+            "Grades"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 163,
+        "topic": "school",
+        "type": "blanks",
+        "question": "Students often use a ___ to access information and study material.",
+        "options": [
+            "Textbook",
+            "Notebook",
+            "Pen"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 164,
+        "topic": "school",
+        "type": "blanks",
+        "question": "Taking ___ helps students jot down important class notes.",
+        "options": [
+            "Textbook",
+            "Notebook",
+            "Pen"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 165,
+        "topic": "school",
+        "type": "blanks",
+        "question": "A ___ is a writing instrument commonly used in schools.",
+        "options": [
+            "Textbook",
+            "Notebook",
+            "Pen"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 166,
+        "topic": "school",
+        "type": "blanks",
+        "question": "A ___ is used for writing, drawing, and other tasks.",
+        "options": [
+            "Pencil",
+            "Backpack",
+            "Desk"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 167,
+        "topic": "school",
+        "type": "blanks",
+        "question": "Students often carry their books and supplies in a ___.",
+        "options": [
+            "Pencil",
+            "Backpack",
+            "Desk"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 168,
+        "topic": "school",
+        "type": "blanks",
+        "question": "A ___ provides a surface for writing and studying.",
+        "options": [
+            "Pencil",
+            "Backpack",
+            "Desk"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 169,
+        "topic": "school",
+        "type": "blanks",
+        "question": "A ___ is used for writing on surfaces like whiteboards.",
+        "options": [
+            "Whiteboard",
+            "Chalkboard",
+            "Projector"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 170,
+        "topic": "school",
+        "type": "blanks",
+        "question": "A ___ is often used for teaching and writing lessons.",
+        "options": [
+            "Whiteboard",
+            "Chalkboard",
+            "Projector"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 171,
+        "topic": "school",
+        "type": "blanks",
+        "question": "A ___ is used to display visuals and multimedia content.",
+        "options": [
+            "Whiteboard",
+            "Chalkboard",
+            "Projector"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 172,
+        "topic": "school",
+        "type": "blanks",
+        "question": "A ___ is a formal presentation on a subject delivered to students.",
+        "options": [
+            "Lecture",
+            "Study",
+            "Library"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 173,
+        "topic": "school",
+        "type": "blanks",
+        "question": "Students engage in independent ___ to grasp concepts.",
+        "options": [
+            "Lecture",
+            "Study",
+            "Library"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 174,
+        "topic": "school",
+        "type": "blanks",
+        "question": "A ___ is a place where students access books and resources.",
+        "options": [
+            "Lecture",
+            "Study",
+            "Library"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 175,
+        "topic": "school",
+        "type": "blanks",
+        "question": "In the ___, students can borrow books and study.",
+        "options": [
+            "Lecture",
+            "Study",
+            "Library"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 176,
+        "topic": "school",
+        "type": "blanks",
+        "question": "In our school, we have a dedicated class for conducting scientific ___ .",
+        "options": [
+            "research",
+            "reports",
+            "experiments"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 177,
+        "topic": "school",
+        "type": "blanks",
+        "question": "After completing the project, we need to submit a detailed ___ .",
+        "options": [
+            "research",
+            "report",
+            "essay"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 178,
+        "topic": "school",
+        "type": "blanks",
+        "question": "For English class, we were assigned to write an ___ on a famous novel.",
+        "options": [
+            "research",
+            "essay",
+            "presentation"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 179,
+        "topic": "school",
+        "type": "blanks",
+        "question": "Next week, I will be giving a ___ about African wildlife to the class.",
+        "options": [
+            "presentation",
+            "report",
+            "music"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 180,
+        "topic": "school",
+        "type": "blanks",
+        "question": "I am really interested in ___ subjects like biology and chemistry.",
+        "options": [
+            "science",
+            "mathematics",
+            "history"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 181,
+        "topic": "school",
+        "type": "blanks",
+        "question": "I find solving ___ problems to be both challenging and rewarding.",
+        "options": [
+            "mathematics",
+            "science",
+            "geography"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 182,
+        "topic": "school",
+        "type": "blanks",
+        "question": "Learning about the ancient civilizations in ___ class is fascinating.",
+        "options": [
+            "history",
+            "mathematics",
+            "science"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 183,
+        "topic": "school",
+        "type": "blanks",
+        "question": "In ___ class, we're studying different countries and their landscapes.",
+        "options": [
+            "geography",
+            "literature",
+            "art"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 184,
+        "topic": "school",
+        "type": "blanks",
+        "question": "We're reading African ___ and discussing their cultural significance.",
+        "options": [
+            "literature",
+            "history",
+            "geography"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 185,
+        "topic": "school",
+        "type": "blanks",
+        "question": "In art class, we're learning to paint and draw using various ___ techniques.",
+        "options": [
+            "art",
+            "music",
+            "literature"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 186,
+        "topic": "school",
+        "type": "blanks",
+        "question": "I play the guitar and the drums in our ___ band.",
+        "options": [
+            "music",
+            "art",
+            "science"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 187,
+        "topic": "school",
+        "type": "blanks",
+        "question": "We have a ___ class every week to stay active and healthy.",
+        "options": [
+            "physical education",
+            "music",
+            "science"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 188,
+        "topic": "school",
+        "type": "blanks",
+        "question": "In the ___ , we learn how to use different software and programs.",
+        "options": [
+            "computer lab",
+            "science",
+            "mathematics"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 189,
+        "topic": "school",
+        "type": "blanks",
+        "question": "Apart from regular classes, I also participate in ___ activities like debate club.",
+        "options": [
+            "extracurricular",
+            "computer lab",
+            "mathematics"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 190,
+        "topic": "school",
+        "type": "blanks",
+        "question": "I'm a member of the photography ___ where we capture the beauty of our surroundings.",
+        "options": [
+            "club",
+            "extracurricular",
+            "art"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 191,
+        "topic": "school",
+        "type": "blanks",
+        "question": "Our school's ___ is dedicated to providing a nurturing learning environment.",
+        "options": [
+            "principal",
+            "counselor",
+            "teacher"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 192,
+        "topic": "school",
+        "type": "blanks",
+        "question": "The ___ is available for students who need guidance and support.",
+        "options": [
+            "counselor",
+            "principal",
+            "teacher"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 193,
+        "topic": "school",
+        "type": "blanks",
+        "question": "All students are required to wear the school ___ to maintain a sense of unity.",
+        "options": [
+            "uniform",
+            "dress",
+            "costume"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 194,
+        "topic": "school",
+        "type": "blanks",
+        "question": "The ___ rings to signal the end of each class period.",
+        "options": [
+            "bell",
+            "alarm",
+            "whistle"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 195,
+        "topic": "school",
+        "type": "blanks",
+        "question": "During ___ , we get a break from classes to relax and play.",
+        "options": [
+            "recess",
+            "lunch",
+            "playground"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 196,
+        "topic": "school",
+        "type": "blanks",
+        "question": "I usually bring a packed meal for ___ to enjoy with my friends.",
+        "options": [
+            "lunch",
+            "recess",
+            "graduation"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 197,
+        "topic": "school",
+        "type": "blanks",
+        "question": "After eating, we have a lot of fun on the ___ , playing different games.",
+        "options": [
+            "playground",
+            "lunch",
+            "recess"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 198,
+        "topic": "school",
+        "type": "blanks",
+        "question": "I'm looking forward to our upcoming ___ ceremony where we celebrate our achievements.",
+        "options": [
+            "graduation",
+            "presentation",
+            "club"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 199,
+        "topic": "school",
+        "type": "blanks",
+        "question": "After completing all the required courses, I received my ___ in a formal ceremony.",
+        "options": [
+            "diploma",
+            "graduation",
+            "extracurricular"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 200,
+        "topic": "school",
+        "type": "blanks",
+        "question": "Every day, I take the ___ to and from school.",
+        "options": [
+            "school bus",
+            "playground",
+            "lunch"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 201,
+        "topic": "work",
+        "type": "blanks",
+        "question": "Many people in the community seek ___ opportunities.",
+        "options": [
+            "employment",
+            "entrepreneurship",
+            "education"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 202,
+        "topic": "work",
+        "type": "blanks",
+        "question": "She has dedicated her life to a noble ___ as a teacher.",
+        "options": [
+            "occupation",
+            "responsibility",
+            "project"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 203,
+        "topic": "work",
+        "type": "blanks",
+        "question": "He works diligently at his ___ every day.",
+        "options": [
+            "job",
+            "teamwork",
+            "uniform"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 204,
+        "topic": "work",
+        "type": "blanks",
+        "question": "Her ___ as a doctor allows her to make a positive impact.",
+        "options": [
+            "profession",
+            "deadline",
+            "salary"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 205,
+        "topic": "work",
+        "type": "blanks",
+        "question": "The ___ is a place where people contribute to society.",
+        "options": [
+            "workplace",
+            "collaboration",
+            "presentation"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 206,
+        "topic": "work",
+        "type": "blanks",
+        "question": "She works in a bustling ___ with many colleagues.",
+        "options": [
+            "office",
+            "interview",
+            "customer"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 207,
+        "topic": "work",
+        "type": "blanks",
+        "question": "His ___ is a source of guidance and inspiration.",
+        "options": [
+            "boss",
+            "teamwork",
+            "pension"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 208,
+        "topic": "work",
+        "type": "blanks",
+        "question": "As an ___, she is responsible for managing her team.",
+        "options": [
+            "employee",
+            "responsibility",
+            "benefits"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 209,
+        "topic": "work",
+        "type": "blanks",
+        "question": "He took a leap of faith to become an ___ in his community.",
+        "options": [
+            "entrepreneur",
+            "networking",
+            "interview"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 210,
+        "topic": "work",
+        "type": "blanks",
+        "question": "She earns a good ___ from her hard work.",
+        "options": [
+            "income",
+            "promotion",
+            "skills"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 211,
+        "topic": "work",
+        "type": "blanks",
+        "question": "He received a ___ increase for his dedication.",
+        "options": [
+            "salary",
+            "collaboration",
+            "workspace"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 212,
+        "topic": "work",
+        "type": "blanks",
+        "question": "Her ___ includes managing multiple projects.",
+        "options": [
+            "responsibility",
+            "meeting",
+            "client"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 213,
+        "topic": "work",
+        "type": "blanks",
+        "question": "He prepared a well-structured ___ to apply for the position.",
+        "options": [
+            "resume",
+            "overtime",
+            "uniform"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 214,
+        "topic": "work",
+        "type": "blanks",
+        "question": "Continuous ___ is essential to stay competitive.",
+        "options": [
+            "training",
+            "project",
+            "customer"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 215,
+        "topic": "work",
+        "type": "blanks",
+        "question": "She believes in maintaining a healthy ___ balance.",
+        "options": [
+            "work-life balance",
+            "colleague",
+            "interview"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 216,
+        "topic": "work",
+        "type": "blanks",
+        "question": "He manages his own business and is ___.",
+        "options": [
+            "self-employed",
+            "customer",
+            "promotion"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 217,
+        "topic": "work",
+        "type": "blanks",
+        "question": "She takes on ___ work to enhance her skills.",
+        "options": [
+            "freelance",
+            "occupation",
+            "income"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 218,
+        "topic": "work",
+        "type": "blanks",
+        "question": "With the advancement of technology, ___ work is becoming more common.",
+        "options": [
+            "remote",
+            "meeting",
+            "responsibility"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 219,
+        "topic": "work",
+        "type": "blanks",
+        "question": "He interacts with ___ to understand their needs.",
+        "options": [
+            "clients",
+            "colleagues",
+            "bosses"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 220,
+        "topic": "work",
+        "type": "blanks",
+        "question": "They have regular ___ to discuss progress and goals.",
+        "options": [
+            "meetings",
+            "tasks",
+            "workloads"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 221,
+        "topic": "work",
+        "type": "blanks",
+        "question": "She presented a compelling ___ on her project.",
+        "options": [
+            "presentation",
+            "responsibility",
+            "uniform"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 222,
+        "topic": "work",
+        "type": "blanks",
+        "question": "He manages his time effectively to meet the ___ of each task.",
+        "options": [
+            "deadlines",
+            "promotions",
+            "workloads"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 223,
+        "topic": "work",
+        "type": "blanks",
+        "question": "She values ___ and actively seeks opportunities to learn.",
+        "options": [
+            "training",
+            "collaboration",
+            "project"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 224,
+        "topic": "work",
+        "type": "blanks",
+        "question": "He works diligently to improve his ___ and gain expertise.",
+        "options": [
+            "skills",
+            "uniform",
+            "workspace"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 225,
+        "topic": "work",
+        "type": "blanks",
+        "question": "She possesses the necessary ___ to excel in her field.",
+        "options": [
+            "qualifications",
+            "responsibility",
+            "uniform"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 226,
+        "topic": "work",
+        "type": "blanks",
+        "question": "New employees undergo ___ to acquire necessary skills.",
+        "options": [
+            "training",
+            "development",
+            "performance"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 227,
+        "topic": "work",
+        "type": "blanks",
+        "question": "Continuous ___ is essential for personal and professional growth.",
+        "options": [
+            "development",
+            "training",
+            "workload"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 228,
+        "topic": "work",
+        "type": "blanks",
+        "question": "Her ___ exceeded expectations, leading to recognition.",
+        "options": [
+            "performance",
+            "productivity",
+            "overtime"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 229,
+        "topic": "work",
+        "type": "blanks",
+        "question": "Efficient ___ leads to higher output and achievements.",
+        "options": [
+            "productivity",
+            "presentation",
+            "uniform"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 230,
+        "topic": "work",
+        "type": "blanks",
+        "question": "Employees adhere to designated ___ for work.",
+        "options": [
+            "office hours",
+            "shift",
+            "benefits"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 231,
+        "topic": "work",
+        "type": "blanks",
+        "question": "He works the night ___ to accommodate global clients.",
+        "options": [
+            "shift",
+            "meeting",
+            "conference"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 232,
+        "topic": "work",
+        "type": "blanks",
+        "question": "Balancing a heavy ___ requires effective time management.",
+        "options": [
+            "workload",
+            "development",
+            "presentation"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 233,
+        "topic": "work",
+        "type": "blanks",
+        "question": "To meet project deadlines, she occasionally works ___ hours.",
+        "options": [
+            "overtime",
+            "client",
+            "customer"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 234,
+        "topic": "work",
+        "type": "blanks",
+        "question": "Maintaining ___ is crucial for overall well-being.",
+        "options": [
+            "work-life balance",
+            "colleague",
+            "workspace"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 235,
+        "topic": "work",
+        "type": "blanks",
+        "question": "Building professional ___ can lead to valuable opportunities.",
+        "options": [
+            "networking",
+            "uniform",
+            "skills"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 236,
+        "topic": "work",
+        "type": "blanks",
+        "question": "He decided to become ___ and start his own business.",
+        "options": [
+            "self-employed",
+            "freelance",
+            "employee"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 237,
+        "topic": "work",
+        "type": "blanks",
+        "question": "She takes on ___ projects to gain experience.",
+        "options": [
+            "freelance",
+            "client",
+            "customer"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 238,
+        "topic": "work",
+        "type": "blanks",
+        "question": "With the rise of technology, more people are embracing ___ work.",
+        "options": [
+            "remote work",
+            "shift",
+            "teamwork"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 239,
+        "topic": "work",
+        "type": "blanks",
+        "question": "He communicates with his ___ to understand their needs.",
+        "options": [
+            "client",
+            "colleague",
+            "boss"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 240,
+        "topic": "work",
+        "type": "blanks",
+        "question": "Providing excellent service is important to retain ___ loyalty.",
+        "options": [
+            "customer",
+            "employee",
+            "client"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 241,
+        "topic": "work",
+        "type": "blanks",
+        "question": "They hold regular ___ to discuss progress and goals.",
+        "options": [
+            "meetings",
+            "tasks",
+            "shifts"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 242,
+        "topic": "work",
+        "type": "blanks",
+        "question": "The annual ___ brings together professionals in the industry.",
+        "options": [
+            "conference",
+            "presentation",
+            "meeting"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 243,
+        "topic": "work",
+        "type": "blanks",
+        "question": "She delivered a compelling ___ on her project's success.",
+        "options": [
+            "presentation",
+            "workload",
+            "responsibility"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 244,
+        "topic": "work",
+        "type": "blanks",
+        "question": "His daily ___ involves a long journey to the workplace.",
+        "options": [
+            "commute",
+            "uniform",
+            "workspace"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 245,
+        "topic": "work",
+        "type": "blanks",
+        "question": "After years of dedication, he looks forward to his ___.",
+        "options": [
+            "retirement",
+            "benefits",
+            "promotion"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 246,
+        "topic": "work",
+        "type": "blanks",
+        "question": "He has diligently contributed to his ___ fund over the years.",
+        "options": [
+            "pension",
+            "income",
+            "shift"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 247,
+        "topic": "work",
+        "type": "blanks",
+        "question": "Employees enjoy various ___ such as health coverage.",
+        "options": [
+            "benefits",
+            "networking",
+            "productivity"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 248,
+        "topic": "work",
+        "type": "blanks",
+        "question": "They wear a designated ___ to maintain a professional appearance.",
+        "options": [
+            "uniform",
+            "presentation",
+            "client"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 249,
+        "topic": "work",
+        "type": "blanks",
+        "question": "She creates art in her dedicated ___ for creativity.",
+        "options": [
+            "workspace",
+            "colleague",
+            "benefits"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 250,
+        "topic": "work",
+        "type": "blanks",
+        "question": "The construction workers engage in ___ to build infrastructure.",
+        "options": [
+            "labor",
+            "training",
+            "overtime"
+        ],
+        "answer": 1
+    }
+]

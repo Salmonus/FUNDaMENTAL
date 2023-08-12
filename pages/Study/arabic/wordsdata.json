@@ -1,0 +1,3602 @@
+[
+    {
+        "id": 1,
+        "type": "words",
+        "topic": "tech",
+        "question": "Computer",
+        "options": [
+            "جهاز الكمبيوتر",
+            "هاتف ذكي",
+            "الإنترنت"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 2,
+        "type": "words",
+        "topic": "tech",
+        "question": "Smartphone",
+        "options": [
+            "جهاز الكمبيوتر",
+            "هاتف ذكي",
+            "الإنترنت"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 3,
+        "type": "words",
+        "topic": "tech",
+        "question": "Internet",
+        "options": [
+            "جهاز الكمبيوتر",
+            "هاتف ذكي",
+            "الإنترنت"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 4,
+        "type": "words",
+        "topic": "tech",
+        "question": "Software",
+        "options": [
+            "برمجيات",
+            "أجهزة",
+            "شبكة"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 5,
+        "type": "words",
+        "topic": "tech",
+        "question": "Hardware",
+        "options": [
+            "برمجيات",
+            "أجهزة",
+            "شبكة"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 6,
+        "type": "words",
+        "topic": "tech",
+        "question": "Network",
+        "options": [
+            "برمجيات",
+            "أجهزة",
+            "شبكة"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 7,
+        "type": "words",
+        "topic": "tech",
+        "question": "Data",
+        "options": [
+            "بيانات",
+            "خوارزمية",
+            "سحابة"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 8,
+        "type": "words",
+        "topic": "tech",
+        "question": "Algorithm",
+        "options": [
+            "بيانات",
+            "خوارزمية",
+            "سحابة"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 9,
+        "type": "words",
+        "topic": "tech",
+        "question": "Cloud",
+        "options": [
+            "بيانات",
+            "خوارزمية",
+            "سحابة"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 10,
+        "type": "words",
+        "topic": "tech",
+        "question": "Cybersecurity",
+        "options": [
+            "أمان السيبراني",
+            "ذكاء صناعي",
+            "تعلم الآلة"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 11,
+        "type": "words",
+        "topic": "tech",
+        "question": "Artificial Intelligence",
+        "options": [
+            "أمان السيبراني",
+            "ذكاء صناعي",
+            "تعلم الآلة"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 12,
+        "type": "words",
+        "topic": "tech",
+        "question": "Machine Learning",
+        "options": [
+            "أمان السيبراني",
+            "ذكاء صناعي",
+            "تعلم الآلة"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 13,
+        "type": "words",
+        "topic": "tech",
+        "question": "Virtual Reality",
+        "options": [
+            "الواقع الافتراضي",
+            "الواقع المعزز",
+            "بلوكتشين"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 14,
+        "type": "words",
+        "topic": "tech",
+        "question": "Augmented Reality",
+        "options": [
+            "الواقع الافتراضي",
+            "الواقع المعزز",
+            "بلوكتشين"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 15,
+        "type": "words",
+        "topic": "tech",
+        "question": "Blockchain",
+        "options": [
+            "الواقع الافتراضي",
+            "الواقع المعزز",
+            "بلوكتشين"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 16,
+        "type": "words",
+        "topic": "tech",
+        "question": "Coding",
+        "options": [
+            "البرمجة",
+            "التشفير",
+            "التلقائي"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 17,
+        "type": "words",
+        "topic": "tech",
+        "question": "Encryption",
+        "options": [
+            "البرمجة",
+            "التشفير",
+            "التلقائي"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 18,
+        "type": "words",
+        "topic": "tech",
+        "question": "Automation",
+        "options": [
+            "البرمجة",
+            "التشفير",
+            "التلقائي"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 19,
+        "type": "words",
+        "topic": "tech",
+        "question": "Digital",
+        "options": [
+            "رقمي",
+            "واي فاي",
+            "5G"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 20,
+        "type": "words",
+        "topic": "tech",
+        "question": "Wi-Fi",
+        "options": [
+            "رقمي",
+            "واي فاي",
+            "5G"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 21,
+        "type": "words",
+        "topic": "tech",
+        "question": "5G",
+        "options": [
+            "رقمي",
+            "واي فاي",
+            "5G"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 22,
+        "type": "words",
+        "topic": "tech",
+        "question": "App",
+        "options": [
+            "تطبيق",
+            "موقع ويب",
+            "جهاز استشعار"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 23,
+        "type": "words",
+        "topic": "tech",
+        "question": "Website",
+        "options": [
+            "تطبيق",
+            "موقع ويب",
+            "جهاز استشعار"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 24,
+        "type": "words",
+        "topic": "tech",
+        "question": "Sensor",
+        "options": [
+            "تطبيق",
+            "موقع ويب",
+            "جهاز استشعار"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 25,
+        "type": "words",
+        "topic": "tech",
+        "question": "Drone",
+        "options": [
+            "طائرة بدون طيار",
+            "مسبار",
+            "صاروخ"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 26,
+        "type": "words",
+        "topic": "tech",
+        "question": "GPS",
+        "options": [
+            "نظام تحديد المواقع العالمي",
+            "روبوت",
+            "التكنولوجيا الحيوية"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 27,
+        "type": "words",
+        "topic": "tech",
+        "question": "Robot",
+        "options": [
+            "نظام تحديد المواقع العالمي",
+            "روبوت",
+            "التكنولوجيا الحيوية"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 28,
+        "type": "words",
+        "topic": "tech",
+        "question": "Biometrics",
+        "options": [
+            "نظام تحديد المواقع العالمي",
+            "روبوت",
+            "التكنولوجيا الحيوية"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 29,
+        "type": "words",
+        "topic": "tech",
+        "question": "Nanotechnology",
+        "options": [
+            "تكنولوجيا النانو",
+            "حوسبة الكم",
+            "الإنترنت الأشياء"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 30,
+        "type": "words",
+        "topic": "tech",
+        "question": "Quantum Computing",
+        "options": [
+            "تكنولوجيا النانو",
+            "حوسبة الكم",
+            "الإنترنت الأشياء"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 31,
+        "type": "words",
+        "topic": "tech",
+        "question": "Internet of Things (IoT)",
+        "options": [
+            "تكنولوجيا النانو",
+            "حوسبة الكم",
+            "الإنترنت الأشياء"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 32,
+        "type": "words",
+        "topic": "tech",
+        "question": "Wearable",
+        "options": [
+            "الأجهزة القابلة للارتداء",
+            "البيانات الكبيرة",
+            "العملات المشفرة"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 33,
+        "type": "words",
+        "topic": "tech",
+        "question": "Smart Home",
+        "options": [
+            "الأجهزة القابلة للارتداء",
+            "البيانات الكبيرة",
+            "العملات المشفرة"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 34,
+        "type": "words",
+        "topic": "tech",
+        "question": "Big Data",
+        "options": [
+            "الأجهزة القابلة للارتداء",
+            "البيانات الكبيرة",
+            "العملات المشفرة"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 35,
+        "type": "words",
+        "topic": "tech",
+        "question": "E-commerce",
+        "options": [
+            "التجارة الإلكترونية",
+            "الأمان السيبراني",
+            "التعلم الآلي"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 36,
+        "type": "words",
+        "topic": "tech",
+        "question": "Cryptocurrency",
+        "options": [
+            "التجارة الإلكترونية",
+            "الأمان السيبراني",
+            "التعلم الآلي"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 37,
+        "type": "words",
+        "topic": "tech",
+        "question": "Gaming",
+        "options": [
+            "التجارة الإلكترونية",
+            "الأمان السيبراني",
+            "التعلم الآلي"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 38,
+        "type": "words",
+        "topic": "tech",
+        "question": "Augmented Reality",
+        "options": [
+            "الواقع المعزز",
+            "الواقع الافتراضي",
+            "حوسبة السحابية"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 39,
+        "type": "words",
+        "topic": "tech",
+        "question": "Virtual Reality",
+        "options": [
+            "الواقع المعزز",
+            "الواقع الافتراضي",
+            "حوسبة السحابية"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 40,
+        "type": "words",
+        "topic": "tech",
+        "question": "Cloud Computing",
+        "options": [
+            "الواقع المعزز",
+            "الواقع الافتراضي",
+            "حوسبة السحابية"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 41,
+        "type": "words",
+        "topic": "tech",
+        "question": "Information Technology",
+        "options": [
+            "تكنولوجيا المعلومات",
+            "واجهة المستخدم",
+            "تجربة المستخدم"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 42,
+        "type": "words",
+        "topic": "tech",
+        "question": "User Interface",
+        "options": [
+            "تكنولوجيا المعلومات",
+            "واجهة المستخدم",
+            "تجربة المستخدم"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 43,
+        "type": "words",
+        "topic": "tech",
+        "question": "User Experience",
+        "options": [
+            "تكنولوجيا المعلومات",
+            "واجهة المستخدم",
+            "تجربة المستخدم"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 44,
+        "type": "words",
+        "topic": "tech",
+        "question": "Server",
+        "options": [
+            "خادم",
+            "تدفق",
+            "طاقة متجددة"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 45,
+        "type": "words",
+        "topic": "tech",
+        "question": "Streaming",
+        "options": [
+            "خادم",
+            "تدفق",
+            "طاقة متجددة"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 46,
+        "type": "words",
+        "topic": "tech",
+        "question": "Biotechnology",
+        "options": [
+            "خادم",
+            "تدفق",
+            "طاقة متجددة"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 47,
+        "type": "words",
+        "topic": "tech",
+        "question": "Renewable Energy",
+        "options": [
+            "الطاقة المتجددة",
+            "مواد النانو",
+            "ابتكار"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 48,
+        "type": "words",
+        "topic": "tech",
+        "question": "Nanomaterials",
+        "options": [
+            "الطاقة المتجددة",
+            "مواد النانو",
+            "ابتكار"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 49,
+        "type": "words",
+        "topic": "tech",
+        "question": "Innovation",
+        "options": [
+            "الطاقة المتجددة",
+            "مواد النانو",
+            "ابتكار"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 50,
+        "type": "words",
+        "topic": "tech",
+        "question": "Digitalization",
+        "options": [
+            "الترقيم",
+            "الابتكار",
+            "الرمز البياني"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 51,
+        "type": "words",
+        "topic": "politics",
+        "question": "Government",
+        "options": [
+            "حكومة",
+            "دولة",
+            "حاكم"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 52,
+        "type": "words",
+        "topic": "politics",
+        "question": "President",
+        "options": [
+            "رئيس",
+            "قائد",
+            "زعيم"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 53,
+        "type": "words",
+        "topic": "politics",
+        "question": "Parliament",
+        "options": [
+            "برلمان",
+            "مجلس",
+            "نواب"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 54,
+        "type": "words",
+        "topic": "politics",
+        "question": "Democracy",
+        "options": [
+            "ديمقراطية",
+            "حكم الشعب",
+            "استبداد"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 55,
+        "type": "words",
+        "topic": "politics",
+        "question": "Election",
+        "options": [
+            "انتخاب",
+            "اقتراع",
+            "تصويت"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 56,
+        "type": "words",
+        "topic": "politics",
+        "question": "Constitution",
+        "options": [
+            "دستور",
+            "قانون",
+            "ميثاق"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 57,
+        "type": "words",
+        "topic": "politics",
+        "question": "Law",
+        "options": [
+            "قانون",
+            "نظام",
+            "حكم"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 58,
+        "type": "words",
+        "topic": "politics",
+        "question": "Policy",
+        "options": [
+            "سياسة",
+            "خطة",
+            "برنامج"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 59,
+        "type": "words",
+        "topic": "politics",
+        "question": "Citizen",
+        "options": [
+            "مواطن",
+            "شعب",
+            "سكان"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 60,
+        "type": "words",
+        "topic": "politics",
+        "question": "Voter",
+        "options": [
+            "ناخب",
+            "منتخب",
+            "اقتراع"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 61,
+        "type": "words",
+        "topic": "politics",
+        "question": "Campaign",
+        "options": [
+            "حملة",
+            "مهمة",
+            "مبادرة"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 62,
+        "type": "words",
+        "topic": "politics",
+        "question": "Opposition",
+        "options": [
+            "معارضة",
+            "معارض",
+            "مقاومة"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 63,
+        "type": "words",
+        "topic": "politics",
+        "question": "Party",
+        "options": [
+            "حزب",
+            "جمعية",
+            "تجمع"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 64,
+        "type": "words",
+        "topic": "politics",
+        "question": "Minister",
+        "options": [
+            "وزير",
+            "قائمة",
+            "حاكم"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 65,
+        "type": "words",
+        "topic": "politics",
+        "question": "Prime Minister",
+        "options": [
+            "رئيس وزراء",
+            "وزير أول",
+            "قائد وزراء"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 66,
+        "type": "words",
+        "topic": "politics",
+        "question": "Cabinet",
+        "options": [
+            "مجلس الوزراء",
+            "خزانة",
+            "كابينة"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 67,
+        "type": "words",
+        "topic": "politics",
+        "question": "Legislature",
+        "options": [
+            "هيئة تشريعية",
+            "مشرعة",
+            "مجلس"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 68,
+        "type": "words",
+        "topic": "politics",
+        "question": "Judiciary",
+        "options": [
+            "سلطة قضائية",
+            "محكمة",
+            "قضاء"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 69,
+        "type": "words",
+        "topic": "politics",
+        "question": "Executive",
+        "options": [
+            "سلطة تنفيذية",
+            "تنفيذي",
+            "تنفيذ"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 70,
+        "type": "words",
+        "topic": "politics",
+        "question": "Legislature",
+        "options": [
+            "هيئة تشريعية",
+            "مشرعة",
+            "مجلس"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 71,
+        "type": "words",
+        "topic": "politics",
+        "question": "Legislature",
+        "options": [
+            "هيئة تشريعية",
+            "مشرعة",
+            "مجلس"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 72,
+        "type": "words",
+        "topic": "politics",
+        "question": "Sovereignty",
+        "options": [
+            "سيادة",
+            "حاكمية",
+            "شيوخية"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 73,
+        "type": "words",
+        "topic": "politics",
+        "question": "Diplomacy",
+        "options": [
+            "دبلوماسية",
+            "علاقات خارجية",
+            "تواصل"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 74,
+        "type": "words",
+        "topic": "politics",
+        "question": "Corruption",
+        "options": [
+            "فساد",
+            "اختلال",
+            "انحراف"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 75,
+        "type": "words",
+        "topic": "politics",
+        "question": "Accountability",
+        "options": [
+            "مساءلة",
+            "محاسبة",
+            "حساب"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 76,
+        "type": "words",
+        "topic": "politics",
+        "question": "Transparency",
+        "options": [
+            "شفافية",
+            "وضوح",
+            "نقاء"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 77,
+        "type": "words",
+        "topic": "politics",
+        "question": "Rule of Law",
+        "options": [
+            "سيادة القانون",
+            "حكم القانون",
+            "قوة القانون"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 78,
+        "type": "words",
+        "topic": "politics",
+        "question": "Civil Rights",
+        "options": [
+            "حقوق مدنية",
+            "حقوق الإنسان",
+            "حقوق المواطن"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 79,
+        "type": "words",
+        "topic": "politics",
+        "question": "Human Rights",
+        "options": [
+            "حقوق الإنسان",
+            "حقوق الحيوان",
+            "حقوق الطفل"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 80,
+        "type": "words",
+        "topic": "politics",
+        "question": "Constitutionality",
+        "options": [
+            "دستورية",
+            "قانونية",
+            "شرعية"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 81,
+        "type": "words",
+        "topic": "politics",
+        "question": "Political Party",
+        "options": [
+            "حزب سياسي",
+            "جمعية سياسية",
+            "منظمة سياسية"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 82,
+        "type": "words",
+        "topic": "politics",
+        "question": "Ideology",
+        "options": [
+            "أيديولوجيا",
+            "مذهب",
+            "فلسفة"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 83,
+        "type": "words",
+        "topic": "politics",
+        "question": "Activism",
+        "options": [
+            "نشاط",
+            "ناشط",
+            "تفعيل"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 84,
+        "type": "words",
+        "topic": "politics",
+        "question": "Civic Engagement",
+        "options": [
+            "مشاركة مدنية",
+            "اشتراك مدني",
+            "المشاركة في المجتمع"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 85,
+        "type": "words",
+        "topic": "politics",
+        "question": "Public Service",
+        "options": [
+            "خدمة عامة",
+            "خدمة جماهيرية",
+            "خدمة عامة"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 86,
+        "type": "words",
+        "topic": "politics",
+        "question": "Political Process",
+        "options": [
+            "عملية سياسية",
+            "عملية سياسية",
+            "سياسة"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 87,
+        "type": "words",
+        "topic": "politics",
+        "question": "Public Policy",
+        "options": [
+            "سياسات عامة",
+            "سياسة عامة",
+            "سياسة جماهيرية"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 88,
+        "type": "words",
+        "topic": "politics",
+        "question": "Autonomy",
+        "options": [
+            "استقلالية",
+            "ذاتية",
+            "حرية"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 89,
+        "type": "words",
+        "topic": "politics",
+        "question": "Federalism",
+        "options": [
+            "فيدرالية",
+            "اتحادية",
+            "وحدوية"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 90,
+        "type": "words",
+        "topic": "politics",
+        "question": "Decentralization",
+        "options": [
+            "لامركزية",
+            "تفريغ",
+            "تخصيص"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 91,
+        "type": "words",
+        "topic": "politics",
+        "question": "Public Office",
+        "options": [
+            "المنصب العام",
+            "المنصب الرسمي",
+            "المنصب الجماهيري"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 92,
+        "type": "words",
+        "topic": "politics",
+        "question": "Governance",
+        "options": [
+            "حكم",
+            "إدارة",
+            "حكمة"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 93,
+        "type": "words",
+        "topic": "politics",
+        "question": "Statehood",
+        "options": [
+            "الدولة",
+            "الحكم",
+            "الأراضي"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 94,
+        "type": "words",
+        "topic": "politics",
+        "question": "Nationalism",
+        "options": [
+            "قومية",
+            "وطنية",
+            "شعبية"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 95,
+        "type": "words",
+        "topic": "politics",
+        "question": "International Relations",
+        "options": [
+            "العلاقات الدولية",
+            "العلاقات الدولية",
+            "العلاقات الدولية"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 96,
+        "type": "words",
+        "topic": "politics",
+        "question": "Diplomat",
+        "options": [
+            "دبلوماسي",
+            "سفير",
+            "وزير خارجية"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 97,
+        "type": "words",
+        "topic": "politics",
+        "question": "Negotiation",
+        "options": [
+            "مفاوضة",
+            "تفاوض",
+            "اتفاقية"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 98,
+        "type": "words",
+        "topic": "politics",
+        "question": "Treaty",
+        "options": [
+            "معاهدة",
+            "اتفاقية",
+            "عقد"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 99,
+        "type": "words",
+        "topic": "politics",
+        "question": "Ambassador",
+        "options": [
+            "سفير",
+            "دبلوماسي",
+            "وفد"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 100,
+        "type": "words",
+        "topic": "politics",
+        "question": "Referendum",
+        "options": [
+            "استفتاء",
+            "اقتراع",
+            "تصويت"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 101,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Family",
+        "options": [
+            "عائلة",
+            "أسرة",
+            "أهل"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 102,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Friend",
+        "options": [
+            "صديق",
+            "صديقة",
+            "رفيق"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 103,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Sibling",
+        "options": [
+            "شقيق",
+            "أخ",
+            "أخت"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 104,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Parent",
+        "options": [
+            "والد",
+            "أب",
+            "أم"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 105,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Child",
+        "options": [
+            "طفل",
+            "ولد",
+            "بنت"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 106,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Cousin",
+        "options": [
+            "ابن العم",
+            "ابن الخال",
+            "ابن العمة"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 107,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Aunt",
+        "options": [
+            "عمة",
+            "خالة",
+            "أخت الأب"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 108,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Uncle",
+        "options": [
+            "عم",
+            "خال",
+            "أخ الأم"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 109,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Grandparent",
+        "options": [
+            "جد",
+            "جدة",
+            "أجداد"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 110,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Nephew",
+        "options": [
+            "ابن الأخ",
+            "ابن الأخت",
+            "ابن العم"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 111,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Niece",
+        "options": [
+            "ابنة الأخ",
+            "ابنة الأخت",
+            "ابنة العم"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 112,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Spouse",
+        "options": [
+            "زوج",
+            "زوجة",
+            "شريك حياة"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 113,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Partner",
+        "options": [
+            "شريك",
+            "رفيق",
+            "زميل"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 114,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Kin",
+        "options": [
+            "قريب",
+            "أقارب",
+            "أهل"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 115,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Relative",
+        "options": [
+            "قريب",
+            "أقارب",
+            "فعلي"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 116,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "In-law",
+        "options": [
+            "صهر",
+            "حما",
+            "زوج الأخت"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 117,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Godparent",
+        "options": [
+            "الوالد الروحي",
+            "معلم ديني",
+            "الوصي"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 118,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Ancestor",
+        "options": [
+            "سلف",
+            "أسلاف",
+            "جد"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 119,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Descendant",
+        "options": [
+            "نسل",
+            "ذرية",
+            "احفاد"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 120,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Clan",
+        "options": [
+            "عشيرة",
+            "نسب",
+            "أسرة"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 121,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Tribe",
+        "options": [
+            "قبيلة",
+            "جماعة",
+            "تحالف"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 122,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Community",
+        "options": [
+            "مجتمع",
+            "جماعة",
+            "أهل"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 123,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Comrade",
+        "options": [
+            "رفيق",
+            "زميل",
+            "رفاق"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 124,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Confidant",
+        "options": [
+            "صديق مقرب",
+            "مستشار",
+            "معتمد"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 125,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Ally",
+        "options": [
+            "حليف",
+            "صديق",
+            "شريك"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 126,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Acquaintance",
+        "options": [
+            "معرفة",
+            "زميل",
+            "معاون"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 127,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Neighbour",
+        "options": [
+            "جار",
+            "جيران",
+            "مجاور"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 128,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Playmate",
+        "options": [
+            "رفيق اللعب",
+            "زميل اللعب",
+            "لعبة"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 129,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Pal",
+        "options": [
+            "صديق",
+            "رفيق",
+            "زميل"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 130,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Chum",
+        "options": [
+            "صديق",
+            "رفيق",
+            "شريك"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 131,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Bestie",
+        "options": [
+            "صديق مقرب",
+            "أفضل صديق",
+            "صديق مفضل"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 132,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Buddy",
+        "options": [
+            "صديق",
+            "رفيق",
+            "شريك"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 133,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Cohort",
+        "options": [
+            "رفيق",
+            "زميل",
+            "مجموعة"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 134,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Supporter",
+        "options": [
+            "مؤيد",
+            "داعم",
+            "مناصر"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 135,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Mentor",
+        "options": [
+            "مرشد",
+            "معلم",
+            "مستشار"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 136,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Protector",
+        "options": [
+            "حامي",
+            "محافظ",
+            "محمي"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 137,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Guardian",
+        "options": [
+            "وصي",
+            "حارس",
+            "حامي"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 138,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Caregiver",
+        "options": [
+            "مقدم رعاية",
+            "راعي",
+            "مربي"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 139,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Mentor",
+        "options": [
+            "مرشد",
+            "معلم",
+            "مستشار"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 140,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Role model",
+        "options": [
+            "قدوة",
+            "مثال",
+            "نموذج"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 141,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Elder",
+        "options": [
+            "كبير",
+            "مسن",
+            "شيخ"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 142,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Younger",
+        "options": [
+            "أصغر",
+            "صغير",
+            "صغير السن"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 143,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Generation",
+        "options": [
+            "جيل",
+            "أجيال",
+            "سلالة"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 144,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Heritage",
+        "options": [
+            "تراث",
+            "إرث",
+            "وراثة"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 145,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Tradition",
+        "options": [
+            "تقليد",
+            "عادة",
+            "تراث"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 146,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Culture",
+        "options": [
+            "ثقافة",
+            "ثقافي",
+            "حضارة"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 147,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Unity",
+        "options": [
+            "وحدة",
+            "توحيد",
+            "توحيد"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 148,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Harmony",
+        "options": [
+            "انسجام",
+            "تناغم",
+            "توافق"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 149,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Love",
+        "options": [
+            "حب",
+            "محبة",
+            "مودة"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 150,
+        "type": "words",
+        "topic": "friends & family",
+        "question": "Bond",
+        "options": [
+            "رابطة",
+            "صلة",
+            "علاقة"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 151,
+        "type": "words",
+        "topic": "work",
+        "question": "Employment",
+        "options": [
+            "وظيفة",
+            "مهنة",
+            "عمل"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 152,
+        "type": "words",
+        "topic": "work",
+        "question": "Occupation",
+        "options": [
+            "مهنة",
+            "وظيفة",
+            "مهمة"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 153,
+        "type": "words",
+        "topic": "work",
+        "question": "Career",
+        "options": [
+            "مسار وظيفي",
+            "مهنة",
+            "وظيفة"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 154,
+        "type": "words",
+        "topic": "work",
+        "question": "Job",
+        "options": [
+            "وظيفة",
+            "عمل",
+            "مهمة"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 155,
+        "type": "words",
+        "topic": "work",
+        "question": "Profession",
+        "options": [
+            "مهنة",
+            "وظيفة",
+            "مسار وظيفي"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 156,
+        "type": "words",
+        "topic": "work",
+        "question": "Workplace",
+        "options": [
+            "مكان العمل",
+            "مكتب",
+            "بيئة العمل"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 157,
+        "type": "words",
+        "topic": "work",
+        "question": "Office",
+        "options": [
+            "مكتب",
+            "مكان العمل",
+            "مؤسسة"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 158,
+        "type": "words",
+        "topic": "work",
+        "question": "Colleague",
+        "options": [
+            "زميل",
+            "زميل عمل",
+            "شريك"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 159,
+        "type": "words",
+        "topic": "work",
+        "question": "Boss",
+        "options": [
+            "رئيس",
+            "مدير",
+            "قائد"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 160,
+        "type": "words",
+        "topic": "work",
+        "question": "Employee",
+        "options": [
+            "موظف",
+            "عامل",
+            "زميل عمل"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 161,
+        "type": "words",
+        "topic": "work",
+        "question": "Entrepreneur",
+        "options": [
+            "رائد أعمال",
+            "صاحب عمل",
+            "مؤسس"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 162,
+        "type": "words",
+        "topic": "work",
+        "question": "Income",
+        "options": [
+            "دخل",
+            "ربح",
+            "إيرادات"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 163,
+        "type": "words",
+        "topic": "work",
+        "question": "Salary",
+        "options": [
+            "راتب",
+            "أجر",
+            "أجور"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 164,
+        "type": "words",
+        "topic": "work",
+        "question": "Wage",
+        "options": [
+            "أجر",
+            "راتب",
+            "أجور"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 165,
+        "type": "words",
+        "topic": "work",
+        "question": "Promotion",
+        "options": [
+            "ترقية",
+            "تقدم",
+            "ارتفاع"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 166,
+        "type": "words",
+        "topic": "work",
+        "question": "Responsibility",
+        "options": [
+            "مسؤولية",
+            "واجب",
+            "التزام"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 167,
+        "type": "words",
+        "topic": "work",
+        "question": "Deadline",
+        "options": [
+            "الموعد النهائي",
+            "الوقت المحدد",
+            "المهلة"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 168,
+        "type": "words",
+        "topic": "work",
+        "question": "Project",
+        "options": [
+            "مشروع",
+            "مهمة",
+            "وظيفة"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 169,
+        "type": "words",
+        "topic": "work",
+        "question": "Task",
+        "options": [
+            "مهمة",
+            "مشروع",
+            "وظيفة"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 170,
+        "type": "words",
+        "topic": "work",
+        "question": "Teamwork",
+        "options": [
+            "العمل الجماعي",
+            "التعاون",
+            "الجهد المشترك"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 171,
+        "type": "words",
+        "topic": "work",
+        "question": "Collaboration",
+        "options": [
+            "التعاون",
+            "العمل الجماعي",
+            "الجهد المشترك"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 172,
+        "type": "words",
+        "topic": "work",
+        "question": "Interview",
+        "options": [
+            "مقابلة عمل",
+            "اجتماع",
+            "محادثة"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 173,
+        "type": "words",
+        "topic": "work",
+        "question": "Resume",
+        "options": [
+            "سيرة ذاتية",
+            "طلب وظيفي",
+            "سيرة حياة"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 174,
+        "type": "words",
+        "topic": "work",
+        "question": "Skills",
+        "options": [
+            "مهارات",
+            "قدرات",
+            "مواهب"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 175,
+        "type": "words",
+        "topic": "work",
+        "question": "Qualifications",
+        "options": [
+            "مؤهلات",
+            "شهادات",
+            "متطلبات"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 176,
+        "type": "words",
+        "topic": "work",
+        "question": "Training",
+        "options": [
+            "تدريب",
+            "تطوير",
+            "تحضير"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 177,
+        "type": "words",
+        "topic": "work",
+        "question": "Development",
+        "options": [
+            "تطوير",
+            "تحسين",
+            "تقدم"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 178,
+        "type": "words",
+        "topic": "work",
+        "question": "Performance",
+        "options": [
+            "أداء",
+            "أداء عمل",
+            "أداء وظيفي"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 179,
+        "type": "words",
+        "topic": "work",
+        "question": "Productivity",
+        "options": [
+            "إنتاجية",
+            "إنجازية",
+            "كفاءة"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 180,
+        "type": "words",
+        "topic": "work",
+        "question": "Office hours",
+        "options": [
+            "ساعات العمل",
+            "ساعات المكتب",
+            "ساعات العمل الرسمية"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 181,
+        "type": "words",
+        "topic": "work",
+        "question": "Shift",
+        "options": [
+            "وردية",
+            "شيفت",
+            "تناوب"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 182,
+        "type": "words",
+        "topic": "work",
+        "question": "Workload",
+        "options": [
+            "عبء العمل",
+            "حمولة العمل",
+            "كمية العمل"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 183,
+        "type": "words",
+        "topic": "work",
+        "question": "Overtime",
+        "options": [
+            "ساعات إضافية",
+            "وقت إضافي",
+            "تأخير"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 184,
+        "type": "words",
+        "topic": "work",
+        "question": "Work-life balance",
+        "options": [
+            "توازن بين العمل والحياة",
+            "توازن العمل والحياة",
+            "توازن الحياة المهنية والشخصية"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 185,
+        "type": "words",
+        "topic": "work",
+        "question": "Networking",
+        "options": [
+            "شبكات",
+            "تواصل",
+            "اتصالات"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 186,
+        "type": "words",
+        "topic": "work",
+        "question": "Self-employed",
+        "options": [
+            "مستقل",
+            "حر",
+            "ذاتي"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 187,
+        "type": "words",
+        "topic": "work",
+        "question": "Freelance",
+        "options": [
+            "عمل حر",
+            "مستقل",
+            "عمل ذاتي"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 188,
+        "type": "words",
+        "topic": "work",
+        "question": "Remote work",
+        "options": [
+            "العمل عن بعد",
+            "العمل البعيد",
+            "العمل الافتراضي"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 189,
+        "type": "words",
+        "topic": "work",
+        "question": "Client",
+        "options": [
+            "عميل",
+            "زبون",
+            "زبون"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 190,
+        "type": "words",
+        "topic": "work",
+        "question": "Customer",
+        "options": [
+            "زبون",
+            "عميل",
+            "مشتري"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 191,
+        "type": "words",
+        "topic": "work",
+        "question": "Meeting",
+        "options": [
+            "اجتماع",
+            "لقاء",
+            "تجمع"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 192,
+        "type": "words",
+        "topic": "work",
+        "question": "Conference",
+        "options": [
+            "مؤتمر",
+            "اجتماع",
+            "تجمع"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 193,
+        "type": "words",
+        "topic": "work",
+        "question": "Presentation",
+        "options": [
+            "عرض تقديمي",
+            "عرض",
+            "تقديم"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 194,
+        "type": "words",
+        "topic": "work",
+        "question": "Commute",
+        "options": [
+            "التنقل",
+            "الانتقال",
+            "التجول"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 195,
+        "type": "words",
+        "topic": "work",
+        "question": "Retirement",
+        "options": [
+            "التقاعد",
+            "انسحاب",
+            "اعتزال"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 196,
+        "type": "words",
+        "topic": "work",
+        "question": "Pension",
+        "options": [
+            "معاش تقاعدي",
+            "معاش",
+            "منحة تقاعد"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 197,
+        "type": "words",
+        "topic": "work",
+        "question": "Benefits",
+        "options": [
+            "مزايا",
+            "فوائد",
+            "منافع"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 198,
+        "type": "words",
+        "topic": "work",
+        "question": "Uniform",
+        "options": [
+            "زي",
+            "زي موحد",
+            "لباس"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 199,
+        "type": "words",
+        "topic": "work",
+        "question": "Workspace",
+        "options": [
+            "مساحة العمل",
+            "مكان العمل",
+            "بيئة العمل"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 200,
+        "type": "words",
+        "topic": "work",
+        "question": "Labor",
+        "options": [
+            "عمل",
+            "قوى العمل",
+            "أجور"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 201,
+        "type": "words",
+        "topic": "school",
+        "question": "Classroom",
+        "options": [
+            "فصل دراسي",
+            "صف",
+            "غرفة دراسية"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 202,
+        "type": "words",
+        "topic": "school",
+        "question": "Teacher",
+        "options": [
+            "معلم",
+            "أستاذ",
+            "مدرس"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 203,
+        "type": "words",
+        "topic": "school",
+        "question": "Student",
+        "options": [
+            "طالب",
+            "تلميذ",
+            "دارس"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 204,
+        "type": "words",
+        "topic": "school",
+        "question": "Education",
+        "options": [
+            "تعليم",
+            "تربية",
+            "تعليمية"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 205,
+        "type": "words",
+        "topic": "school",
+        "question": "Learning",
+        "options": [
+            "تعلم",
+            "دراسة",
+            "تعليم"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 206,
+        "type": "words",
+        "topic": "school",
+        "question": "Curriculum",
+        "options": [
+            "منهاج",
+            "برنامج دراسي",
+            "مقررات"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 207,
+        "type": "words",
+        "topic": "school",
+        "question": "Subjects",
+        "options": [
+            "مواد دراسية",
+            "موضوعات",
+            "مواد"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 208,
+        "type": "words",
+        "topic": "school",
+        "question": "Homework",
+        "options": [
+            "واجب منزلي",
+            "وظيفة",
+            "عمل منزلي"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 209,
+        "type": "words",
+        "topic": "school",
+        "question": "Assignment",
+        "options": [
+            "مهمة",
+            "واجب",
+            "تكليف"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 210,
+        "type": "words",
+        "topic": "school",
+        "question": "Test",
+        "options": [
+            "اختبار",
+            "امتحان",
+            "اختبار تحريري"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 211,
+        "type": "words",
+        "topic": "school",
+        "question": "Exam",
+        "options": [
+            "امتحان",
+            "اختبار نهائي",
+            "امتحان تحريري"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 212,
+        "type": "words",
+        "topic": "school",
+        "question": "Grades",
+        "options": [
+            "درجات",
+            "علامات",
+            "تقديرات"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 213,
+        "type": "words",
+        "topic": "school",
+        "question": "Textbook",
+        "options": [
+            "كتاب دراسي",
+            "منهج",
+            "مقرر دراسي"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 214,
+        "type": "words",
+        "topic": "school",
+        "question": "Notebook",
+        "options": [
+            "دفتر",
+            "مفكرة",
+            "مذكرة"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 215,
+        "type": "words",
+        "topic": "school",
+        "question": "Pen",
+        "options": [
+            "قلم",
+            "كراسة",
+            "قلم جاف"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 216,
+        "type": "words",
+        "topic": "school",
+        "question": "Pencil",
+        "options": [
+            "قلم رصاص",
+            "رصاص",
+            "قلم"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 217,
+        "type": "words",
+        "topic": "school",
+        "question": "Backpack",
+        "options": [
+            "حقيبة ظهر",
+            "شنطة",
+            "حقيبة مدرسية"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 218,
+        "type": "words",
+        "topic": "school",
+        "question": "Desk",
+        "options": [
+            "مكتب",
+            "طاولة",
+            "مكتبة"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 219,
+        "type": "words",
+        "topic": "school",
+        "question": "Chair",
+        "options": [
+            "كرسي",
+            "مقعد",
+            "مسند"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 220,
+        "type": "words",
+        "topic": "school",
+        "question": "Whiteboard",
+        "options": [
+            "سبورة بيضاء",
+            "سبورة",
+            "لوح أبيض"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 221,
+        "type": "words",
+        "topic": "school",
+        "question": "Chalkboard",
+        "options": [
+            "سبورة طباشير",
+            "لوح طباشير",
+            "سبورة"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 222,
+        "type": "words",
+        "topic": "school",
+        "question": "Projector",
+        "options": [
+            "جهاز عرض",
+            "بروجكتور",
+            "مشغل فيديو"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 223,
+        "type": "words",
+        "topic": "school",
+        "question": "Lecture",
+        "options": [
+            "محاضرة",
+            "درس",
+            "محاضر"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 224,
+        "type": "words",
+        "topic": "school",
+        "question": "Study",
+        "options": [
+            "دراسة",
+            "استعداد",
+            "تحضير"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 225,
+        "type": "words",
+        "topic": "school",
+        "question": "Library",
+        "options": [
+            "مكتبة",
+            "مكتب",
+            "مخزن"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 226,
+        "type": "words",
+        "topic": "school",
+        "question": "Research",
+        "options": [
+            "بحث",
+            "أبحاث",
+            "بحث علمي"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 227,
+        "type": "words",
+        "topic": "school",
+        "question": "Report",
+        "options": [
+            "تقرير",
+            "تقديم",
+            "تقرير دراسي"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 228,
+        "type": "words",
+        "topic": "school",
+        "question": "Essay",
+        "options": [
+            "مقال",
+            "مقالة",
+            "تأليف"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 229,
+        "type": "words",
+        "topic": "school",
+        "question": "Presentation",
+        "options": [
+            "عرض تقديمي",
+            "تقديم",
+            "عرض"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 230,
+        "type": "words",
+        "topic": "school",
+        "question": "Science",
+        "options": [
+            "علم",
+            "علوم",
+            "علم الأحياء"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 231,
+        "type": "words",
+        "topic": "school",
+        "question": "Mathematics",
+        "options": [
+            "رياضيات",
+            "رياضياتي",
+            "حساب"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 232,
+        "type": "words",
+        "topic": "school",
+        "question": "History",
+        "options": [
+            "تاريخ",
+            "تاريخي",
+            "تاريخ الأمم"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 233,
+        "type": "words",
+        "topic": "school",
+        "question": "Geography",
+        "options": [
+            "جغرافيا",
+            "جغرافي",
+            "علم الجغرافيا"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 234,
+        "type": "words",
+        "topic": "school",
+        "question": "Literature",
+        "options": [
+            "أدب",
+            "أدبي",
+            "أدبيات"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 235,
+        "type": "words",
+        "topic": "school",
+        "question": "Art",
+        "options": [
+            "فن",
+            "فنون",
+            "فنية"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 236,
+        "type": "words",
+        "topic": "school",
+        "question": "Music",
+        "options": [
+            "موسيقى",
+            "موسيقي",
+            "أغنية"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 237,
+        "type": "words",
+        "topic": "school",
+        "question": "Physical Education",
+        "options": [
+            "تربية رياضية",
+            "تمارين رياضية",
+            "تدريب جسدي"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 238,
+        "type": "words",
+        "topic": "school",
+        "question": "Computer Lab",
+        "options": [
+            "معمل حاسوب",
+            "مختبر حاسوب",
+            "معمل كمبيوتر"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 239,
+        "type": "words",
+        "topic": "school",
+        "question": "Extracurricular",
+        "options": [
+            "الأنشطة اللاصفية",
+            "أنشطة إضافية",
+            "أنشطة مدرسية"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 240,
+        "type": "words",
+        "topic": "school",
+        "question": "Club",
+        "options": [
+            "نادي",
+            "نادي طلابي",
+            "نشاط"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 241,
+        "type": "words",
+        "topic": "school",
+        "question": "Principal",
+        "options": [
+            "مدير",
+            "مدير المدرسة",
+            "رئيس"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 242,
+        "type": "words",
+        "topic": "school",
+        "question": "Counselor",
+        "options": [
+            "مستشار",
+            "مستشار طلابي",
+            "مرشد"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 243,
+        "type": "words",
+        "topic": "school",
+        "question": "Uniform",
+        "options": [
+            "زي مدرسي",
+            "زي موحد",
+            "زي"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 244,
+        "type": "words",
+        "topic": "school",
+        "question": "Bell",
+        "options": [
+            "جرس",
+            "جرس المدرسة",
+            "ناقوس"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 245,
+        "type": "words",
+        "topic": "school",
+        "question": "Recess",
+        "options": [
+            "استراحة",
+            "استراحة مدرسية",
+            "وقت فراغ"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 246,
+        "type": "words",
+        "topic": "school",
+        "question": "Lunch",
+        "options": [
+            "غداء",
+            "وجبة غداء",
+            "وجبة مدرسية"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 247,
+        "type": "words",
+        "topic": "school",
+        "question": "Playground",
+        "options": [
+            "ملعب",
+            "ساحة لعب",
+            "ملعب مدرسي"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 248,
+        "type": "words",
+        "topic": "school",
+        "question": "Graduation",
+        "options": [
+            "تخرج",
+            "تخريج",
+            "تخرج طلاب"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 249,
+        "type": "words",
+        "topic": "school",
+        "question": "Diploma",
+        "options": [
+            "شهادة",
+            "شهادة دراسية",
+            "دبلوم"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 250,
+        "type": "words",
+        "topic": "school",
+        "question": "School Bus",
+        "options": [
+            "حافلة مدرسية",
+            "سيارة المدرسة",
+            "باص مدرسي"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 251,
+        "type": "words",
+        "topic": "daily",
+        "question": "Exercise",
+        "options": [
+            "تمرين",
+            "التمرين",
+            "ممارسة الرياضة"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 252,
+        "type": "words",
+        "topic": "daily",
+        "question": "Travel",
+        "options": [
+            "سفر",
+            "السفر",
+            "السفر والرحلات"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 253,
+        "type": "words",
+        "topic": "daily",
+        "question": "Explore",
+        "options": [
+            "استكشاف",
+            "الاستكشاف",
+            "يستكشف"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 254,
+        "type": "words",
+        "topic": "daily",
+        "question": "Create",
+        "options": [
+            "إنشاء",
+            "الإنشاء",
+            "يخلق"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 255,
+        "type": "words",
+        "topic": "daily",
+        "question": "Imagine",
+        "options": [
+            "تخيل",
+            "التخيل",
+            "يتخيل"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 256,
+        "type": "words",
+        "topic": "daily",
+        "question": "Dream",
+        "options": [
+            "حلم",
+            "الحلم",
+            "يحلم"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 257,
+        "type": "words",
+        "topic": "daily",
+        "question": "Achieve",
+        "options": [
+            "تحقيق",
+            "التحقيق",
+            "يحقق"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 258,
+        "type": "words",
+        "topic": "daily",
+        "question": "Succeed",
+        "options": [
+            "نجاح",
+            "النجاح",
+            "ينجح"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 259,
+        "type": "words",
+        "topic": "daily",
+        "question": "Fail",
+        "options": [
+            "فشل",
+            "الفشل",
+            "يفشل"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 260,
+        "type": "words",
+        "topic": "daily",
+        "question": "Learn",
+        "options": [
+            "تعلم",
+            "التعلم",
+            "يتعلم"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 261,
+        "type": "words",
+        "topic": "daily",
+        "question": "Teach",
+        "options": [
+            "تعليم",
+            "التعليم",
+            "يعلم"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 262,
+        "type": "words",
+        "topic": "daily",
+        "question": "Grow",
+        "options": [
+            "نمو",
+            "النمو",
+            "ينمو"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 263,
+        "type": "words",
+        "topic": "daily",
+        "question": "Change",
+        "options": [
+            "تغيير",
+            "التغيير",
+            "يتغيير"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 264,
+        "type": "words",
+        "topic": "daily",
+        "question": "Adapt",
+        "options": [
+            "تكيف",
+            "التكيف",
+            "يتكيف"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 265,
+        "type": "words",
+        "topic": "daily",
+        "question": "Connect",
+        "options": [
+            "اتصال",
+            "الاتصال",
+            "يتصل"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 266,
+        "type": "words",
+        "topic": "daily",
+        "question": "Disconnect",
+        "options": [
+            "فصل",
+            "الفصل",
+            "يفصل"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 267,
+        "type": "words",
+        "topic": "daily",
+        "question": "Travel",
+        "options": [
+            "سفر",
+            "السفر",
+            "السفر والرحلات"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 268,
+        "type": "words",
+        "topic": "daily",
+        "question": "Meet",
+        "options": [
+            "لقاء",
+            "اللقاء",
+            "يلتقي"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 269,
+        "type": "words",
+        "topic": "daily",
+        "question": "Part",
+        "options": [
+            "جزء",
+            "الجزء",
+            "ينقسم"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 270,
+        "type": "words",
+        "topic": "daily",
+        "question": "Whole",
+        "options": [
+            "كل",
+            "الكل",
+            "الكامل"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 271,
+        "type": "words",
+        "topic": "daily",
+        "question": "Finish",
+        "options": [
+            "انتهاء",
+            "الانتهاء",
+            "ينتهي"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 272,
+        "type": "words",
+        "topic": "daily",
+        "question": "Start",
+        "options": [
+            "بداية",
+            "البداية",
+            "يبدأ"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 273,
+        "type": "words",
+        "topic": "daily",
+        "question": "Win",
+        "options": [
+            "فوز",
+            "الفوز",
+            "يفوز"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 274,
+        "type": "words",
+        "topic": "daily",
+        "question": "Lose",
+        "options": [
+            "هزيمة",
+            "الهزيمة",
+            "يخسر"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 275,
+        "type": "words",
+        "topic": "daily",
+        "question": "Enjoy",
+        "options": [
+            "استمتاع",
+            "الاستمتاع",
+            "يستمتع"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 276,
+        "type": "words",
+        "topic": "daily",
+        "question": "Suffer",
+        "options": [
+            "معاناة",
+            "المعاناة",
+            "يعاني"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 277,
+        "type": "words",
+        "topic": "daily",
+        "question": "Endure",
+        "options": [
+            "تحمل",
+            "التحمل",
+            "يتحمل"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 278,
+        "type": "words",
+        "topic": "daily",
+        "question": "Breathe",
+        "options": [
+            "تنفس",
+            "التنفس",
+            "يتنفس"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 279,
+        "type": "words",
+        "topic": "daily",
+        "question": "Pause",
+        "options": [
+            "توقف",
+            "التوقف",
+            "يتوقف"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 280,
+        "type": "words",
+        "topic": "daily",
+        "question": "Continue",
+        "options": [
+            "متابعة",
+            "المتابعة",
+            "يستمر"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 281,
+        "type": "words",
+        "topic": "daily",
+        "question": "Rest",
+        "options": [
+            "راحة",
+            "الراحة",
+            "يستريح"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 282,
+        "type": "words",
+        "topic": "daily",
+        "question": "Challenge",
+        "options": [
+            "تحدي",
+            "التحدي",
+            "يتحدى"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 283,
+        "type": "words",
+        "topic": "daily",
+        "question": "Solve",
+        "options": [
+            "حل",
+            "الحل",
+            "يحل"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 284,
+        "type": "words",
+        "topic": "daily",
+        "question": "Question",
+        "options": [
+            "سؤال",
+            "السؤال",
+            "يسأل"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 285,
+        "type": "words",
+        "topic": "daily",
+        "question": "Answer",
+        "options": [
+            "إجابة",
+            "الإجابة",
+            "يجيب"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 286,
+        "type": "words",
+        "topic": "daily",
+        "question": "Doubt",
+        "options": [
+            "شك",
+            "الشك",
+            "يشك"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 287,
+        "type": "words",
+        "topic": "daily",
+        "question": "Believe",
+        "options": [
+            "اعتقاد",
+            "الاعتقاد",
+            "يؤمن"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 288,
+        "type": "words",
+        "topic": "daily",
+        "question": "Worry",
+        "options": [
+            "قلق",
+            "القلق",
+            "يقلق"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 289,
+        "type": "words",
+        "topic": "daily",
+        "question": "Relax",
+        "options": [
+            "استرخاء",
+            "الاسترخاء",
+            "يستريح"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 290,
+        "type": "words",
+        "topic": "daily",
+        "question": "Forgive",
+        "options": [
+            "مغفرة",
+            "المغفرة",
+            "يغفر"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 291,
+        "type": "words",
+        "topic": "daily",
+        "question": "Apologize",
+        "options": [
+            "اعتذار",
+            "الاعتذار",
+            "يعتذر"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 292,
+        "type": "words",
+        "topic": "daily",
+        "question": "Understand",
+        "options": [
+            "فهم",
+            "الفهم",
+            "يفهم"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 293,
+        "type": "words",
+        "topic": "daily",
+        "question": "Misunderstand",
+        "options": [
+            "سوء فهم",
+            "السوء فهم",
+            "يسوء فهم"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 294,
+        "type": "words",
+        "topic": "daily",
+        "question": "Express",
+        "options": [
+            "التعبير",
+            "التعبير",
+            "يعبر"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 295,
+        "type": "words",
+        "topic": "daily",
+        "question": "Suppress",
+        "options": [
+            "قمع",
+            "القمع",
+            "يقمع"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 296,
+        "type": "words",
+        "topic": "daily",
+        "question": "Create",
+        "options": [
+            "إنشاء",
+            "الإنشاء",
+            "يخلق"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 297,
+        "type": "words",
+        "topic": "daily",
+        "question": "Destroy",
+        "options": [
+            "تدمير",
+            "التدمير",
+            "يدمر"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 298,
+        "type": "words",
+        "topic": "daily",
+        "question": "Protect",
+        "options": [
+            "حماية",
+            "الحماية",
+            "يحمي"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 299,
+        "type": "words",
+        "topic": "daily",
+        "question": "Neglect",
+        "options": [
+            "إهمال",
+            "الإهمال",
+            "يهمل"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 300,
+        "type": "words",
+        "topic": "daily",
+        "question": "Remember",
+        "options": [
+            "تذكر",
+            "التذكر",
+            "يتذكر"
+        ],
+        "answer": 2
+    }
+]
