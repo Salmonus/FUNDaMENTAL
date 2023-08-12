@@ -13,10 +13,6 @@ import { storeConversation } from "../../firebase/config";
 import { AuthContext } from "../../Contexts/AuthContext";
 import { OPENAI_MODEL, OPENAI_CHAT_REQUEST_URL, OPENAI_API_KEY } from "@env";
 
-const model = OPENAI_MODEL
-const chatRequestUrl = OPENAI_CHAT_REQUEST_URL
-const openAIApiKey = OPENAI_API_KEY
-
 const systemMessage = {
   role: "system",
   content:
@@ -59,16 +55,16 @@ const Chat = ({ route, navigation }) => {
     });
 
     const apiRequestBody = {
-      model: model,
+      model: OPENAI_MODEL,
       messages: [systemMessage, ...apiMessages],
     };
 
     try {
-      const response = await fetch(chatRequestUrl, {
+      const response = await fetch(OPENAI_CHAT_REQUEST_URL, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization: `Bearer ${openAIApiKey}`,
+          Authorization: `Bearer ${OPENAI_API_KEY}`,
         },
         body: JSON.stringify(apiRequestBody),
       });

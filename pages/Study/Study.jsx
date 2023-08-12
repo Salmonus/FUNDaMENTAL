@@ -29,10 +29,6 @@ const TEST_TYPES = [
 
 const GUIDE_LANGUAGES = ['french', 'arabic', 'swahili', 'portuguese'];
 
-const firebase = firebase;
-const auth = auth;
-const db = db;
-
 const Study = ({ navigation }) => {
   const [language, setLanguage] = useState('');
   const [topic, setTopic] = useState('');
