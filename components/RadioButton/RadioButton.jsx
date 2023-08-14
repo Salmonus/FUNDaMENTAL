@@ -8,11 +8,10 @@ const RadioButton = ({ radioOptions, handleSelection }) => {
       data={radioOptions}
       selectedBtn={(e) => {
         handleSelection(e);
-        console.log(e);
       }}
       box={false}
       circleSize={10}
-      activeColor={"#0601B4"}
+      activeColor={"grey"}
       deactiveColor={null}
       textStyle={styles.buttonText}
       style={styles.buttonContainer}
