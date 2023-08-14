@@ -10,10 +10,10 @@ const Study = () => {
       onPanResponderMove: Animated.event([null, {dx: pan.x, dy: pan.y}], {useNativeDriver: false}),
       onPanResponderRelease: () => {
         if (pan.y._value < -120) {
-        console.log("Selection 1")
+          console.log("Selection 1")
         }
-        else if (pan.y._value > 110) {
-        console.log("Selection 2")
+        else if (pan.y._value > 120) {
+          console.log("Selection 2")
         }
         pan.flattenOffset();
         Animated.spring(pan, {
@@ -26,7 +26,7 @@ const Study = () => {
 
     return (
       <SafeAreaView style={styles.container}>
-        <Text style={[styles.container, styles.memorized]}>
+        <Text style={styles.memorized}>
           Selection 1
         </Text>
         <Animated.View
@@ -39,7 +39,7 @@ const Study = () => {
           {...panResponder.panHandlers}>
           <Text style={styles.word}>Word</Text>
         </Animated.View>
-        <Text style={[styles.container, styles.notMemorized]}>
+        <Text style={styles.notMemorized}>
           Selection 2
         </Text>
       </SafeAreaView>
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "white",
-    justifyContent: "center",
+    justifyContent: "space-around",
     alignItems: "center",
   },
   word: {
@@ -66,15 +66,12 @@ const styles = StyleSheet.create({
     width: 200
   },
   memorized: {
-    marginTop: 64,
     fontSize: 20,
     color: "green",
   },
   notMemorized: {
-    marginTop: 112,
     fontSize: 20,
     color: "red",
-    backgroundColor: "rgba(255, 255, 255, 0.0)",
   }
 });
 
