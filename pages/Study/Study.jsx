@@ -26,7 +26,7 @@ const Study = () => {
 
     return (
       <SafeAreaView style={styles.container}>
-        <Text style={styles.memorized}>
+        <Text style={[styles.memorized, {zIndex: 0}]}>
           Selection 1
         </Text>
         <Animated.View
@@ -34,12 +34,13 @@ const Study = () => {
             styles.box,
             {
             transform: [{translateX: pan.x}, {translateY: pan.y}],
-            }
+            zIndex: 1
+            }            
           ]}
           {...panResponder.panHandlers}>
           <Text style={styles.word}>Word</Text>
         </Animated.View>
-        <Text style={styles.notMemorized}>
+        <Text style={[styles.notMemorized, {zIndex: 0}]}>
           Selection 2
         </Text>
       </SafeAreaView>
