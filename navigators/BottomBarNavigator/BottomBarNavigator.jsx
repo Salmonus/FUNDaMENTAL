@@ -7,7 +7,7 @@ import {
   HistoryIcon,
   StudyIcon,
 } from "../../assets/icons";
-import Study from "../../pages/Study/Study";
+import StudyApp from "../../pages/Study/StudyApp";
 
 const Tab = createBottomTabNavigator();
 
@@ -17,8 +17,8 @@ const BottomBarNavigator = () => {
       screenOptions={{ headerShown: false, tabBarShowLabel: false }}
     >
       <Tab.Screen
-        name="Study"
-        component={Study}
+        name="Study App"
+        component={StudyApp}
         options={{
           tabBarIcon: ({ focused }) => (
             <StudyIcon

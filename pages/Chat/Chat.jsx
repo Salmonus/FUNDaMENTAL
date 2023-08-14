@@ -11,10 +11,7 @@ import { ChatBubble, ChatInputField, Header } from "../../components";
 import { LadderIcon, BackIcon } from "../../assets/icons";
 import { storeConversation } from "../../firebase/config";
 import { AuthContext } from "../../Contexts/AuthContext";
-
-const OPENAI_MODEL = "gpt-3.5-turbo";
-const OPENAI_CHAT_REQUEST_URL = "https://api.openai.com/v1/chat/completions";
-const OPENAI_API_KEY = "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";
+import { OPENAI_MODEL, OPENAI_CHAT_REQUEST_URL, OPENAI_API_KEY } from "@env";
 
 const systemMessage = {
   role: "system",

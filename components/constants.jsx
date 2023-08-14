@@ -86,34 +86,40 @@ const LANGUAGES = [
 const TOPICS = [
   {
     id: "0",
-    text: "Daily",
+    label: "Daily",
     icon: <RandomIcon height={34} width={34} color="#0601B4" />,
   },
   {
     id: "1",
-    text: "Politics",
+    label: "Politics",
     icon: <PoliticsIcon height={34} width={34} color="#0601B4" />,
   },
   {
     id: "2",
-    text: "Work",
+    label: "Work",
     icon: <WorkIcon height={34} width={34} color="#0601B4" />,
   },
   {
     id: "3",
-    text: "Friends & Family",
+    label: "Friends & Family",
     icon: <FamilyIcon height={34} width={34} color="#0601B4" />,
   },
   {
     id: "4",
-    text: "Tech",
+    label: "Tech",
     icon: <TechIcon height={34} width={34} color="#0601B4" />,
   },
   {
     id: "5",
-    text: "School",
+    label: "School",
     icon: <SchoolIcon height={34} width={34} color="#0601B4" />,
   },
 ];
 
-export { SKILL_LEVELS, LANGUAGES, TOPICS, PROFICIENCY };
+const TEST_TYPES = [
+  { id: "words", label: "Words" },
+  { id: "blanks", label: "Blanks" },
+  { id: "sentences", label: "Sentences" }
+];
+
+export { SKILL_LEVELS, LANGUAGES, TOPICS, PROFICIENCY, TEST_TYPES };

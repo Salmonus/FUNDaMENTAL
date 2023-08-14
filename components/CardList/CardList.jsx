@@ -26,7 +26,6 @@ const CardList = ({ items, scrollDirection, handleSelected }) => {
           </SelectableCard>
         )}
         keyExtractor={(item) => item.id}
-        horizontal={scrollDirection === "horizontal" ? true : false}
       />
     </View>
   );
@@ -34,7 +33,7 @@ const CardList = ({ items, scrollDirection, handleSelected }) => {
 
 const styles = StyleSheet.create({
   container: {
-    marginLeft: 10,
+    margin: 8,
     justifyContent: "center",
   },
 });
