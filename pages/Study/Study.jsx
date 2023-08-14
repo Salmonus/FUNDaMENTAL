@@ -21,6 +21,9 @@ import { getDoc, setDoc, getFirestore, doc } from "firebase/firestore";
 import LernaLangLogo from "../../assets/images/LernaLangLogo.png";
 import HappyImage from "./happy.png";
 import SadImage from "./sad.png";
+import FlappyBirdGame from './FlappyBirdClone/App';
+import Game from './src/components/OfflineGame';
+
 
 const TEST_TYPES = [
   { label: 'Words', value: 'words' },
@@ -42,10 +45,15 @@ const firebaseConfig = {
 const GUIDE_LANGUAGES = ['french', 'arabic', 'swahili', 'portuguese'];
 
 const firebase = initializeApp(firebaseConfig);
+
 const auth = getAuth(firebase);
 const db = getFirestore(firebase);
 
+//Flappy Bird 관련 상수
 const Study = ({ navigation }) => {
+  const [currentImage, setCurrentImage] = useState(LernaLangLogo);
+  const [isPlayingFlappyBird, setIsPlayingFlappyBird] = useState(false);
+  const [isPlayingOfflineGame, setIsPlayingOfflineGame] = useState(false);
   const [language, setLanguage] = useState('');
   const [topic, setTopic] = useState('');
   const [data, setData] = useState({
@@ -63,8 +71,10 @@ const Study = ({ navigation }) => {
   const [current, setCurrent] = useState(null);
   const [loading, setLoading] = useState(false);
   const [userInput, setUserInput] = useState('');
+  const handleGameOver = () => {
+    setIsPlayingFlappyBird(false);
+  };
 
-  const [currentImage, setCurrentImage] = useState(LernaLangLogo);
   const loadDataForGuide = (lang) => {
     let langDocsModule;
     switch (lang) {
@@ -105,29 +115,6 @@ const Study = ({ navigation }) => {
         wordsDataModule = arabicWords;
         break;
     }
-
-    const loadDataForGuide = (lang) => {
-
-      let langDocsModule;
-      switch (lang) {
-        case 'french':
-          langDocsModule = frenchLangDocs;
-          break;
-        case 'arabic':
-          langDocsModule = arabicLangDocs;
-          break;
-        case 'swahili':
-          langDocsModule = swahiliLangDocs;
-          break;
-        case 'portuguese':
-          langDocsModule = portugueseLangDocs;
-          break;
-        default:
-          langDocsModule = frenchLangDocs;
-          break;
-      }
-      setGuideData(prevData => ({ ...prevData, [lang]: langDocsModule }));
-    };
 
     setData(prevData => {
       if (!wordsDataModule || wordsDataModule.length === 0) {
@@ -280,50 +267,37 @@ const Study = ({ navigation }) => {
 
   const [menuSelected, setMenuSelected] = useState('');
   const [languageGuide, setLanguageGuide] = useState(null);
-
-  if (menuSelected === 'LanguageGuide') {
-    return (
-      <SafeAreaView style={styles.languageGuideContainer}>
-        <Header
-          text="Language Guide(Beta)"
-          rightButton={<Button title="Back" onPress={navigateBackToMenu} />}
-        />
-        <ScrollView style={styles.scrollView}>
-          {guideData && Object.keys(guideData).map(lang => (
-            <View key={lang}>
-              <Text style={styles.subHeading}>{lang.charAt(0).toUpperCase() + lang.slice(1)}</Text>
-              {Object.entries(guideData[lang]).map(([key, value]) => (
-                <View key={key} style={styles.jsonDataBox}>
-                  <Text style={styles.jsonKey}>{key}</Text>
-                  <Text style={styles.jsonValue}>{value}</Text>
-                </View>
-              ))}
-            </View>
-          ))}
-        </ScrollView>
-      </SafeAreaView>
-    );
+  /*
+    if (menuSelected === 'LanguageGuide') {
+      return (
+        <SafeAreaView style={styles.languageGuideContainer}>
+          <Header
+            text="Language Guide(Beta)"
+            rightButton={<Button title="Back" onPress={navigateBackToMenu} />}
+          />
+          <ScrollView style={styles.scrollView}>
+            {guideData && Object.keys(guideData).map(lang => (
+              <View key={lang}>
+                <Text style={styles.subHeading}>{lang.charAt(0).toUpperCase() + lang.slice(1)}</Text>
+                {Object.entries(guideData[lang]).map(([key, value]) => (
+                  <View key={key} style={styles.jsonDataBox}>
+                    <Text style={styles.jsonKey}>{key}</Text>
+                    <Text style={styles.jsonValue}>{value}</Text>
+                  </View>
+                ))}
+              </View>
+            ))}
+          </ScrollView>
+        </SafeAreaView>
+      );
+    }
+  */
+  if (isPlayingFlappyBird) {
+    return <FlappyBirdGame onGameOver={handleGameOver} />;
   }
-
-
-  if (!menuSelected) {
-    return (
-      <SafeAreaView style={styles.container}>
-        <Header
-          text="LernaLang"
-          rightButton={null}
-        />
-        <ScrollView style={styles.scrollView}>
-          <View style={styles.menuList}>
-            <Button title="Study" onPress={() => setMenuSelected('Study')} />
-            <Button title="Language Guide(Beta)" onPress={() => setMenuSelected('LanguageGuide')} />
-
-          </View>
-        </ScrollView>
-      </SafeAreaView>
-    );
+  if (isPlayingOfflineGame) {
+    return <Game onGameOver={() => setIsPlayingOfflineGame(false)} />;
   }
-
   if (menuSelected === 'Study') {
     if (!testType) {
       return (
@@ -409,6 +383,27 @@ const Study = ({ navigation }) => {
       </SafeAreaView>
     );
   }
+
+  if (!menuSelected) {
+    return (
+      <SafeAreaView style={styles.container}>
+        <Header
+          text="LernaLang"
+          rightButton={null}
+        />
+        <ScrollView style={styles.scrollView}>
+          <View style={styles.menuList}>
+            <Button title="Study" onPress={() => setMenuSelected('Study')} />
+            <Button title="Flappy Bird" onPress={() => setIsPlayingFlappyBird(true)} />
+            <Button title="Offline Game" onPress={() => setIsPlayingOfflineGame(true)} />
+
+          </View>
+        </ScrollView>
+      </SafeAreaView>
+    );
+  }
+
+
 
   if (loading) {
     return <Text>Loading...</Text>;

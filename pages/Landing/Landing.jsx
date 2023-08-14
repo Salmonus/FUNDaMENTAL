@@ -1,26 +1,40 @@
-import React, { useState } from "react";
-import { StyleSheet, SafeAreaView, View, Text, TextInput } from "react-native";
-import { LernaLangLogo } from "../../assets/images";
+import React, { useState, useCallback } from "react";
+import { StyleSheet, SafeAreaView, View, Text, Image, TouchableOpacity } from "react-native";
 import { SignInButton } from "../../components";
-import { EmailIcon, AccountIcon } from "../../assets/icons";
+import { AccountIcon } from "../../assets/icons";
+import LoginImage from "../../assets/images/LoginImage2.png";
+import LoginImage2 from "../../assets/images/LoginImage.png";
+import BackgroundImage from "../../assets/Starfall_GUI_2/Sliced/11_Main_Menu/mm_box.png"; // Import the background image
+import { useFocusEffect } from '@react-navigation/native';
 
 const Landing = ({ navigation }) => {
+  const [currentLoginImage, setCurrentLoginImage] = useState(LoginImage);
+
+  const handleLoginPress = () => {
+    setCurrentLoginImage(LoginImage2);
+    setTimeout(() => {
+      navigation.navigate("SignIn");
+    }, 1000);
+  };
+
+  // Reset the image every time the screen comes into focus
+  useFocusEffect(
+    useCallback(() => {
+      setCurrentLoginImage(LoginImage);
+    }, [])
+  );
+
   return (
     <SafeAreaView style={styles.container}>
+      <Image source={BackgroundImage} style={styles.backgroundImage} /> {/* Set the background image */}
       <Text style={styles.titleStyles}>Hi, I'm Fundy!</Text>
-      <View style={styles.logoStyles}>
-        <LernaLangLogo height={300} width={300} />
-        <Text style={styles.slogan}>
-          Learn with Fundy,{"\n"} Earn with FUNDaMENTAL{" "}
-        </Text>
-      </View>
+      <Text style={styles.slogan}>
+        Learn with Fundy,{"\n"} Earn with FUNDaMENTAL
+      </Text>
       <View style={styles.signInButtonStyles}>
-        <SignInButton
-          text="Login with Email"
-          onPress={() => navigation.navigate("SignIn")}
-        >
-          <EmailIcon height={20} width={20} />
-        </SignInButton>
+        <TouchableOpacity onPress={handleLoginPress}>
+          <Image source={currentLoginImage} style={{ width: 240, height: 80 }} />
+        </TouchableOpacity>
         <SignInButton
           text="Create Account"
           onPress={() => navigation.navigate("SignUp")}
@@ -40,6 +54,14 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     height: "100%",
   },
+  backgroundImage: { // Add a style for the background image
+    position: "absolute", // This will make the image position itself behind all other content
+    top: 0,
+    left: 0,
+    width: "100%",
+    height: "100%",
+    resizeMode: "cover",
+  },
   titleStyles: {
     paddingTop: 150,
     marginBottom: 0,
@@ -48,15 +70,11 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     color: "#000",
   },
-  logoStyles: {
-    flexDirection: "column",
-    marginTop: 10,
-    marginBottom: 10,
-    alignItems: "center",
-  },
   signInButtonStyles: {
     bottom: 0,
     paddingBottom: 150,
+    alignItems: "center",
+    justifyContent: "center",
   },
   slogan: {
     marginTop: 0,
