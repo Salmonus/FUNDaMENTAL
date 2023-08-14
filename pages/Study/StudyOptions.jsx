@@ -23,10 +23,12 @@ const StudyOptions = ({ navigation }) => {
   if (language === "") {
     return (
       <SafeAreaView style={styles.container}>
-        <Header
-          text="Study"
-          leftButton={<LadderIcon height={30} width={30} />}
-        />
+        <View style={{alignItems: "center"}}>
+          <Header
+            text="Study"
+            leftButton={<LadderIcon height={30} width={30} />}
+          />
+        </View>
         <View>
           <Text style={styles.subHeading}>Select a language</Text>
           <CardList
@@ -39,10 +41,12 @@ const StudyOptions = ({ navigation }) => {
   } else {
     return (
       <SafeAreaView style={styles.container}>
-        <Header
-          text="Study"
-          leftButton={<LadderIcon height={30} width={30} />}
-        />
+        <View style={{alignItems: "center"}}>
+          <Header
+            text="Study"
+            leftButton={<LadderIcon height={30} width={30} />}
+          />
+        </View>
         <ScrollView>
           <View>
             <Text style={styles.subHeading}>Select a topic</Text>
