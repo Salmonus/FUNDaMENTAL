@@ -4,7 +4,6 @@ import { StyleSheet, SafeAreaView, View, Text } from "react-native";
 const Header2 = ({ text, leftButton, rightButton }) => {
   return (
     <SafeAreaView style={styles.headerContainer}>
-      <View style={styles.headerLeft}>{leftButton}</View>
       <Text style={styles.headerText}>{text}</Text>
       <View style={styles.headerRight}>{rightButton}</View>
     </SafeAreaView>
@@ -15,31 +14,23 @@ const styles = StyleSheet.create({
   headerContainer: {
     backgroundColor: "#fff",
     flexDirection: "row",
-    justifyContent: "space-between",
     alignItems: "center",
-    justifyContent: "center",
-    width: "100%",
-    marginLeft: 5,
-    marginRight: 5,
-    marginBottom: 5,
+    marginLeft: 8,
+    marginRight: 8,
+    marginBottom: 16,
     height: 50,
     top: 10,
   },
   headerText: {
+    flex: 5,
     fontSize: 20,
     fontWeight: "bold",
     color: "#000",
     textAlign: "center",
     alignSelf: "center",
-    flex: 1,
-  },
-  headerLeft: {
-    justifyContent: "center",
-    alignItems: "center",
-    width: 50,
-    height: 50,
   },
   headerRight: {
+    flex: 1,
     justifyContent: "center",
     alignItems: "center",
     width: 50,
