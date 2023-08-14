@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useRef } from "react";
-import { StyleSheet, View, SafeAreaView, Text, Animated, PanResponder } from "react-native";
+import React, { useState, useRef } from "react";
+import { StyleSheet, SafeAreaView, Text, Animated, PanResponder } from "react-native";
 
 const Study = () => {
     const pan = useRef(new Animated.ValueXY()).current;

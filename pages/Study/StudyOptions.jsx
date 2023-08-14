@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { StyleSheet, View, SafeAreaView, Text, ScrollView, TouchableOpacity } from "react-native";
-import { CardList, RadioButton } from "../../components";
+import { Header, CardList, RadioButton } from "../../components";
+import { LadderIcon } from "../../assets/icons";
 import { LANGUAGES, TOPICS, TEST_TYPES } from "../../components/constants";
 
 const StudyOptions = ({ navigation }) => {
@@ -22,6 +23,10 @@ const StudyOptions = ({ navigation }) => {
   if (language === "") {
     return (
       <SafeAreaView style={styles.container}>
+        <Header
+          text="Study"
+          leftButton={<LadderIcon height={30} width={30} />}
+        />
         <View>
           <Text style={styles.subHeading}>Select a language</Text>
           <CardList
@@ -34,6 +39,10 @@ const StudyOptions = ({ navigation }) => {
   } else {
     return (
       <SafeAreaView style={styles.container}>
+        <Header
+          text="Study"
+          leftButton={<LadderIcon height={30} width={30} />}
+        />
         <ScrollView>
           <View>
             <Text style={styles.subHeading}>Select a topic</Text>
