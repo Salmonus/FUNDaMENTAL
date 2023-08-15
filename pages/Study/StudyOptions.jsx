@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { StyleSheet, View, SafeAreaView, Text, ScrollView, TouchableOpacity } from "react-native";
+import { StyleSheet, View, SafeAreaView, Text, ScrollView, TouchableOpacity, Image } from "react-native";
 import { Header, CardList, RadioButton } from "../../components";
 import { BackIcon } from "../../assets/icons";
 import { LANGUAGES, TOPICS, TEST_TYPES } from "../../components/constants";
@@ -73,10 +73,15 @@ const StudyOptions = ({ navigation }) => {
             />
           </View>
           <TouchableOpacity
-          style={buttonDisabled ? styles.buttonDisabled : styles.startButton}
+          style={styles.startButton}
           onPress={startQuest}
           disabled={buttonDisabled}
           >
+            <Image 
+              source={buttonDisabled ? require("../../assets/images/wide_button.png") : require("../../assets/images/wide_button_h.png")} 
+              style={{width: "100%", height: 36}}
+              resizeMode="stretch"
+            />
             <Text style={buttonDisabled ? styles.buttonDisabledText : styles.buttonText}>Start Quest</Text>
           </TouchableOpacity>
         </ScrollView>
@@ -98,34 +103,25 @@ const styles = StyleSheet.create({
     fontFamily: "ChakraPetch-Bold",
     color: "black"
   },
-  buttonDisabled: {
-    borderWidth: 2,
-    borderColor: "rgba(0, 0, 0, 0.5)",
-    height: 36,
-    borderRadius: 24,
-    justifyContent: "center",
-    alignItems: "center",
-    margin: 12,
-    marginTop: 36
-  },
   startButton: {
-    borderWidth: 2,
-    borderColor: "black",
     height: 36,
-    borderRadius: 24,
+    margin: 20,
     justifyContent: "center",
     alignItems: "center",
-    margin: 12,
-    marginTop: 36
   },
   buttonDisabledText: {
     fontSize: 18,
     color: "rgba(0, 0, 0, 0.5)",
     fontFamily: "ChakraPetch-Regular",
+    zIndex: 0,
+    position: "absolute"
   },
   buttonText: {
     fontSize: 18,
+    color: "white",
     fontFamily: "ChakraPetch-Bold",
+    zIndex: 0,
+    position: "absolute",
   }
 });
 
