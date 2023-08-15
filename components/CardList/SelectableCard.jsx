@@ -9,7 +9,7 @@ const SelectableCard = ({ id, text, selected, onPress, children }) => {
       style={styles.card}
     >
       <Image 
-        source={require("../../assets/images/wide_button_h.png")} 
+        source={require("../../assets/images/wide_button.png")} 
         style={{width: "auto", height: 64, zIndex: 0}}
         resizeMode="contain"
       />
@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
   },
   textStyle: {
     flex: 5,
-    color: "black",
+    color: "white",
     fontSize: 22,
     fontWeight: 600,
     paddingLeft: 12,
