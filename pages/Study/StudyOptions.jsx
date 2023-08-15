@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { StyleSheet, View, SafeAreaView, Text, ScrollView, TouchableOpacity } from "react-native";
 import { Header, CardList, RadioButton } from "../../components";
-import { LadderIcon } from "../../assets/icons";
+import { BackIcon } from "../../assets/icons";
 import { LANGUAGES, TOPICS, TEST_TYPES } from "../../components/constants";
 
 const StudyOptions = ({ navigation }) => {
@@ -16,6 +16,13 @@ const StudyOptions = ({ navigation }) => {
     }
   }, [topic, testType]);
 
+  const resetSelection = () => {
+    setLanguage("");
+    setTopic("");
+    setTestType("");
+    setButtonDisabled(true);
+  };
+
   const startQuest = () => {
     navigation.navigate("Study");
   };
@@ -26,10 +33,9 @@ const StudyOptions = ({ navigation }) => {
         <View style={{alignItems: "center"}}>
           <Header
             text="Study"
-            leftButton={<LadderIcon height={30} width={30} />}
           />
         </View>
-        <View>
+        <View style={{flex: 1}}>
           <Text style={styles.subHeading}>Select a language</Text>
           <CardList
             items={LANGUAGES}
@@ -44,7 +50,11 @@ const StudyOptions = ({ navigation }) => {
         <View style={{alignItems: "center"}}>
           <Header
             text="Study"
-            leftButton={<LadderIcon height={30} width={30} />}
+            leftButton={
+              <TouchableOpacity onPress={resetSelection}>
+                <BackIcon height={30} width={30} />
+              </TouchableOpacity>
+            }
           />
         </View>
         <ScrollView>
@@ -85,7 +95,7 @@ const styles = StyleSheet.create({
     margin: 12,
     marginBottom: 0,
     fontSize: 28,
-    fontWeight: "bold",
+    fontFamily: "ChakraPetch-Bold",
     color: "black"
   },
   buttonDisabled: {
@@ -110,11 +120,12 @@ const styles = StyleSheet.create({
   },
   buttonDisabledText: {
     fontSize: 18,
-    color: "rgba(0, 0, 0, 0.5)"
+    color: "rgba(0, 0, 0, 0.5)",
+    fontFamily: "ChakraPetch-Regular",
   },
   buttonText: {
     fontSize: 18,
-    fontWeight: "bold"
+    fontFamily: "ChakraPetch-Bold",
   }
 });
 

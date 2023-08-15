@@ -23,7 +23,6 @@ const styles = StyleSheet.create({
   buttonContainer: {
     flexDirection: "column",
     marginLeft: 10,
-    // padding: 5,
     alignItems: "center",
     justifyContent: "center",
   },
@@ -32,6 +31,7 @@ const styles = StyleSheet.create({
     color: "#000",
     fontSize: 18,
     textAlign: "center",
+    fontFamily: "ChakraPetch-Medium",
   },
 });
 

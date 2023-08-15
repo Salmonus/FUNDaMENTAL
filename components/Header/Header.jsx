@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
   },
   headerText: {
     fontSize: 20,
-    fontWeight: "bold",
+    fontFamily: "ChakraPetch-Bold",
     color: "#000",
     textAlign: "center",
     alignSelf: "center",

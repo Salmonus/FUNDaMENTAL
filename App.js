@@ -4,11 +4,21 @@ import { auth } from "./firebase/config";
 import { onAuthStateChanged } from "@firebase/auth";
 import { AuthContext } from "./Contexts/AuthContext";
 
+import useFonts from './hooks/useFonts';
 import { BottomBarNavigator, AuthNavigator } from "./navigators";
 
 export default function App() {
   const [authUserId, setAuthUserId] = useState(null);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [IsReady, setIsReady] = useState(false);
+
+  useEffect(() => {
+    const loadFonts = async () => {
+      await useFonts();
+    };
+    loadFonts();
+    setIsReady(true);
+  }, []);
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
@@ -26,6 +36,10 @@ export default function App() {
     isLoggedIn,
     setIsLoggedIn,
   };
+
+  if (!IsReady) {
+    return null;
+  }
 
   return (
     <AuthContext.Provider value={value}>

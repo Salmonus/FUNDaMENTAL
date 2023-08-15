@@ -1,42 +1,38 @@
-import React, { useEffect } from "react";
-import { StyleSheet, View, Text, Pressable } from "react-native";
+import React from "react";
+import { StyleSheet, View, Text, Image, TouchableOpacity } from "react-native";
 
 const SelectableCard = ({ id, text, selected, onPress, children }) => {
   return (
-    <Pressable
+    <TouchableOpacity
       id={id}
       onPress={onPress}
-      style={selected ? styles.selectedCard : styles.card}
+      style={styles.card}
     >
-      <View style={[styles.cardContainer]}>
+      <Image 
+        source={require("../../assets/images/wide_button_h.png")} 
+        style={{width: "auto", height: 64, zIndex: 0}}
+        resizeMode="contain"
+      />
+      <View style={styles.itemContainer}>
         <View style={styles.icon}>{children}</View>
         <Text style={styles.textStyle}>{text}</Text>
       </View>
-    </Pressable>
+    </TouchableOpacity>
   );
 };
 
 const styles = StyleSheet.create({
-  cardContainer: {
+  itemContainer: {
     flexDirection: "row",
     alignItems: "center",
+    position: "absolute",
+    padding: 12,
+    width: "100%",
+    height: "100%",
   },
   card: {
-    padding: 12,
     height: 64,
-    borderWidth: 2,
-    borderRadius: 16,
-    borderColor: "black",
     margin: 4,
-  },
-  selectedCard: {
-    padding: 12,
-    height: 64,
-    borderWidth: 2,
-    borderRadius: 16,
-    borderColor: "black",
-    margin: 4,
-    backgroundColor: "lightgrey"
   },
   textStyle: {
     flex: 5,
@@ -44,14 +40,12 @@ const styles = StyleSheet.create({
     fontSize: 22,
     fontWeight: 600,
     paddingLeft: 12,
+    fontFamily: "ChakraPetch-Medium"
   },
   icon: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    borderRadius: 18,
-    width: 36,
-    height: 36,
   },
 });
 

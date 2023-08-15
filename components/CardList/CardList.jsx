@@ -33,6 +33,7 @@ const CardList = ({ items, scrollDirection, handleSelected }) => {
 
 const styles = StyleSheet.create({
   container: {
+    flex: 1,
     margin: 8,
     justifyContent: "center",
   },

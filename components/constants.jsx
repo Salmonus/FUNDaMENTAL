@@ -65,21 +65,21 @@ const LANGUAGES = [
   {
     id: "french",
     text: "French",
-    icon: <FrenchIcon height={50} width={50} />,
+    icon: <FrenchIcon height={36} width={36} />,
   },
   {
     id: "arabic",
     text: "Arabic",
-    icon: <ArabicIcon height={50} width={50} />,
+    icon: <ArabicIcon height={36} width={36} />,
   },
   {
     id: "swahili",
     text: "Swahili",
-    icon: <SwahiliIcon height={50} width={50} />,
+    icon: <SwahiliIcon height={36} width={36} />,
   }, {
     id: "portuguese",
     text: "Portuguese",
-    icon: <PortugueseIcon height={50} width={50} />,
+    icon: <PortugueseIcon height={36} width={36} />,
   },
 ];
 
