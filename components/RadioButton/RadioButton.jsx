@@ -12,7 +12,7 @@ const RadioButton = ({ radioOptions, handleSelection }) => {
       box={false}
       circleSize={10}
       activeColor={"grey"}
-      deactiveColor={null}
+      deactiveColor={"white"}
       textStyle={styles.buttonText}
       style={styles.buttonContainer}
     />
@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
   },
   buttonText: {
     padding: 5,
-    color: "#000",
+    color: "white",
     fontSize: 18,
     textAlign: "center",
     fontFamily: "ChakraPetch-Medium",

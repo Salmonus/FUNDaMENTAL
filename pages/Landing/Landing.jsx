@@ -35,7 +35,6 @@ const Landing = ({ navigation }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
     height: "100%",
@@ -45,8 +44,8 @@ const styles = StyleSheet.create({
     marginBottom: 0,
     marginTop: 0,
     fontSize: 35,
-    fontWeight: "bold",
-    color: "#000",
+    fontFamily: "ChakraPetch-Bold",
+    color: "white",
   },
   logoStyles: {
     flexDirection: "column",
@@ -63,7 +62,7 @@ const styles = StyleSheet.create({
     padding: 0,
     textAlign: "center",
     fontSize: 20,
-    fontWeight: "thin",
+    fontFamily: "ChakraPetch-Light",
     color: "grey",
   },
 });

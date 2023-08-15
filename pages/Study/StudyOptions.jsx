@@ -93,15 +93,14 @@ const StudyOptions = ({ navigation }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "white",
-    height: "100%"
+    margin: 12,
   },
   subHeading: {
     margin: 12,
     marginBottom: 0,
     fontSize: 28,
     fontFamily: "ChakraPetch-Bold",
-    color: "black"
+    color: "white"
   },
   startButton: {
     height: 36,
