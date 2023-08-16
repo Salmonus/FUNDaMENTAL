@@ -2,19 +2,20 @@ import React, { useEffect, useState } from "react";
 import { StyleSheet, View, SafeAreaView, Text, ScrollView, TouchableOpacity, Image } from "react-native";
 import { Header, CardList, RadioButton } from "../../components";
 import { BackIcon } from "../../assets/icons";
-import { LANGUAGES, TOPICS, TEST_TYPES } from "../../components/constants";
+import { LANGUAGES, TOPICS, TEST_TYPES, GAME_TYPES } from "../../components/constants";
 
 const StudyOptions = ({ navigation }) => {
   const [language, setLanguage] = useState("");
   const [topic, setTopic] = useState("");
   const [testType, setTestType] = useState("");
+  const [gameType, setGameType] = useState("");
   const [buttonDisabled, setButtonDisabled] = useState(true);
 
   useEffect(() => {
-    if (topic !== "" && testType !== "") {
+    if (topic !== "" && testType !== "" && gameType !== "") {
       setButtonDisabled(false);
     }
-  }, [topic, testType]);
+  }, [topic, testType, gameType]);
 
   const resetSelection = () => {
     setLanguage("");
@@ -24,7 +25,7 @@ const StudyOptions = ({ navigation }) => {
   };
 
   const startQuest = () => {
-    navigation.navigate("Study");
+    navigation.navigate("Study", { language: language, topic: topic, testType: testType, gameType: gameType });
   };
 
   if (language === "") {
@@ -70,6 +71,13 @@ const StudyOptions = ({ navigation }) => {
             <RadioButton
               radioOptions={TEST_TYPES}
               handleSelection={(item) => setTestType(item.id)}
+            />
+          </View>
+          <View>
+            <Text style={styles.subHeading}>Select game type</Text>
+            <RadioButton
+              radioOptions={GAME_TYPES}
+              handleSelection={(item) => setGameType(item.id)}
             />
           </View>
           <TouchableOpacity

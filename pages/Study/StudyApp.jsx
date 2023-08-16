@@ -16,6 +16,7 @@ const StudyApp = ({ navigation }) => {
       <Stack.Screen 
         name="Study"
         component={Study}
+        options={{ headerShown: false }}
       />
     </Stack.Navigator>
   );

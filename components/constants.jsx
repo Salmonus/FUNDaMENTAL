@@ -85,32 +85,32 @@ const LANGUAGES = [
 
 const TOPICS = [
   {
-    id: "0",
+    id: "daily",
     label: "Daily",
     icon: <RandomIcon height={34} width={34} color="#0601B4" />,
   },
   {
-    id: "1",
+    id: "politics",
     label: "Politics",
     icon: <PoliticsIcon height={34} width={34} color="#0601B4" />,
   },
   {
-    id: "2",
+    id: "work",
     label: "Work",
     icon: <WorkIcon height={34} width={34} color="#0601B4" />,
   },
   {
-    id: "3",
+    id: "friends & family",
     label: "Friends & Family",
     icon: <FamilyIcon height={34} width={34} color="#0601B4" />,
   },
   {
-    id: "4",
+    id: "tech",
     label: "Tech",
     icon: <TechIcon height={34} width={34} color="#0601B4" />,
   },
   {
-    id: "5",
+    id: "school",
     label: "School",
     icon: <SchoolIcon height={34} width={34} color="#0601B4" />,
   },
@@ -122,4 +122,10 @@ const TEST_TYPES = [
   { id: "sentences", label: "Sentences" }
 ];
 
-export { SKILL_LEVELS, LANGUAGES, TOPICS, PROFICIENCY, TEST_TYPES };
+const GAME_TYPES = [
+  { id: "word", label: "Word Game" },
+  { id: "flappybird", label: "Flappy Bird" },
+  { id: "dino", label: "Dinosaur Game" }
+]
+
+export { SKILL_LEVELS, LANGUAGES, TOPICS, PROFICIENCY, TEST_TYPES, GAME_TYPES };
