@@ -65,55 +65,67 @@ const LANGUAGES = [
   {
     id: "french",
     text: "French",
-    icon: <FrenchIcon height={50} width={50} />,
+    icon: <FrenchIcon height={36} width={36} />,
   },
   {
     id: "arabic",
     text: "Arabic",
-    icon: <ArabicIcon height={50} width={50} />,
+    icon: <ArabicIcon height={36} width={36} />,
   },
   {
     id: "swahili",
     text: "Swahili",
-    icon: <SwahiliIcon height={50} width={50} />,
+    icon: <SwahiliIcon height={36} width={36} />,
   }, {
     id: "portuguese",
     text: "Portuguese",
-    icon: <PortugueseIcon height={50} width={50} />,
+    icon: <PortugueseIcon height={36} width={36} />,
   },
 ];
 
 const TOPICS = [
   {
-    id: "0",
-    text: "Daily",
+    id: "daily",
+    label: "Daily",
     icon: <RandomIcon height={34} width={34} color="#0601B4" />,
   },
   {
-    id: "1",
-    text: "Politics",
+    id: "politics",
+    label: "Politics",
     icon: <PoliticsIcon height={34} width={34} color="#0601B4" />,
   },
   {
-    id: "2",
-    text: "Work",
+    id: "work",
+    label: "Work",
     icon: <WorkIcon height={34} width={34} color="#0601B4" />,
   },
   {
-    id: "3",
-    text: "Friends & Family",
+    id: "friends & family",
+    label: "Friends & Family",
     icon: <FamilyIcon height={34} width={34} color="#0601B4" />,
   },
   {
-    id: "4",
-    text: "Tech",
+    id: "tech",
+    label: "Tech",
     icon: <TechIcon height={34} width={34} color="#0601B4" />,
   },
   {
-    id: "5",
-    text: "School",
+    id: "school",
+    label: "School",
     icon: <SchoolIcon height={34} width={34} color="#0601B4" />,
   },
 ];
 
-export { SKILL_LEVELS, LANGUAGES, TOPICS, PROFICIENCY };
+const TEST_TYPES = [
+  { id: "words", label: "Words" },
+  { id: "blanks", label: "Blanks" },
+  { id: "sentences", label: "Sentences" }
+];
+
+const GAME_TYPES = [
+  { id: "word", label: "Word Game" },
+  { id: "flappybird", label: "Flappy Bird" },
+  { id: "dino", label: "Dinosaur Game" }
+]
+
+export { SKILL_LEVELS, LANGUAGES, TOPICS, PROFICIENCY, TEST_TYPES, GAME_TYPES };

@@ -8,12 +8,11 @@ const RadioButton = ({ radioOptions, handleSelection }) => {
       data={radioOptions}
       selectedBtn={(e) => {
         handleSelection(e);
-        console.log(e);
       }}
       box={false}
       circleSize={10}
-      activeColor={"#0601B4"}
-      deactiveColor={null}
+      activeColor={"grey"}
+      deactiveColor={"white"}
       textStyle={styles.buttonText}
       style={styles.buttonContainer}
     />
@@ -24,15 +23,15 @@ const styles = StyleSheet.create({
   buttonContainer: {
     flexDirection: "column",
     marginLeft: 10,
-    // padding: 5,
     alignItems: "center",
     justifyContent: "center",
   },
   buttonText: {
     padding: 5,
-    color: "#000",
+    color: "white",
     fontSize: 18,
     textAlign: "center",
+    fontFamily: "ChakraPetch-Medium",
   },
 });
 

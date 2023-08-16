@@ -4,10 +4,12 @@ import {
   Text,
   TextInput,
   TouchableOpacity,
+  SafeAreaView,
   View,
+  Image,
+  ScrollView
 } from "react-native";
 import { Header } from "../../components";
-import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
 import { LernaLangLogo } from "../../assets/images";
 import { BackIcon, LadderIcon } from "../../assets/icons";
 
@@ -22,45 +24,42 @@ const SignIn = ({ navigation }) => {
   const [errorMessage, setErrorMessage] = useState("");
 
   const onLoginPress = () => {
+    setAuthUserId("RalZbLOhqoOzGwchqYjBWAafer43");
     // signInUser with firebase functions
-    try {
-      signInUser(email, password)
-        .then((userId) => {
-          setAuthUserId(userId);
-        })
-        .catch((error) => {
-          setErrorMessage("Invalid email or password.");
-        });
-    } catch (error) {
-      console.error(error.message);
-      setErrorMessage("Invalid email or password.");
-    }
+    // try {
+    //   signInUser(email, password)
+    //     .then((userId) => {
+    //       setAuthUserId(userId);
+    //     })
+    //     .catch((error) => {
+    //       setErrorMessage("Invalid email or password.");
+    //     });
+    // } catch (error) {
+    //   console.error(error.message);
+    //   setErrorMessage("Invalid email or password.");
+    // }
   };
 
   return (
-    <View style={styles.container}>
-      <KeyboardAwareScrollView
-        style={{
-          flex: 1,
-          width: "100%",
-        }}
-        contentContainerStyle={{ alignItems: "center", top: 50 }}
-        keyboardShouldPersistTaps="always"
-      >
-        <Header
-          text="Sign In"
-          leftButton={
-            <TouchableOpacity onPress={() => navigation.goBack()}>
-              <BackIcon height={30} width={30} />
-            </TouchableOpacity>
-          }
-          rightButton={<LadderIcon height={30} width={30} />}
-        />
-        <View style={{ margin: 0 }}>
-          <LernaLangLogo height={300} width={200} />
-        </View>
+    <SafeAreaView style={styles.container}>
+      <Header
+        text="Sign In"
+        leftButton={
+          <TouchableOpacity onPress={() => navigation.goBack()}>
+            <BackIcon height={30} width={30} />
+          </TouchableOpacity>
+        }
+        rightButton={<LadderIcon height={30} width={30} />}
+      />
+      <View style={{flex: 1, justifyContent: "center", alignItems: "center"}}>
+        <LernaLangLogo height={250} width={200} />
         <Text style={styles.error}>{errorMessage}</Text>
         <View style={styles.inputsView}>
+          <Image 
+            source={require("../../assets/images/tab.png")}
+            style={{width: "80%", height: 48}}
+            resizeMode="stretch"
+          />
           <TextInput
             style={styles.input}
             placeholder="E-mail"
@@ -69,6 +68,13 @@ const SignIn = ({ navigation }) => {
             value={email}
             underlineColorAndroid="transparent"
             autoCapitalize="none"
+          />
+        </View>
+        <View style={styles.inputsView}>
+          <Image 
+            source={require("../../assets/images/tab.png")}
+            style={{width: "80%", height: 48}}
+            resizeMode="stretch"
           />
           <TextInput
             style={styles.input}
@@ -82,6 +88,11 @@ const SignIn = ({ navigation }) => {
           />
         </View>
         <TouchableOpacity style={styles.button} onPress={() => onLoginPress()}>
+          <Image
+            source={require("../../assets/images/button_normal.png")}
+            style={{flex: 1}}
+            resizeMode="stretch"
+          />
           <Text style={styles.buttonTitle}>Sign In</Text>
         </TouchableOpacity>
         <View style={styles.footerView}>
@@ -95,61 +106,48 @@ const SignIn = ({ navigation }) => {
             </Text>
           </Text>
         </View>
-      </KeyboardAwareScrollView>
-    </View>
+      </View>
+    </SafeAreaView>
   );
 };
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: "center",
-    backgroundColor: "#fff",
-    height: "100%",
-    width: "100%",
+    margin: 12,
   },
   inputsView: {
-    flex: 1,
     width: "100%",
+    gap: 16,
     alignItems: "center",
   },
   input: {
     width: "80%",
     height: 48,
-    borderRadius: 5,
     overflow: "hidden",
-    borderColor: "#000",
-    borderWidth: 1,
-    borderStyle: "solid",
-    marginTop: 0,
-    marginBottom: 10,
-    marginLeft: 30,
-    marginRight: 30,
     paddingLeft: 16,
-    color: "#000",
+    position: "absolute",
+    color: "white"
   },
   error: {
     color: "red",
     fontSize: 12,
-    fontWeight: "bold",
+    fontFamily: "ChakraPetch-Bold",
     textAlign: "left",
     width: "80%",
   },
   button: {
-    backgroundColor: "#0601B4",
-    marginLeft: 30,
-    marginRight: 30,
-    marginTop: 20,
-    padding: 15,
-    // height: 60,
-    borderRadius: 10,
+    margin: 20,
+    width: "40%",
+    height: 40,
     alignItems: "center",
     justifyContent: "center",
   },
   buttonTitle: {
     color: "white",
     fontSize: 16,
-    fontWeight: "bold",
+    fontFamily: "ChakraPetch-Bold",
+    position: "absolute"
   },
   footerView: {
     flex: 1,
@@ -158,11 +156,12 @@ const styles = StyleSheet.create({
   },
   footerText: {
     fontSize: 16,
-    color: "#2e2e2d",
+    color: "grey",
+    fontFamily: "ChakraPetch-Regular",
   },
   footerLink: {
-    color: "#0601B4",
-    fontWeight: "bold",
+    color: "lightgrey",
+    fontFamily: "ChakraPetch-Bold",
     fontSize: 16,
   },
 });

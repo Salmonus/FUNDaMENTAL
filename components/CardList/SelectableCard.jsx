@@ -1,65 +1,51 @@
-import React, { useEffect } from "react";
-import { StyleSheet, View, Text, Pressable } from "react-native";
+import React from "react";
+import { StyleSheet, View, Text, Image, TouchableOpacity } from "react-native";
 
 const SelectableCard = ({ id, text, selected, onPress, children }) => {
   return (
-    <Pressable
+    <TouchableOpacity
       id={id}
       onPress={onPress}
-      style={selected && styles.selectedCard}
+      style={styles.card}
     >
-      <View style={styles.cardContainer}>
-        <Text style={styles.textStyle}>{text}</Text>
+      <Image 
+        source={require("../../assets/images/wide_button.png")} 
+        style={{width: "auto", height: 64, zIndex: 0}}
+        resizeMode="contain"
+      />
+      <View style={styles.itemContainer}>
         <View style={styles.icon}>{children}</View>
+        <Text style={styles.textStyle}>{text}</Text>
       </View>
-    </Pressable>
+    </TouchableOpacity>
   );
 };
 
 const styles = StyleSheet.create({
-  cardContainer: {
+  itemContainer: {
+    flexDirection: "row",
     alignItems: "center",
-    justifyContent: "center",
-    backgroundColor: "#0601B4",
-    padding: 10,
-    height: 140,
-    width: 125,
-    borderRadius: 20,
-    shadowColor: "#0601B4",
-    shadowOffset: { width: 5, height: 5 },
-    shadowOpacity: 0.3,
-    shadowRadius: 3,
-    margin: 5,
+    position: "absolute",
+    padding: 12,
+    width: "100%",
+    height: "100%",
   },
-  selectedCard: {
-    alignItems: "center",
-    justifyContent: "center",
-    height: 155,
-    borderRadius: 20,
-    borderOffset: 2,
-    borderWidth: 2,
-    borderColor: "red",
-    borderStyle: "solid",
-    borderColor: "#0601B4",
-    marginLeft: 10,
-    marginRight: 10,
+  card: {
+    height: 64,
+    margin: 4,
   },
   textStyle: {
+    flex: 5,
     color: "white",
-    fontSize: 18,
-    fontWeight: "bold",
-    textAlign: "center",
-    paddingBottom: 10,
+    fontSize: 22,
+    fontWeight: 600,
+    paddingLeft: 12,
+    fontFamily: "ChakraPetch-Medium"
   },
   icon: {
-    // padding: 5,
+    flex: 1,
     justifyContent: "center",
-    marginTop: 10,
     alignItems: "center",
-    backgroundColor: "white",
-    borderRadius: 25,
-    height: 50,
-    width: 50,
   },
 });
 

@@ -13,7 +13,6 @@ const Header = ({ text, leftButton, rightButton }) => {
 
 const styles = StyleSheet.create({
   headerContainer: {
-    backgroundColor: "#fff",
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
@@ -27,8 +26,8 @@ const styles = StyleSheet.create({
   },
   headerText: {
     fontSize: 20,
-    fontWeight: "bold",
-    color: "#000",
+    fontFamily: "ChakraPetch-Bold",
+    color: "white",
     textAlign: "center",
     alignSelf: "center",
     flex: 1,

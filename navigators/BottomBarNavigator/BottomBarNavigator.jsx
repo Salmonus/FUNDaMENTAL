@@ -7,24 +7,32 @@ import {
   HistoryIcon,
   StudyIcon,
 } from "../../assets/icons";
-import Study from "../../pages/Study/Study";
+import StudyApp from "../../pages/Study/StudyApp";
 
 const Tab = createBottomTabNavigator();
 
 const BottomBarNavigator = () => {
   return (
     <Tab.Navigator
-      screenOptions={{ headerShown: false, tabBarShowLabel: false }}
+      screenOptions={{ 
+        headerShown: false, 
+        tabBarShowLabel: false,
+        tabBarStyle: {
+          backgroundColor: "transparent",
+          margin: 12,
+          marginBottom: 16,
+        }
+      }}
     >
       <Tab.Screen
-        name="Study"
-        component={Study}
+        name="Study App"
+        component={StudyApp}
         options={{
           tabBarIcon: ({ focused }) => (
             <StudyIcon
               height={"35px"}
               width={"35px"}
-              color={focused ? "#000" : "#808080"}
+              color={focused ? "white" : "lightgrey"}
             />
           ),
         }}
@@ -37,7 +45,7 @@ const BottomBarNavigator = () => {
             <ChatIcon
               height={"30px"}
               width={"30px"}
-              color={focused ? "#000" : "#808080"}
+              color={focused ? "white" : "lightgrey"}
             />
           ),
         }}
@@ -51,7 +59,7 @@ const BottomBarNavigator = () => {
               <HistoryIcon
                 height={"35px"}
                 width={"35px"}
-                color={focused ? "#000" : "#808080"}
+                color={focused ? "white" : "lightgrey"}
               />
             );
           },
@@ -65,7 +73,7 @@ const BottomBarNavigator = () => {
             <ProfileIcon
               height={"23px"}
               width={"23px"}
-              color={focused ? "#000" : "#808080"}
+              color={focused ? "white" : "lightgrey"}
             />
           ),
         }}

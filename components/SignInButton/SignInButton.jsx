@@ -1,40 +1,37 @@
 import React from "react";
-import { StyleSheet, Pressable, Text } from "react-native";
+import { StyleSheet, TouchableOpacity, Text, Image } from "react-native";
 
-const SignInButton = ({ text, onPress, children }) => {
+const SignInButton = ({ text, onPress }) => {
   return (
-    <Pressable
+    <TouchableOpacity
       onPress={onPress}
-      style={({ pressed }) => [
-        {
-          backgroundColor: pressed ? "#ced5de" : "#ffff",
-        },
-        styles.buttonContainer,
-      ]}
+      style={styles.buttonContainer}
     >
-      {children}
+      <Image 
+        source={require("../../assets/images/wide_button.png")}
+        style={{width: 300, height: 40}}
+        resizeMode="stretch"
+      />
       <Text style={styles.buttonText}>{text}</Text>
-    </Pressable>
+    </TouchableOpacity>
   );
 };
 
 const styles = StyleSheet.create({
   buttonContainer: {
-    flexDirection: "row",
-    minWidth: 300,
+    width: 300,
     margin: 10,
-    padding: 10,
-    borderRadius: 30,
-    borderColor: "#000",
-    borderWidth: 1,
     alignItems: "center",
     justifyContent: "center",
   },
   buttonText: {
     padding: 10,
-    color: "#000",
     fontSize: 18,
+    color: "white",
+    fontFamily: "ChakraPetch-Regular",
     textAlign: "center",
+    zIndex: 0,
+    position: "absolute"
   },
 });
 
