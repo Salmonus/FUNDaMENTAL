@@ -22,6 +22,8 @@ const systemMessage = {
 const MAX_CONVERSATION_LENGTH = 20;
 
 const Chat = ({ route, navigation }) => {
+  const chatHistory = route.params
+
   const language = "English";
   const topic = "basic english conversation";
   const proficiency = "Basic";
@@ -37,7 +39,7 @@ const Chat = ({ route, navigation }) => {
     content: `End the conversation with the user by saying thanks for chatting and goodbye in ${language}`,
   };
 
-  const [chatComponents, setChatComponents] = useState([]);
+  const [chatComponents, setChatComponents] = useState(chatHistory ? chatHistory : []);
   const [chatCount, setChatCount] = useState(0);
   const scrollViewRef = useRef(null);
   const [chatEnded, setChatEnded] = useState(false);
@@ -160,7 +162,7 @@ const Chat = ({ route, navigation }) => {
             <BackIcon height={30} width={30} />
           </TouchableOpacity>
         }
-        rightButton={<LadderIcon height={30} width={30} />}
+        // rightButton={<LadderIcon height={30} width={30} />}
       />
       <KeyboardAvoidingView behavior="height" style={styles.scrollView}>
         <ScrollView
@@ -190,10 +192,9 @@ const Chat = ({ route, navigation }) => {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#fff",
-    alignItems: "center",
+    margin: 12,
     flex: 1,
-    width: "100%",
+    alignItems: "center",
   },
   contentContainer: {
     flexGrow: 1,
@@ -203,7 +204,7 @@ const styles = StyleSheet.create({
     flexGrow: 1,
     width: "100%",
     paddingHorizontal: 20,
-    marginBottom: 10,
+    marginTop: 10,
   },
   submitButton: {
     backgroundColor: "#0601B4",

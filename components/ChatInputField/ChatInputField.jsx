@@ -12,7 +12,7 @@ const ChatInputField = ({ value, sendResponse, onFocus }) => {
 
   return (
     <View style={styles.inputContainer}>
-      <Pressable
+      {/* <Pressable
         style={({ pressed }) => [
           {
             opacity: pressed ? 0.5 : 1,
@@ -22,7 +22,7 @@ const ChatInputField = ({ value, sendResponse, onFocus }) => {
         onPress={() => console.log("Pressed Microphone")}
       >
         <MicrophoneIcon height={28} width={28} color={"#000"} />
-      </Pressable>
+      </Pressable> */}
       <TextInput
         style={styles.input}
         onChangeText={(input) => setInput(input)}
@@ -67,22 +67,21 @@ const styles = StyleSheet.create({
   input: {
     color: "#000",
     fontSize: 16,
-    fontWeight: "regular",
+    fontFamily: "ChakraPetch-Regular",
     textAlign: "left",
-    padding: 5,
-    width: 250,
+    padding: 4,
+    marginLeft: 4,
+    flex: 1
   },
   sendButton: {
-    position: "relative",
     justifyContent: "center",
     width: "10%",
-    right: 10,
+    right: 5,
   },
   microphoneButton: {
-    position: "relative",
     justifyContent: "center",
     width: "10%",
-    left: 10,
+    left: 5,
     marginRight: 5,
   },
 });
