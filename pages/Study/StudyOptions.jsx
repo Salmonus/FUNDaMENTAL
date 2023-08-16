@@ -12,7 +12,8 @@ const StudyOptions = ({ navigation }) => {
   const [buttonDisabled, setButtonDisabled] = useState(true);
 
   useEffect(() => {
-    if (topic !== "" && testType !== "" && gameType !== "") {
+    // if (topic !== "" && testType !== "" && gameType !== "") {
+    if (topic !== "" && gameType !== "") {
       setButtonDisabled(false);
     }
   }, [topic, testType, gameType]);
@@ -25,7 +26,7 @@ const StudyOptions = ({ navigation }) => {
   };
 
   const startQuest = () => {
-    navigation.navigate("Study", { language: language, topic: topic, testType: testType, gameType: gameType });
+    navigation.navigate("Study", { language: language, topic: topic, testType: "words", gameType: gameType });
   };
 
   if (language === "") {
@@ -66,13 +67,13 @@ const StudyOptions = ({ navigation }) => {
               handleSelection={(item) => setTopic(item.id)}
             />
           </View>
-          <View>
+          {/* <View>
             <Text style={styles.subHeading}>Select test type</Text>
             <RadioButton
               radioOptions={TEST_TYPES}
               handleSelection={(item) => setTestType(item.id)}
             />
-          </View>
+          </View> */}
           <View>
             <Text style={styles.subHeading}>Select game type</Text>
             <RadioButton
