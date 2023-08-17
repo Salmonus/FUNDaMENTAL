@@ -116,6 +116,17 @@ const signOutUser = async () => {
  * @return void, throw exception if error occurs
  */
 
+const getName = async(userId) => {
+  let name;
+  const querySnapshot = await getDocs(query(collection(db, "users"), where("uid", "==", userId)))
+  querySnapshot.forEach((doc) => {
+    name = doc.data().fullName;
+  });
+
+  // console.log(name);
+  return (name);
+}
+
 const storeConversation = async (conversation, userId, language, topic) => {
   // If a valid user is not passed in, throw an error
   console.log("userId: ", userId);
@@ -210,6 +221,7 @@ export {
   signInUser,
   signUpUser,
   signOutUser,
+  getName,
   getConversation,
   getConversations,
   storeConversation,
