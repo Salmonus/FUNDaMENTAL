@@ -84,7 +84,7 @@ const Profile = () => {
             </View>
           </View>
         </View>
-        <View style={[styles.tile, {flex: 1, height: (deviceWidth)*3/7 + 24}]}>
+        <View style={[styles.tile, {flex: 1, height: (deviceWidth)*3/7 + 24, borderWidth: 0}]}>
           <Image 
             source={require("../../assets/images/character-tile.png")} 
             style={{flexGrow: 1, height: "100%"}}
@@ -151,14 +151,12 @@ const styles = StyleSheet.create({
     margin: 2,
   },
   tile: {
-    // flex: 1,
     borderWidth: 1,
     borderColor: "white",
     borderRadius: 8,
     flexDirection: "row",
     justifyContent: "center",
     gap: 8,
-    // paddingVertical: 8,
     marginHorizontal: 8,
     marginBottom: 8
   },
