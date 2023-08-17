@@ -129,7 +129,8 @@ const styles = StyleSheet.create({
     overflow: "hidden",
     paddingLeft: 16,
     position: "absolute",
-    color: "white"
+    color: "white",
+    fontFamily: "ChakraPetch-Regular"
   },
   error: {
     color: "red",
