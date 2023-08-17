@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useContext, useState, useEffect } from "react";
 import { Dimensions, SafeAreaView, ScrollView, StyleSheet, View, Text, TouchableOpacity, Alert, Image } from "react-native";
+import { AuthContext } from "../../Contexts/AuthContext";
 import { Header } from "../../components";
-import { auth, db } from "../../firebase/config";
+import { auth, db, getUserData } from "../../firebase/config";
 import { doc, setDoc } from "firebase/firestore";
+
+const characters = {
+  engineer: require("../../assets/images/combat_engineer.png"),
+  medic: require("../../assets/images/combat_medic.png"),
+  heavyGunner: require("../../assets/images/heavy_gunner.png"),
+  marksMan: require("../../assets/images/marksman.png")
+};
+let item = "engineer";
 
 const deviceWidth = Dimensions.get("window").width;
 
@@ -40,12 +49,20 @@ const Profile = () => {
     }
   }
 
+  function updateItem(i) {
+    item = i;
+  }
+  
+  const { authUserId } = useContext(AuthContext);
+  const [userData, setUserData] = useState({});
+  getUserData( authUserId ).then((n) => setUserData(n))
+
   return (
     <SafeAreaView style={styles.container}>
       <Header
         text="Character Sheet"
         rightButton={<TouchableOpacity
-          style={{backgroundColor: "#2196F3", padding: 8, borderRadius: 8,}}
+          style={{backgroundColor: "#2196F3", padding: 8, borderRadius: 8}}
           onPress={saveNFTDataToFirebase}
         >
           <Text style={{color: "white", fontSize: 16, fontFamily: "ChakraPetch-Bold"}}>Mint</Text>
@@ -61,7 +78,7 @@ const Profile = () => {
           <View style={[styles.tile, {borderWidth: 0, position: "absolute", justifyContent: "space-around"}]}>
             <Text style={{color: "white", fontSize: 20, fontFamily: "ChakraPetch-SemiBold", flex: 1, textAlign: "center"}}>Balance : </Text>
             <View style={[styles.items, {flex: 2}]}>
-              <Text style={{color: "white", fontFamily: "ChakraPetch-Regular", fontSize: 20}}>100 UNITS</Text>
+              <Text style={{color: "white", fontFamily: "ChakraPetch-Regular", fontSize: 20}}>${userData.balance}</Text>
             </View>
           </View>
         </View>
@@ -76,15 +93,19 @@ const Profile = () => {
               <Text style={{color: "white", fontSize: 20, fontFamily: "ChakraPetch-SemiBold"}}>Stats</Text>
             </View>
             <View style={[styles.nestedTile, {flex: 1}]}>
-              
+            <Image 
+              source={characters[item]}
+              style={{flex: 1, width: "100%", height: "auto"}}
+              resizeMode="contain"
+            />
             </View>
             <View style={[styles.nestedTile, {width: 88, height: 200}]}>
               <Text style={{color: "white", fontSize: 20, fontFamily: "ChakraPetch-SemiBold"}}>Name</Text>
-              <Text style={{color: "white", fontSize: 16, fontFamily: "ChakraPetch-Regular"}}>layz</Text>
+              <Text style={{color: "white", fontSize: 16, fontFamily: "ChakraPetch-Regular"}}>{userData.fullName}</Text>
             </View>
           </View>
         </View>
-        <View style={[styles.tile, {flex: 1, height: (deviceWidth)*3/7 + 24, borderWidth: 0}]}>
+        <View style={[styles.tile, {flex: 1, height: (deviceWidth-52)*3/6 + 28, borderWidth: 0}]}>
           <Image 
             source={require("../../assets/images/character-tile.png")} 
             style={{flexGrow: 1, height: "100%"}}
@@ -101,17 +122,48 @@ const Profile = () => {
               }
               ]}>
               <Text style={{color: "white", fontSize: 20, fontFamily: "ChakraPetch-SemiBold", flex: 1, textAlign: "center"}}>Inventory</Text>
-              {/* <View style={[styles.items, {flex: 2}]}>
-                <Text style={{color: "white", fontSize: 20, fontFamily: "ChakraPetch-Regular"}}>Item 1</Text>
-                <Text style={{color: "white", fontSize: 20, fontFamily: "ChakraPetch-Regular"}}>Item 2</Text>
-                <Text style={{color: "white", fontSize: 20, fontFamily: "ChakraPetch-Regular"}}>Item 3</Text>
-              </View> */}
             </View>
             <View style={{marginHorizontal: 8, flexDirection: "row"}}>
-              <View style={[styles.inventoryItem, {marginLeft: 0}]}></View>
-              <View style={styles.inventoryItem}></View>
-              <View style={styles.inventoryItem}></View>
-              <View style={styles.inventoryItem}></View>
+              <View style={[styles.inventoryItem, {marginLeft: 0}]}>
+                <TouchableOpacity
+                  onPress={() => updateItem("engineer")}
+                >
+                  <Image 
+                    source={require("../../assets/images/hacking.png")} 
+                    style={{width: "100%", height: "100%"}}
+                  />
+                </TouchableOpacity>
+              </View>
+              <View style={styles.inventoryItem}>
+                <TouchableOpacity
+                  onPress={() => updateItem("medic")}
+                >
+                  <Image 
+                    source={require("../../assets/images/medpack.png")} 
+                    style={{width: "100%", height: "100%"}}
+                  />
+                </TouchableOpacity>
+              </View>
+              <View style={styles.inventoryItem}>
+                <TouchableOpacity
+                  onPress={() => updateItem("heavyGunner")}
+                >
+                  <Image 
+                    source={require("../../assets/images/laster_rifle.png")} 
+                    style={{width: "100%", height: "100%"}}
+                  />
+                </TouchableOpacity>
+              </View>
+              <View style={styles.inventoryItem}>
+                <TouchableOpacity
+                  onPress={() => updateItem("marksMan")}
+                >
+                  <Image 
+                    source={require("../../assets/images/targeting_algorithm.png")} 
+                    style={{width: "100%", height: "100%"}}
+                  />
+                </TouchableOpacity>
+              </View>
               <View style={styles.inventoryItem}></View>
               <View style={styles.inventoryItem}></View>
             </View>
@@ -174,8 +226,8 @@ const styles = StyleSheet.create({
     gap: 16,
   },
   inventoryItem: {
-    width: (deviceWidth)*1/7,
-    height: (deviceWidth)*1/7,
+    width: (deviceWidth-52)*1/6,
+    height: (deviceWidth-52)*1/6,
     borderWidth: 1,
     borderColor: "white",
     margin: -1

@@ -1,13 +1,13 @@
 import React, { useContext, useState, useEffect } from "react";
 import { StyleSheet, View, Text } from "react-native";
 import { AuthContext } from "../../Contexts/AuthContext";
-import { getName } from "../../firebase/config";
+import { getUserData } from "../../firebase/config";
 
 const ChatBubble = ({ text, leftBubble = false }) => {
   const { authUserId } = useContext(AuthContext);
   const [name, setName] = useState("You");
 
-  getName( authUserId ).then((n) => setName(n))
+  getUserData( authUserId ).then((n) => setName(n.fullName))
 
   return (
     <View style={leftBubble ? styles.chatBubbleLeft : styles.chatBubbleRight}>

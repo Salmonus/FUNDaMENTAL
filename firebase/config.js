@@ -116,15 +116,14 @@ const signOutUser = async () => {
  * @return void, throw exception if error occurs
  */
 
-const getName = async(userId) => {
-  let name;
+const getUserData = async(userId) => {
+  let user;
   const querySnapshot = await getDocs(query(collection(db, "users"), where("uid", "==", userId)))
   querySnapshot.forEach((doc) => {
-    name = doc.data().fullName;
+    user = doc.data();
   });
 
-  // console.log(name);
-  return (name);
+  return (user);
 }
 
 const storeConversation = async (conversation, userId, language, topic) => {
@@ -221,7 +220,7 @@ export {
   signInUser,
   signUpUser,
   signOutUser,
-  getName,
+  getUserData,
   getConversation,
   getConversations,
   storeConversation,
