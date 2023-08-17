@@ -7,7 +7,8 @@ import {
   KeyboardAvoidingView,
   TouchableOpacity,
   Text,
-  LogBox
+  LogBox,
+  Image
 } from "react-native";
 import { ChatBubble, ChatInputField, Header } from "../../components";
 import { BackIcon } from "../../assets/icons";
@@ -218,6 +219,11 @@ const Chat = ({ route, navigation }) => {
               style={styles.submitButton}
               onPress={submitResponse}
             >
+              <Image 
+              source={require("../../assets/images/wide_button.png")} 
+              style={{width: "100%", height: 36}}
+              resizeMode="stretch"
+              />
               <Text style={styles.submitText}>End Conversation</Text>
             </TouchableOpacity>
           : chatDisabled ?
@@ -245,19 +251,17 @@ const styles = StyleSheet.create({
     width: "100%",
   },
   submitButton: {
-    backgroundColor: "#0601B4",
     width: "100%",
     height: 50,
     padding: 10,
-    borderRadius: 20,
     justifyContent: "center",
     alignItems: "center",
-    marginTop: 10,
   },
   submitText: {
     color: "#fff",
     fontSize: 20,
     fontWeight: "bold",
+    position: "absolute"
   },
 });
 
