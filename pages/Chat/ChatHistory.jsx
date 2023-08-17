@@ -90,7 +90,6 @@ const styles = StyleSheet.create({
     width: "100%",
     flex: 1,
     top: 20,
-    marginBottom: 40,
   },
   scollViewcontent: {
     alignItems: "center",

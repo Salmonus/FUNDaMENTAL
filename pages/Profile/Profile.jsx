@@ -1,9 +1,10 @@
 import React from "react";
-import { SafeAreaView, ScrollView, StyleSheet, View, Text, TouchableOpacity, Alert } from "react-native";
-import Header2 from "./Header";
-import { LadderIcon } from "../../assets/icons";
+import { Dimensions, SafeAreaView, ScrollView, StyleSheet, View, Text, TouchableOpacity, Alert, Image } from "react-native";
+import { Header } from "../../components";
 import { auth, db } from "../../firebase/config";
 import { doc, setDoc } from "firebase/firestore";
+
+const deviceWidth = Dimensions.get("window").width;
 
 const Profile = () => {
   const saveNFTDataToFirebase = () => {
@@ -41,76 +42,96 @@ const Profile = () => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Header2
+      <Header
         text="Character Sheet"
-        leftButton={<LadderIcon height={30} width={30} />}
-        rightButton={
-          <TouchableOpacity
-            style={{backgroundColor: "#2196F3", padding: 8, borderRadius: 10}}
-            onPress={saveNFTDataToFirebase}
-          >
-            <Text style={{color: "white", fontSize: 16, fontWeight: "bold"}}>Mint</Text>
-          </TouchableOpacity>
-        }
+        rightButton={<TouchableOpacity
+          style={{backgroundColor: "#2196F3", padding: 8, borderRadius: 8,}}
+          onPress={saveNFTDataToFirebase}
+        >
+          <Text style={{color: "white", fontSize: 16, fontFamily: "ChakraPetch-Bold"}}>Mint</Text>
+        </TouchableOpacity>}
       />
       <ScrollView>
-        <View style={[styles.tile, {justifyContent: "space-around"}]}>
-          <Text style={{fontSize: 20, fontWeight: 600, flex: 1, textAlign: "center"}}>Balance : </Text>
-          <View style={[styles.items, {flex: 2}]}>
-            <Text style={{fontSize: 20}}>100 UNITS</Text>
+        <View style={{borderColor: "white", borderWidth: 1, borderRadius: 8, justifyContent: "center", margin: 8}}>
+          <Image 
+            source={require("../../assets/images/character-tile.png")} 
+            style={{width: "100%"}}
+            resizeMode="stretch"
+          />
+          <View style={[styles.tile, {borderWidth: 0, position: "absolute", justifyContent: "space-around"}]}>
+            <Text style={{color: "white", fontSize: 20, fontFamily: "ChakraPetch-SemiBold", flex: 1, textAlign: "center"}}>Balance : </Text>
+            <View style={[styles.items, {flex: 2}]}>
+              <Text style={{color: "white", fontFamily: "ChakraPetch-Regular", fontSize: 20}}>100 UNITS</Text>
+            </View>
           </View>
         </View>
-        <View style={[styles.tile, {borderWidth: 0, paddingVertical: 0}]}>
-          <View style={[styles.nestedTile, {width: 88, height: 200}]}>
-            <Text style={{fontSize: 20, fontWeight: 600}}>Stats</Text>
-          </View>
-          <View style={[styles.nestedTile, {flex: 1}]}>
-            
-          </View>
-          <View style={[styles.nestedTile, {width: 88, height: 200}]}>
-            <Text style={{fontSize: 20, fontWeight: 600}}>Name</Text>
-            <Text style={{fontSize: 16}}>layz</Text>
-          </View>
-        </View>
-        <View style={[
-          styles.tile, 
-          {
-            justifyContent: "space-around", 
-            marginBottom: 0, 
-            borderBottomLeftRadius: 0, 
-            borderBottomRightRadius: 0
-          }
-          ]}>
-          <Text style={{fontSize: 20, fontWeight: 600, flex: 1, textAlign: "center"}}>Inventory</Text>
-          <View style={[styles.items, {flex: 2}]}>
-            <Text style={{fontSize: 20}}>Item 1</Text>
-            <Text style={{fontSize: 20}}>Item 2</Text>
-            <Text style={{fontSize: 20}}>Item 3</Text>
+        <View style={[styles.tile, {height: 200}]}>
+          <Image 
+              source={require("../../assets/images/character-tile.png")} 
+              style={{flexGrow: 1, height: 200}}
+              resizeMode="cover"
+          />
+          <View style={{flexDirection: "row", position: "absolute", width: "100%"}}>
+            <View style={[styles.nestedTile, {width: 88, height: 200}]}>
+              <Text style={{color: "white", fontSize: 20, fontFamily: "ChakraPetch-SemiBold"}}>Stats</Text>
+            </View>
+            <View style={[styles.nestedTile, {flex: 1}]}>
+              
+            </View>
+            <View style={[styles.nestedTile, {width: 88, height: 200}]}>
+              <Text style={{color: "white", fontSize: 20, fontFamily: "ChakraPetch-SemiBold"}}>Name</Text>
+              <Text style={{color: "white", fontSize: 16, fontFamily: "ChakraPetch-Regular"}}>layz</Text>
+            </View>
           </View>
         </View>
-        <View style={{marginHorizontal: 8, flexDirection: "row"}}>
-          <View style={[styles.inventoryItem, {marginLeft: 0}]}></View>
-          <View style={styles.inventoryItem}></View>
-          <View style={styles.inventoryItem}></View>
-          <View style={styles.inventoryItem}></View>
-          <View style={styles.inventoryItem}></View>
-          <View style={styles.inventoryItem}></View>
-        </View>
-        <View style={{marginHorizontal: 8, flexDirection: "row"}}>
-          <View style={[styles.inventoryItem, {marginLeft: 0}]}></View>
-          <View style={styles.inventoryItem}></View>
-          <View style={styles.inventoryItem}></View>
-          <View style={styles.inventoryItem}></View>
-          <View style={styles.inventoryItem}></View>
-          <View style={styles.inventoryItem}></View>
-        </View>
-        <View style={{marginHorizontal: 8, flexDirection: "row"}}>
-          <View style={[styles.inventoryItem, {marginLeft: 0}]}></View>
-          <View style={styles.inventoryItem}></View>
-          <View style={styles.inventoryItem}></View>
-          <View style={styles.inventoryItem}></View>
-          <View style={styles.inventoryItem}></View>
-          <View style={styles.inventoryItem}></View>
+        <View style={[styles.tile, {flex: 1, height: (deviceWidth)*3/7 + 24}]}>
+          <Image 
+            source={require("../../assets/images/character-tile.png")} 
+            style={{flexGrow: 1, height: "100%"}}
+            resizeMode="cover"
+          />
+          <View style={{position: "absolute"}}>
+            <View style={[
+              styles.tile, 
+              {
+                justifyContent: "space-around", 
+                marginBottom: 0, 
+                borderBottomLeftRadius: 0, 
+                borderBottomRightRadius: 0
+              }
+              ]}>
+              <Text style={{color: "white", fontSize: 20, fontFamily: "ChakraPetch-SemiBold", flex: 1, textAlign: "center"}}>Inventory</Text>
+              {/* <View style={[styles.items, {flex: 2}]}>
+                <Text style={{color: "white", fontSize: 20, fontFamily: "ChakraPetch-Regular"}}>Item 1</Text>
+                <Text style={{color: "white", fontSize: 20, fontFamily: "ChakraPetch-Regular"}}>Item 2</Text>
+                <Text style={{color: "white", fontSize: 20, fontFamily: "ChakraPetch-Regular"}}>Item 3</Text>
+              </View> */}
+            </View>
+            <View style={{marginHorizontal: 8, flexDirection: "row"}}>
+              <View style={[styles.inventoryItem, {marginLeft: 0}]}></View>
+              <View style={styles.inventoryItem}></View>
+              <View style={styles.inventoryItem}></View>
+              <View style={styles.inventoryItem}></View>
+              <View style={styles.inventoryItem}></View>
+              <View style={styles.inventoryItem}></View>
+            </View>
+            <View style={{marginHorizontal: 8, flexDirection: "row"}}>
+              <View style={[styles.inventoryItem, {marginLeft: 0}]}></View>
+              <View style={styles.inventoryItem}></View>
+              <View style={styles.inventoryItem}></View>
+              <View style={styles.inventoryItem}></View>
+              <View style={styles.inventoryItem}></View>
+              <View style={styles.inventoryItem}></View>
+            </View>
+            <View style={{marginHorizontal: 8, flexDirection: "row"}}>
+              <View style={[styles.inventoryItem, {marginLeft: 0}]}></View>
+              <View style={styles.inventoryItem}></View>
+              <View style={styles.inventoryItem}></View>
+              <View style={styles.inventoryItem}></View>
+              <View style={styles.inventoryItem}></View>
+              <View style={styles.inventoryItem}></View>
+            </View>
+          </View>
         </View>
       </ScrollView>
     </SafeAreaView>
@@ -119,8 +140,10 @@ const Profile = () => {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "white",
-    height: "100%"
+    flex: 1,
+    margin: 12,
+    alignItems: "center",
+    gap: 8
   },
   mint: {
     backgroundColor: "#2196F3",
@@ -128,19 +151,20 @@ const styles = StyleSheet.create({
     margin: 2,
   },
   tile: {
-    borderWidth: 2,
-    borderColor: "black",
+    // flex: 1,
+    borderWidth: 1,
+    borderColor: "white",
     borderRadius: 8,
     flexDirection: "row",
     justifyContent: "center",
     gap: 8,
-    paddingVertical: 8,
+    // paddingVertical: 8,
     marginHorizontal: 8,
     marginBottom: 8
   },
   nestedTile: {
-    borderWidth: 2,
-    borderColor: "black",
+    borderWidth: 1,
+    borderColor: "white",
     borderRadius: 8,
     alignItems: "center",
     gap: 4,
@@ -152,11 +176,11 @@ const styles = StyleSheet.create({
     gap: 16,
   },
   inventoryItem: {
-    width: 63.15,
-    height: 63.15,
-    backgroundColor: "white",
-    borderWidth: 2,
-    margin: -2
+    width: (deviceWidth)*1/7,
+    height: (deviceWidth)*1/7,
+    borderWidth: 1,
+    borderColor: "white",
+    margin: -1
   }
 });
 
