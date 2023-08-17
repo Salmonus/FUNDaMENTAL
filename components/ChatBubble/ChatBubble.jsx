@@ -12,7 +12,7 @@ const ChatBubble = ({ text, leftBubble = false }) => {
   return (
     <View style={leftBubble ? styles.chatBubbleLeft : styles.chatBubbleRight}>
       <Text style={[styles.text, {color: leftBubble ? "lightgrey" : "skyblue"}]}>
-        <Text style={{fontFamily: "ChakraPetch-SemiBold"}}>{leftBubble ? "Learna: " : `${name}:`}</Text>
+        <Text style={{fontFamily: "ChakraPetch-SemiBold"}}>{leftBubble ? "Learna: " : `${name}: `}</Text>
         <Text>{text}</Text>
       </Text>
     </View>

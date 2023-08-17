@@ -1,4 +1,4 @@
-import React, { useContext, useState, useEffect } from "react";
+import React, { useContext, useState } from "react";
 import { Dimensions, SafeAreaView, ScrollView, StyleSheet, View, Text, TouchableOpacity, Alert, Image } from "react-native";
 import { AuthContext } from "../../Contexts/AuthContext";
 import { Header } from "../../components";
@@ -17,36 +17,33 @@ const deviceWidth = Dimensions.get("window").width;
 
 const Profile = () => {
   const saveNFTDataToFirebase = () => {
-    const user = auth.currentUser;
-    if (user) {
-      const nftData = {
-        "CONTRACT_ADDRESS": "0x0089206500CFba2Be87b2c51cE39Efa72910C2BD",
-        "SCAN_LINK": "https://polygonscan.com/token/0x0089206500CFba2Be87b2c51cE39Efa72910C2BD",
-        "NETWORK": {
-          "NAME": "Polygon",
-          "SYMBOL": "Matic",
-          "ID": 137
-        },
-        "NFT_NAME": `${this.state.profile.nickname}_${Object.keys(this.state.clothesIndices).join('_')}`,
-        "SYMBOL": "TSNFT",
-        "MAX_SUPPLY": 1,
-        "WEI_COST": 0,
-        "DISPLAY_COST": 0,
-        "GAS_LIMIT": 200000,
-        "MARKETPLACE": "Opensea",
-        "MARKETPLACE_LINK": "https://opensea.io/collection/fundamental-fundy",
-        "SHOW_BACKGROUND": true
-      };
-
-      const docRef = doc(db, "profiles", "NFT");
-      setDoc(docRef, nftData)
-        .then(() => {
-          Alert.alert("NFT Data saved successfully!");
-        })
-        .catch((error) => {
-          Alert.alert("Error saving NFT Data: ", error.message);
-        });
+    const nftData = {
+      "CONTRACT_ADDRESS": "0x0089206500CFba2Be87b2c51cE39Efa72910C2BD",
+      "SCAN_LINK": "https://polygonscan.com/token/0x0089206500CFba2Be87b2c51cE39Efa72910C2BD",
+      "NETWORK": {
+        "NAME": "Polygon",
+        "SYMBOL": "Matic",
+        "ID": 137
+      },
+      "NFT_NAME": "NFT",
+      "SYMBOL": "TSNFT",
+      "MAX_SUPPLY": 1,
+      "WEI_COST": 0,
+      "DISPLAY_COST": 0,
+      "GAS_LIMIT": 200000,
+      "MARKETPLACE": "Opensea",
+      "MARKETPLACE_LINK": "https://opensea.io/collection/fundamental-fundy",
+      "SHOW_BACKGROUND": true
     }
+
+    const docRef = doc(db, "profiles", "NFT");
+    setDoc(docRef, nftData)
+      .then(() => {
+        Alert.alert("NFT Data saved successfully!");
+      })
+      .catch((error) => {
+        Alert.alert("Error saving NFT Data: ", error.message);
+      });
   }
 
   function updateItem(i) {
@@ -55,6 +52,7 @@ const Profile = () => {
   
   const { authUserId } = useContext(AuthContext);
   const [userData, setUserData] = useState({});
+  
   getUserData( authUserId ).then((n) => setUserData(n))
 
   return (

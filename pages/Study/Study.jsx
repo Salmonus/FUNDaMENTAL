@@ -1,7 +1,9 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, useContext } from "react";
 import { StyleSheet, View, SafeAreaView, Text, Animated, PanResponder, TouchableOpacity, Image } from "react-native";
+import { AuthContext } from "../../Contexts/AuthContext";
 import { Header } from "../../components"
 import { BackIcon } from "../../assets/icons";
+import { updateBalance } from "../../firebase/config";
 import blanksData from "./blanksdata.json";
 import sentsData from "./sentsdata.json";
 import arabicWords from './arabic/wordsdata.json';
@@ -9,13 +11,13 @@ import frenchWords from './french/wordsdata.json';
 import swahiliWords from './swahili/wordsdata.json';
 import portugueseWords from './portuguese/wordsdata.json';
 import LernaLangLogo from "../../assets/images/LernaLangLogo.png";
-import HappyImage from "./happy.png";
-import SadImage from "./sad.png";
 import FlappyBirdGame from './FlappyBirdClone/App';
-import Game from './src/components/OfflineGame';
+import Game from './src/components/OfflineGame';;
 
 const Study = ({ route, navigation }) => {
   const { language, topic, testType, gameType } = route.params;
+
+  const { authUserId } = useContext(AuthContext);
   
   const [currentImage, setCurrentImage] = useState(LernaLangLogo);
   const [isPlayingFlappyBird, setIsPlayingFlappyBird] = useState(gameType === "flappybird" ? true : false);
@@ -103,7 +105,7 @@ const Study = ({ route, navigation }) => {
     if (current.answer === selection) {
       setSelected(0);
       setSelection(0);
-      setScreen("Correct");
+      updateBalance(authUserId, 1).then(setScreen("Correct"));
     } else {
       setSelected(0);
       setSelection(0);
