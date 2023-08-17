@@ -10,10 +10,12 @@ import {
   LogBox,
   Image
 } from "react-native";
+import { AuthContext } from "../../Contexts/AuthContext";
+import { updateBalance } from "../../firebase/config";
 import { ChatBubble, ChatInputField, Header } from "../../components";
 import { BackIcon } from "../../assets/icons";
 import { storeConversation } from "../../firebase/config";
-import { AuthContext } from "../../Contexts/AuthContext";
+
 import { OPENAI_MODEL, OPENAI_CHAT_REQUEST_URL, OPENAI_API_KEY } from "@env";
 
 const systemMessage = {
@@ -29,7 +31,7 @@ const Chat = ({ route, navigation }) => {
     "Non-serializable values were found in the navigation state",
   ]);
 
-  const { chatHistory } = route.params
+  const { chatHistory } = route.params;
 
   const language = "English";
   const topic = "basic english conversation";
@@ -106,6 +108,10 @@ const Chat = ({ route, navigation }) => {
       let count = 0;
 
       messages.forEach(function(message) {
+        if (message.role === "system") {
+          return;
+        }
+
         const newChat = (
           <ChatBubble
             key={count}
@@ -175,6 +181,11 @@ const Chat = ({ route, navigation }) => {
   };
 
   const submitResponse = () => {
+    // getMessage([...messages, {
+    //   role: "system",
+    //   content:
+    //     "Rate this conversation from 1 to 10.",
+    // }]).then((messageData) => console.log(messageData.content))
     storeConversation(messages, authUserId, language, topic, proficiency)
       .then(() => {
         navigation.navigate("Chat List");
