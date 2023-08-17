@@ -170,9 +170,8 @@ const styles = StyleSheet.create({
   error: {
     color: "red",
     fontSize: 12,
-    fontWeight: "bold",
-    textAlign: "left",
-    width: "80%",
+    fontFamily: "ChakraPetch-Bold",
+    textAlign: "center",
   },
   button: {
     margin: 36,
@@ -192,11 +191,12 @@ const styles = StyleSheet.create({
   },
   footerText: {
     fontSize: 16,
-    color: "#2e2e2d",
+    color: "grey",
+    fontFamily: "ChakraPetch-Regular",
   },
   footerLink: {
-    color: "#0601B4",
-    fontWeight: "bold",
+    color: "lightgrey",
+    fontFamily: "ChakraPetch-Bold",
     fontSize: 16,
   },
 });

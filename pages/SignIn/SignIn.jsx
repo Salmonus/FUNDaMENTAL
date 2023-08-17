@@ -136,8 +136,7 @@ const styles = StyleSheet.create({
     color: "red",
     fontSize: 12,
     fontFamily: "ChakraPetch-Bold",
-    textAlign: "left",
-    width: "80%",
+    textAlign: "center",
   },
   button: {
     margin: 20,
