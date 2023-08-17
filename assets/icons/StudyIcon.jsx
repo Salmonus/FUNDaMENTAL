@@ -16,7 +16,7 @@ function StudyIcon({ width, height, color }) {
         // strokeOpacity={0.56}
         strokeWidth={3}
       />
-      <Rect y={7} width={44.6761} height={29} rx={5} fill="#fff" />
+      <Rect y={7} width={44.6761} height={29} rx={5} />
       <Rect
         x={1.5}
         y={8.5}

@@ -195,6 +195,11 @@ const Study = ({ route, navigation }) => {
             }            
           ]}
           {...panResponder.panHandlers}>
+          <Image 
+            source={require("../../assets/images/chatBorder.png")}
+            style={{width: "100%", height: 72}}
+            resizeMode="stretch"
+          />
           <Text style={styles.word}>{current !== null ? current.question : ""}</Text>
         </Animated.View>
         <Text style={[
@@ -220,7 +225,7 @@ const Study = ({ route, navigation }) => {
       </View>
       <View style={{flex: 1, justifyContent: "center", alignItems: "center"}}>
         <View>
-          <Text style={[styles.word, screen === "Correct" ? {color: "green"} : {color: "red"}]}>{screen}!</Text>
+          <Text style={[styles.centerText, screen === "Correct" ? {color: "green"} : {color: "red"}]}>{screen}!</Text>
           <Text style={styles.description}>{current.options[current.answer - 1]} means {(current.question).toLowerCase()} in {language}!</Text>
         </View>
         <TouchableOpacity
@@ -248,7 +253,12 @@ const styles = StyleSheet.create({
     fontSize: 36,
     fontFamily: "ChakraPetch-Bold",
     color: "white",
-    textAlign: "center",
+    position: "absolute"
+  },
+  centerText: {
+    fontSize: 36,
+    fontFamily: "ChakraPetch-Bold",
+    textAlign: "center"
   },
   description: {
     fontSize: 20,
@@ -256,12 +266,10 @@ const styles = StyleSheet.create({
     color: "lightgrey"
   },
   box: {
-    backgroundColor: "blue",
-    borderRadius: 16,
-    padding: 8,
     width: 200,
     height: 64,
-    justifyContent: "center"
+    justifyContent: "center",
+    alignItems: "center"
   },
   selection: {
     fontSize: 24,
@@ -271,7 +279,7 @@ const styles = StyleSheet.create({
     width: 200,
     padding: 8,
     borderWidth: 2,
-    borderRadius: 16,
+    borderRadius: 4,
     borderColor: "white"
   },
   selected: {

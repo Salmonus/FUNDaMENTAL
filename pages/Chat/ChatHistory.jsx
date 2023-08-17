@@ -1,6 +1,6 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useState } from "react";
 import { StyleSheet, SafeAreaView, ScrollView, TouchableOpacity, Text, Image } from "react-native";
-import { useIsFocused } from "@react-navigation/native";
+import { useFocusEffect } from "@react-navigation/native";
 import { ChatHistoryCard, Header } from "../../components";
 import { LadderIcon } from "../../assets/icons";
 import { getConversations } from "../../firebase/config";
@@ -10,10 +10,9 @@ const ChatHistory = ({ route, navigation }) => {
   const { authUserId } = useContext(AuthContext);
   const [conversations, setConversations] = useState([]);
 
-  const isFocused = useIsFocused();
 
   // get all the conversations for the user on screen load
-  useEffect(() => {
+  useFocusEffect(() => {
     getConversations(authUserId).then((conversations) => {
       const modifiedConversations = conversations.map((conversation) => {
         return {
@@ -40,7 +39,7 @@ const ChatHistory = ({ route, navigation }) => {
       });
       setConversations(modifiedConversations);
     });
-  }), [isFocused];
+  }), [];
 
   return (
     <SafeAreaView style={styles.container}>
