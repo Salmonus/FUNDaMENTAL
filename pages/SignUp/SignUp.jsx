@@ -33,7 +33,7 @@ const SignUp = ({ navigation }) => {
     }
     signUpUser(email, password, fullName)
       .then((user) => {
-        navigation.navigate("Chat Options", { userId: user.uid });
+        navigation.navigate("Study App");
       })
       .catch((error) => {
         console.error(error);
