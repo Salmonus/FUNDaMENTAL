@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef, useContext } from "react";
 import {
   StyleSheet,
+  View,
   ScrollView,
   SafeAreaView,
   KeyboardAvoidingView,
@@ -188,37 +189,42 @@ const Chat = ({ route, navigation }) => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Header
-        text="Chat with Fundy"
-        leftButton={
-          <TouchableOpacity onPress={() => navigation.navigate("Chat List")}>
-            <BackIcon height={30} width={30} />
-          </TouchableOpacity>
-        }
-        // rightButton={<LadderIcon height={30} width={30} />}
-      />
-      <KeyboardAvoidingView behavior="height" style={styles.scrollView}>
-        <ScrollView
-          style={{ flex: 1 }}
-          contentContainerStyle={styles.contentContainer}
-          ref={scrollViewRef}
-          onContentSizeChange={() =>
-            scrollViewRef.current.scrollToEnd({ animated: true })
+      <KeyboardAvoidingView
+        behavior="position" 
+        contentContainerStyle={styles.scrollView}
+        keyboardVerticalOffset={60}
+      >
+        <Header
+          text="Chat with Fundy"
+          leftButton={
+            <TouchableOpacity onPress={() => navigation.navigate("Chat List")}>
+              <BackIcon height={30} width={30} />
+            </TouchableOpacity>
           }
-        >
-          {chatComponents}
-        </ScrollView>
-        {chatEnded ? 
-          <TouchableOpacity
-            style={styles.submitButton}
-            onPress={submitResponse}
+        /> 
+        <View style={{paddingHorizontal: 20, marginBottom: 48}}>
+          <ScrollView
+            style={{ flex: 1 }}
+            contentContainerStyle={styles.contentContainer}
+            ref={scrollViewRef}
+            onContentSizeChange={() =>
+              scrollViewRef.current.scrollToEnd({ animated: true })
+            }
           >
-            <Text style={styles.submitText}>End Conversation</Text>
-          </TouchableOpacity>
-        : chatDisabled ?
-          null 
-          : <ChatInputField value={""} sendResponse={handleSendResponse} />
-        }
+            {chatComponents}
+          </ScrollView>
+          {chatEnded ? 
+            <TouchableOpacity
+              style={styles.submitButton}
+              onPress={submitResponse}
+            >
+              <Text style={styles.submitText}>End Conversation</Text>
+            </TouchableOpacity>
+          : chatDisabled ?
+            null 
+            : <ChatInputField value={""} sendResponse={handleSendResponse} />
+          }
+        </View>
       </KeyboardAvoidingView>
     </SafeAreaView>
   );
@@ -237,8 +243,6 @@ const styles = StyleSheet.create({
     flexDirection: "column",
     flexGrow: 1,
     width: "100%",
-    paddingHorizontal: 20,
-    marginTop: 10,
   },
   submitButton: {
     backgroundColor: "#0601B4",
