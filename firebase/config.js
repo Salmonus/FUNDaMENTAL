@@ -161,7 +161,7 @@ const getConversations = async (userId) => {
   const querySnapshot = await getDocs(getConversationsQuery);
   querySnapshot.forEach((doc) => {
     // doc.data() is never undefined for query doc snapshots
-    console.log(doc.id, " => ", doc.data());
+    // console.log(doc.id, " => ", doc.data());
     conversations.push(doc.data());
   });
   return conversations;

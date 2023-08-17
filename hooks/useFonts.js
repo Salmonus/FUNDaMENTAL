@@ -5,5 +5,6 @@ export default useFonts = async () =>
     "ChakraPetch-Light": require("../assets/fonts/ChakraPetch-Light.ttf"),
     "ChakraPetch-Regular": require("../assets/fonts/ChakraPetch-Regular.ttf"),
     "ChakraPetch-Medium": require("../assets/fonts/ChakraPetch-Medium.ttf"),
+    "ChakraPetch-SemiBold": require("../assets/fonts/ChakraPetch-SemiBold.ttf"),
     "ChakraPetch-Bold": require("../assets/fonts/ChakraPetch-Bold.ttf"),
   });

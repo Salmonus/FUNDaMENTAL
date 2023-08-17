@@ -1,13 +1,16 @@
 import React, { useContext, useEffect, useState } from "react";
-import { StyleSheet, SafeAreaView, ScrollView } from "react-native";
+import { StyleSheet, SafeAreaView, ScrollView, TouchableOpacity, Text, Image } from "react-native";
+import { useIsFocused } from "@react-navigation/native";
 import { ChatHistoryCard, Header } from "../../components";
 import { LadderIcon } from "../../assets/icons";
 import { getConversations } from "../../firebase/config";
 import { AuthContext } from "../../Contexts/AuthContext";
 
-const ChatHistory = ({ navigation }) => {
+const ChatHistory = ({ route, navigation }) => {
   const { authUserId } = useContext(AuthContext);
   const [conversations, setConversations] = useState([]);
+
+  const isFocused = useIsFocused();
 
   // get all the conversations for the user on screen load
   useEffect(() => {
@@ -32,57 +35,41 @@ const ChatHistory = ({ navigation }) => {
           },
           language: conversation?.language,
           description: conversation?.messages[1]?.content,
+          messages: conversation.messages,
         };
       });
       setConversations(modifiedConversations);
     });
-  }, []);
-
-  const conversationData = [
-    {
-      timestamp: 1609502400000,
-      time: "12:00pm",
-      date: {
-        month: "Jan",
-        day: "01",
-        year: "2021",
-      },
-      language: "French",
-      description: "Lorem ipsum",
-    },
-    {
-      timestamp: 1609588800000,
-      time: "12:00pm",
-      date: {
-        month: "Jan",
-        day: "02",
-        year: "2021",
-      },
-      language: "French",
-      description: "Lorem ipsum dolor sit amet,",
-    },
-  ];
-
-  console.log("conversations: ", conversations);
+  }), [isFocused];
 
   return (
     <SafeAreaView style={styles.container}>
       <Header
-        text="Chat History"
-        leftButton={<LadderIcon height={30} width={30} />}
+        text="Chat List"
         rightButton={null}
       />
       <ScrollView
         style={styles.scrollView}
         contentContainerStyle={styles.scollViewcontent}
       >
+        <TouchableOpacity 
+          style={styles.newButton}
+          onPress={() => navigation.navigate("Chat", { chatHistory: null })}
+        >
+          <Image 
+            source={require("../../assets/images/chatBorder.png")}
+            style={{width: "100%", height: 72}}
+            resizeMode="stretch"
+          />
+          <Text style={styles.buttonText}>+ New Chat</Text>
+        </TouchableOpacity>
         {conversations.map((chat) => (
           <ChatHistoryCard
             key={chat.timestamp}
             date={chat.date}
             language={chat.language}
             description={chat.description}
-            openChat={() => console.log("Open chat")}
+            openChat={() => navigation.navigate("Chat", { chatHistory: conversations.filter(convo => convo.timestamp === chat.timestamp) })}
             deleteChat={() => console.log("Delete chat")}
           />
         ))}
@@ -93,10 +80,10 @@ const ChatHistory = ({ navigation }) => {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
     flex: 1,
+    margin: 12,
   },
   scrollView: {
     display: "flex",
@@ -109,7 +96,22 @@ const styles = StyleSheet.create({
   scollViewcontent: {
     alignItems: "center",
     justifyContent: "center",
+    gap: 4,
   },
+  newButton: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+    marginHorizontal: 12,
+    flexDirection: "row",
+  },
+  buttonText: {
+    fontSize: 20,
+    color: "white",
+    fontFamily: "ChakraPetch-Bold",
+    zIndex: 0,
+    position: "absolute",
+  }
 });
 
 export default ChatHistory;

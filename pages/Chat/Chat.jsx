@@ -6,9 +6,10 @@ import {
   KeyboardAvoidingView,
   TouchableOpacity,
   Text,
+  LogBox
 } from "react-native";
 import { ChatBubble, ChatInputField, Header } from "../../components";
-import { LadderIcon, BackIcon } from "../../assets/icons";
+import { BackIcon } from "../../assets/icons";
 import { storeConversation } from "../../firebase/config";
 import { AuthContext } from "../../Contexts/AuthContext";
 import { OPENAI_MODEL, OPENAI_CHAT_REQUEST_URL, OPENAI_API_KEY } from "@env";
@@ -22,12 +23,17 @@ const systemMessage = {
 const MAX_CONVERSATION_LENGTH = 20;
 
 const Chat = ({ route, navigation }) => {
-  const chatHistory = route.params
+  LogBox.ignoreLogs([
+    "Non-serializable values were found in the navigation state",
+  ]);
+
+  const { chatHistory } = route.params
 
   const language = "English";
   const topic = "basic english conversation";
   const proficiency = "Basic";
-  const [messages, setMessages] = useState([
+  const [messages, setMessages] = useState(chatHistory ? chatHistory[0]?.messages :
+  [
     {
       role: "system",
       content: `You are a friendly and helpful language learning tutor called Fundy. Ask this user a question in ${language} about ${topic} so that they can practice speaking and writing ${language}. Note that they are a ${proficiency} level speaker. In your conversation with them ask one question at a time, wait for their responses and reply thoughtfully with short and concise questions.`,
@@ -39,10 +45,11 @@ const Chat = ({ route, navigation }) => {
     content: `End the conversation with the user by saying thanks for chatting and goodbye in ${language}`,
   };
 
-  const [chatComponents, setChatComponents] = useState(chatHistory ? chatHistory : []);
+  const [chatComponents, setChatComponents] = useState([]);
   const [chatCount, setChatCount] = useState(0);
   const scrollViewRef = useRef(null);
   const [chatEnded, setChatEnded] = useState(false);
+  const [chatDisabled, setChatDisabled] = useState(false);
   const { authUserId } = useContext(AuthContext);
 
   const getMessage = async (chatMessages) => {
@@ -92,18 +99,40 @@ const Chat = ({ route, navigation }) => {
   };
 
   useEffect(() => {
-    getMessage(messages).then((messageData) => {
-      setMessages([...messages, messageData]);
-      const newChat = (
-        <ChatBubble
-          key={chatCount}
-          text={messageData.content}
-          leftBubble={true}
-        />
-      );
-      setChatComponents([...chatComponents, newChat]);
-      setChatCount(chatCount + 1);
-    });
+    if (chatHistory) {
+      let components = [];
+      let count = 0;
+
+      messages.forEach(function(message) {
+        const newChat = (
+          <ChatBubble
+            key={count}
+            text={message.content}
+            leftBubble={message.role === "assistant" ? true: false}
+          />
+        );
+        
+        components.push(newChat);
+        count += 1;
+      })
+      setChatComponents([components]);
+      setChatCount(count);
+      setChatDisabled(true);
+      return;
+    } else {
+      getMessage(messages).then((messageData) => {
+        setMessages([...messages, messageData]);
+        const newChat = (
+          <ChatBubble
+            key={chatCount}
+            text={messageData.content}
+            leftBubble={true}
+          />
+        );
+        setChatComponents([...chatComponents, newChat]);
+        setChatCount(chatCount + 1);
+      });
+    }
   }, []);
 
   useEffect(() => {
@@ -146,19 +175,23 @@ const Chat = ({ route, navigation }) => {
   const submitResponse = () => {
     storeConversation(messages, authUserId, language, topic, proficiency)
       .then(() => {
-        navigation.navigate("Chat History");
+        navigation.navigate("Chat List");
       })
       .catch((error) => {
         console.log("Error storing conversation in firebase. Try again.", error);
       });
   };
 
+  useEffect(() => {
+    
+  }, [chatHistory]);
+
   return (
     <SafeAreaView style={styles.container}>
       <Header
         text="Chat with Fundy"
         leftButton={
-          <TouchableOpacity onPress={() => navigation.goBack()}>
+          <TouchableOpacity onPress={() => navigation.navigate("Chat List")}>
             <BackIcon height={30} width={30} />
           </TouchableOpacity>
         }
@@ -175,16 +208,17 @@ const Chat = ({ route, navigation }) => {
         >
           {chatComponents}
         </ScrollView>
-        {chatEnded ? (
+        {chatEnded ? 
           <TouchableOpacity
             style={styles.submitButton}
             onPress={submitResponse}
           >
             <Text style={styles.submitText}>End Conversation</Text>
           </TouchableOpacity>
-        ) : (
-          <ChatInputField value={""} sendResponse={handleSendResponse} />
-        )}
+        : chatDisabled ?
+          null 
+          : <ChatInputField value={""} sendResponse={handleSendResponse} />
+        }
       </KeyboardAvoidingView>
     </SafeAreaView>
   );

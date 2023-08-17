@@ -1,6 +1,6 @@
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { Chat, ChatHistory, ChatOptions, Profile } from "../../pages";
+import { ChatApp, Profile } from "../../pages";
 import {
   ProfileIcon,
   ChatIcon,
@@ -38,8 +38,8 @@ const BottomBarNavigator = () => {
         }}
       />
       <Tab.Screen
-        name="Chat"
-        component={Chat}
+        name="Chats"
+        component={ChatApp}
         options={{
           tabBarIcon: ({ focused }) => (
             <ChatIcon
@@ -48,21 +48,6 @@ const BottomBarNavigator = () => {
               color={focused ? "white" : "lightgrey"}
             />
           ),
-        }}
-      />
-      <Tab.Screen
-        name="Chat History"
-        component={ChatHistory}
-        options={{
-          tabBarIcon: ({ focused }) => {
-            return (
-              <HistoryIcon
-                height={"35px"}
-                width={"35px"}
-                color={focused ? "white" : "lightgrey"}
-              />
-            );
-          },
         }}
       />
       <Tab.Screen
