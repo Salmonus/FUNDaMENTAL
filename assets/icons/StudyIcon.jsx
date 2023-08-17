@@ -1,32 +1,19 @@
 import * as React from "react";
-import Svg, { Path, Rect } from "react-native-svg";
+import { Image, View } from "react-native";
 
-function StudyIcon({ width, height, color }) {
+function StudyIcon({ border }) {
   return (
-    <Svg
-      width={width || 51}
-      height={height || 36}
-      viewBox="0 0 51 36"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <Path
-        d="M7.5 5.5A3.5 3.5 0 0111 2h34.676a3.5 3.5 0 013.5 3.5v19a3.5 3.5 0 01-3.5 3.5H11a3.5 3.5 0 01-3.5-3.5v-19z"
-        stroke={color || "#000"}
-        // strokeOpacity={0.56}
-        strokeWidth={3}
+    <View>
+      <Image 
+        source={border}
+        style={{width: 36, height: 36}}
+        resizeMode="stretch"
       />
-      <Rect y={7} width={44.6761} height={29} rx={5} />
-      <Rect
-        x={1.5}
-        y={8.5}
-        width={41.6761}
-        height={26}
-        rx={3.5}
-        stroke={color || "#000"}
-        strokeWidth={3}
+      <Image 
+        source={require("../../assets/images/mission_box_icon.png")}
+        style={{width: 28, height: 28, position: "absolute", left: 4, top: 4}}
       />
-    </Svg>
+    </View>
   );
 }
 

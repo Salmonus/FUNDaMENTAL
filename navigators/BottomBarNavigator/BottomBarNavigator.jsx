@@ -29,10 +29,8 @@ const BottomBarNavigator = () => {
         component={StudyApp}
         options={{
           tabBarIcon: ({ focused }) => (
-            <StudyIcon
-              height={"35px"}
-              width={"35px"}
-              color={focused ? "white" : "lightgrey"}
+            <StudyIcon 
+              border={focused ? require("../../assets/images/chatBorder.png") : require("../../assets/images/disabledBorder.png")}
             />
           ),
         }}
@@ -42,10 +40,8 @@ const BottomBarNavigator = () => {
         component={ChatApp}
         options={{
           tabBarIcon: ({ focused }) => (
-            <ChatIcon
-              height={"30px"}
-              width={"30px"}
-              color={focused ? "white" : "lightgrey"}
+            <ChatIcon 
+              border={focused ? require("../../assets/images/chatBorder.png") : require("../../assets/images/disabledBorder.png")}
             />
           ),
         }}
@@ -55,10 +51,8 @@ const BottomBarNavigator = () => {
         component={Profile}
         options={{
           tabBarIcon: ({ focused }) => (
-            <ProfileIcon
-              height={"23px"}
-              width={"23px"}
-              color={focused ? "white" : "lightgrey"}
+            <ProfileIcon 
+              border={focused ? require("../../assets/images/chatBorder.png") : require("../../assets/images/disabledBorder.png")}
             />
           ),
         }}
