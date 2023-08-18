@@ -1,5 +1,6 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import { Dimensions, SafeAreaView, ScrollView, StyleSheet, View, Text, TouchableOpacity, Alert, Image } from "react-native";
+import { useFocusEffect } from "@react-navigation/native";
 import { AuthContext } from "../../Contexts/AuthContext";
 import { Header } from "../../components";
 import { auth, db, getUserData } from "../../firebase/config";
@@ -47,13 +48,23 @@ const Profile = () => {
   }
 
   function updateItem(i) {
-    item = i;
+    setItem(i);
   }
   
   const { authUserId } = useContext(AuthContext);
   const [userData, setUserData] = useState({});
-  
-  getUserData( authUserId ).then((n) => setUserData(n))
+  const [item, setItem] = useState("engineer");
+
+  useEffect(() => {
+    getUserData( authUserId ).then((n) => setUserData(n)) 
+  }, []);
+
+  // Prevent insufficient quota warning by updating data every 5 sec
+  useFocusEffect(() => {
+    setTimeout(() => {
+      getUserData( authUserId ).then((n) => setUserData(n)) 
+    }, 5000)
+  });
 
   return (
     <SafeAreaView style={styles.container}>

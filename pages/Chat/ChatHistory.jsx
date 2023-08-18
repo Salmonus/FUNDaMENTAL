@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import { StyleSheet, SafeAreaView, ScrollView, TouchableOpacity, Text, Image } from "react-native";
 import { useFocusEffect } from "@react-navigation/native";
 import { ChatHistoryCard, Header } from "../../components";
@@ -12,7 +12,9 @@ const ChatHistory = ({ route, navigation }) => {
 
 
   // get all the conversations for the user on screen load
-  useFocusEffect(() => {
+  // Prevent insufficient quota warning by updating data every 5 sec
+  useEffect(() => {
+    console.log("update")
     getConversations(authUserId).then((conversations) => {
       const modifiedConversations = conversations.map((conversation) => {
         return {
@@ -39,7 +41,39 @@ const ChatHistory = ({ route, navigation }) => {
       });
       setConversations(modifiedConversations);
     });
-  }), [];
+  }, []);
+
+  useFocusEffect(() => {
+    setTimeout(() => {
+      console.log("update 5")
+      getConversations(authUserId).then((conversations) => {
+        const modifiedConversations = conversations.map((conversation) => {
+          return {
+            timestamp: conversation?.timestamp,
+            time: conversation?.timestamp,
+            date: {
+              month: conversation?.timestamp
+                ?.toDate()
+                ?.toLocaleString("default", { month: "short" }),
+              day: conversation?.timestamp
+                ?.toDate()
+                ?.toLocaleString("default", { day: "2-digit" }),
+              year: conversation?.timestamp
+                ?.toDate()
+                ?.toLocaleString("default", { year: "numeric" }),
+            },
+            onPress: () => {
+              console.log("conversation pressed with id: ", conversation.id);
+            },
+            language: conversation?.language,
+            description: conversation?.messages[1]?.content,
+            messages: conversation.messages,
+          };
+        });
+        setConversations(modifiedConversations);
+      });
+    }, 5000)
+  });
 
   return (
     <SafeAreaView style={styles.container}>
