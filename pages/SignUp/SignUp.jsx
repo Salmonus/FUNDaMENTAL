@@ -5,6 +5,8 @@ import {
   TextInput,
   TouchableOpacity,
   View,
+  SafeAreaView,
+  Image,
 } from "react-native";
 import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
 import { LernaLangLogo } from "../../assets/images";
@@ -31,7 +33,7 @@ const SignUp = ({ navigation }) => {
     }
     signUpUser(email, password, fullName)
       .then((user) => {
-        navigation.navigate("Chat Options", { userId: user.uid });
+        navigation.navigate("Study App");
       })
       .catch((error) => {
         console.error(error);
@@ -40,15 +42,8 @@ const SignUp = ({ navigation }) => {
   };
 
   return (
-    <View style={styles.container}>
-      <KeyboardAwareScrollView
-        style={{
-          flex: 1,
-          width: "100%",
-        }}
-        contentContainerStyle={{ alignItems: "center", top: 50 }}
-        keyboardShouldPersistTaps="always"
-      >
+    <SafeAreaView style={styles.container}>
+      <KeyboardAwareScrollView>
         <Header
           text="Create an account"
           leftButton={
@@ -56,57 +51,86 @@ const SignUp = ({ navigation }) => {
               <BackIcon height={30} width={30} />
             </TouchableOpacity>
           }
-          rightButton={<LadderIcon height={30} width={30} />}
         />
-        <View style={{ margin: 40 }}>
-          <LernaLangLogo height={150} width={100} />
+        <View style={{ alignItems: "center", margin: 40, marginBottom: 20 }}>
+          <LernaLangLogo height={100} width={100} />
         </View>
         <Text style={styles.error}>{errorMessage}</Text>
-        <View style={styles.inputsView}>
-          <TextInput
-            style={styles.input}
-            placeholder="Full Name"
-            placeholderTextColor="#aaaaaa"
-            onChangeText={(text) => setFullName(text)}
-            value={fullName}
-            underlineColorAndroid="transparent"
-            autoCapitalize="none"
-          />
-          <TextInput
-            style={styles.input}
-            placeholder="E-mail"
-            placeholderTextColor="#aaaaaa"
-            onChangeText={(text) => setEmail(text)}
-            value={email}
-            underlineColorAndroid="transparent"
-            autoCapitalize="none"
-          />
-          <TextInput
-            style={styles.input}
-            placeholderTextColor="#aaaaaa"
-            secureTextEntry
-            placeholder="Password"
-            onChangeText={(text) => setPassword(text)}
-            value={password}
-            underlineColorAndroid="transparent"
-            autoCapitalize="none"
-          />
-          <TextInput
-            style={styles.input}
-            placeholderTextColor="#aaaaaa"
-            secureTextEntry
-            placeholder="Confirm Password"
-            onChangeText={(text) => setConfirmPassword(text)}
-            value={confirmPassword}
-            underlineColorAndroid="transparent"
-            autoCapitalize="none"
-          />
+        <View style={{gap: 12}}>
+          <View style={styles.inputsView}>
+            <Image 
+              source={require("../../assets/images/tab.png")}
+              style={{width: "80%", height: 48}}
+              resizeMode="stretch"
+            />
+            <TextInput
+              style={styles.input}
+              placeholder="Full Name"
+              placeholderTextColor="#aaaaaa"
+              onChangeText={(text) => setFullName(text)}
+              value={fullName}
+              underlineColorAndroid="transparent"
+              autoCapitalize="none"
+            />
+          </View>
+          <View style={styles.inputsView}>
+            <Image 
+              source={require("../../assets/images/tab.png")}
+              style={{width: "80%", height: 48}}
+              resizeMode="stretch"
+            />
+            <TextInput
+              style={styles.input}
+              placeholder="E-mail"
+              placeholderTextColor="#aaaaaa"
+              onChangeText={(text) => setEmail(text)}
+              value={email}
+              underlineColorAndroid="transparent"
+              autoCapitalize="none"
+            />
+          </View>
+          <View style={styles.inputsView}>
+            <Image 
+              source={require("../../assets/images/tab.png")}
+              style={{width: "80%", height: 48}}
+              resizeMode="stretch"
+            />
+            <TextInput
+              style={styles.input}
+              placeholderTextColor="#aaaaaa"
+              secureTextEntry
+              placeholder="Password"
+              onChangeText={(text) => setPassword(text)}
+              value={password}
+              underlineColorAndroid="transparent"
+              autoCapitalize="none"
+            />
+          </View>
+          <View style={styles.inputsView}>
+            <Image 
+              source={require("../../assets/images/tab.png")}
+              style={{width: "80%", height: 48}}
+              resizeMode="stretch"
+            />
+            <TextInput
+              style={styles.input}
+              placeholderTextColor="#aaaaaa"
+              secureTextEntry
+              placeholder="Confirm Password"
+              onChangeText={(text) => setConfirmPassword(text)}
+              value={confirmPassword}
+              underlineColorAndroid="transparent"
+              autoCapitalize="none"
+            />
+          </View>
         </View>
-        <TouchableOpacity
-          style={styles.button}
-          onPress={() => onRegisterPress()}
-        >
-          <Text style={styles.buttonTitle}>Create account</Text>
+        <TouchableOpacity style={styles.button} onPress={() => onRegisterPress()}>
+            <Image
+              source={require("../../assets/images/button_normal.png")}
+              style={{flex: 1, width: "60%"}}
+              resizeMode="stretch"
+            />
+            <Text style={styles.buttonTitle}>Create Account</Text>
         </TouchableOpacity>
         <View style={styles.footerView}>
           <Text style={styles.footerText}>
@@ -120,17 +144,14 @@ const SignUp = ({ navigation }) => {
           </Text>
         </View>
       </KeyboardAwareScrollView>
-    </View>
+    </SafeAreaView>
   );
 };
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: "center",
-    backgroundColor: "#fff",
-    height: "100%",
-    width: "100%",
+    margin: 12,
   },
   inputsView: {
     flex: 1,
@@ -140,53 +161,42 @@ const styles = StyleSheet.create({
   input: {
     width: "80%",
     height: 48,
-    borderRadius: 5,
     overflow: "hidden",
-    borderColor: "#000",
-    borderWidth: 1,
-    borderStyle: "solid",
-    marginTop: 10,
-    marginBottom: 10,
-    marginLeft: 30,
-    marginRight: 30,
     paddingLeft: 16,
-    color: "#000",
+    position: "absolute",
+    color: "white",
+    fontFamily: "ChakraPetch-Regular"
   },
   error: {
     color: "red",
     fontSize: 12,
-    fontWeight: "bold",
-    textAlign: "left",
-    width: "80%",
+    fontFamily: "ChakraPetch-Bold",
+    textAlign: "center",
   },
   button: {
-    backgroundColor: "#0601B4",
-    marginLeft: 30,
-    marginRight: 30,
-    marginTop: 20,
-    padding: 15,
-    // height: 60,
-    borderRadius: 10,
+    margin: 36,
+    height: 40,
     alignItems: "center",
     justifyContent: "center",
   },
   buttonTitle: {
     color: "white",
     fontSize: 16,
-    fontWeight: "bold",
+    fontFamily: "ChakraPetch-Bold",
+    position: "absolute"
   },
   footerView: {
     flex: 1,
     alignItems: "center",
-    marginTop: 20,
   },
   footerText: {
     fontSize: 16,
-    color: "#2e2e2d",
+    color: "grey",
+    fontFamily: "ChakraPetch-Regular",
   },
   footerLink: {
-    color: "#0601B4",
-    fontWeight: "bold",
+    color: "lightgrey",
+    fontFamily: "ChakraPetch-Bold",
     fontSize: 16,
   },
 });

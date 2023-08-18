@@ -1,6 +1,6 @@
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { Chat, ChatHistory, ChatOptions, Profile } from "../../pages";
+import { ChatApp, Profile } from "../../pages";
 import {
   ProfileIcon,
   ChatIcon,
@@ -29,40 +29,21 @@ const BottomBarNavigator = () => {
         component={StudyApp}
         options={{
           tabBarIcon: ({ focused }) => (
-            <StudyIcon
-              height={"35px"}
-              width={"35px"}
-              color={focused ? "white" : "lightgrey"}
+            <StudyIcon 
+              border={focused ? require("../../assets/images/chatBorder.png") : require("../../assets/images/disabledBorder.png")}
             />
           ),
         }}
       />
       <Tab.Screen
-        name="Chat"
-        component={Chat}
+        name="Chats"
+        component={ChatApp}
         options={{
           tabBarIcon: ({ focused }) => (
-            <ChatIcon
-              height={"30px"}
-              width={"30px"}
-              color={focused ? "white" : "lightgrey"}
+            <ChatIcon 
+              border={focused ? require("../../assets/images/chatBorder.png") : require("../../assets/images/disabledBorder.png")}
             />
           ),
-        }}
-      />
-      <Tab.Screen
-        name="Chat History"
-        component={ChatHistory}
-        options={{
-          tabBarIcon: ({ focused }) => {
-            return (
-              <HistoryIcon
-                height={"35px"}
-                width={"35px"}
-                color={focused ? "white" : "lightgrey"}
-              />
-            );
-          },
         }}
       />
       <Tab.Screen
@@ -70,10 +51,8 @@ const BottomBarNavigator = () => {
         component={Profile}
         options={{
           tabBarIcon: ({ focused }) => (
-            <ProfileIcon
-              height={"23px"}
-              width={"23px"}
-              color={focused ? "white" : "lightgrey"}
+            <ProfileIcon 
+              border={focused ? require("../../assets/images/chatBorder.png") : require("../../assets/images/disabledBorder.png")}
             />
           ),
         }}

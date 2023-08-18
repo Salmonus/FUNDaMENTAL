@@ -7,8 +7,8 @@ import {
   SafeAreaView,
   View,
   Image,
-  ScrollView
 } from "react-native";
+import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
 import { Header } from "../../components";
 import { LernaLangLogo } from "../../assets/images";
 import { BackIcon, LadderIcon } from "../../assets/icons";
@@ -42,71 +42,73 @@ const SignIn = ({ navigation }) => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Header
-        text="Sign In"
-        leftButton={
-          <TouchableOpacity onPress={() => navigation.goBack()}>
-            <BackIcon height={30} width={30} />
+      <KeyboardAwareScrollView>
+        <Header
+          text="Sign In"
+          leftButton={
+            <TouchableOpacity onPress={() => navigation.goBack()}>
+              <BackIcon height={30} width={30} />
+            </TouchableOpacity>
+          }
+          rightButton={<LadderIcon height={30} width={30} />}
+        />
+        <View style={{flex: 1, justifyContent: "center", alignItems: "center"}}>
+          <LernaLangLogo height={250} width={200} />
+          <Text style={styles.error}>{errorMessage}</Text>
+          <View style={styles.inputsView}>
+            <Image 
+              source={require("../../assets/images/tab.png")}
+              style={{width: "80%", height: 48}}
+              resizeMode="stretch"
+            />
+            <TextInput
+              style={styles.input}
+              placeholder="E-mail"
+              placeholderTextColor="#aaaaaa"
+              onChangeText={(text) => setEmail(text)}
+              value={email}
+              underlineColorAndroid="transparent"
+              autoCapitalize="none"
+            />
+          </View>
+          <View style={styles.inputsView}>
+            <Image 
+              source={require("../../assets/images/tab.png")}
+              style={{width: "80%", height: 48}}
+              resizeMode="stretch"
+            />
+            <TextInput
+              style={styles.input}
+              placeholderTextColor="#aaaaaa"
+              secureTextEntry
+              placeholder="Password"
+              onChangeText={(text) => setPassword(text)}
+              value={password}
+              underlineColorAndroid="transparent"
+              autoCapitalize="none"
+            />
+          </View>
+          <TouchableOpacity style={styles.button} onPress={() => onLoginPress()}>
+            <Image
+              source={require("../../assets/images/button_normal.png")}
+              style={{flex: 1}}
+              resizeMode="stretch"
+            />
+            <Text style={styles.buttonTitle}>Sign In</Text>
           </TouchableOpacity>
-        }
-        rightButton={<LadderIcon height={30} width={30} />}
-      />
-      <View style={{flex: 1, justifyContent: "center", alignItems: "center"}}>
-        <LernaLangLogo height={250} width={200} />
-        <Text style={styles.error}>{errorMessage}</Text>
-        <View style={styles.inputsView}>
-          <Image 
-            source={require("../../assets/images/tab.png")}
-            style={{width: "80%", height: 48}}
-            resizeMode="stretch"
-          />
-          <TextInput
-            style={styles.input}
-            placeholder="E-mail"
-            placeholderTextColor="#aaaaaa"
-            onChangeText={(text) => setEmail(text)}
-            value={email}
-            underlineColorAndroid="transparent"
-            autoCapitalize="none"
-          />
-        </View>
-        <View style={styles.inputsView}>
-          <Image 
-            source={require("../../assets/images/tab.png")}
-            style={{width: "80%", height: 48}}
-            resizeMode="stretch"
-          />
-          <TextInput
-            style={styles.input}
-            placeholderTextColor="#aaaaaa"
-            secureTextEntry
-            placeholder="Password"
-            onChangeText={(text) => setPassword(text)}
-            value={password}
-            underlineColorAndroid="transparent"
-            autoCapitalize="none"
-          />
-        </View>
-        <TouchableOpacity style={styles.button} onPress={() => onLoginPress()}>
-          <Image
-            source={require("../../assets/images/button_normal.png")}
-            style={{flex: 1}}
-            resizeMode="stretch"
-          />
-          <Text style={styles.buttonTitle}>Sign In</Text>
-        </TouchableOpacity>
-        <View style={styles.footerView}>
-          <Text style={styles.footerText}>
-            Don't have an account?{" "}
-            <Text
-              onPress={() => navigation.navigate("SignUp")}
-              style={styles.footerLink}
-            >
-              Create an account
+          <View style={styles.footerView}>
+            <Text style={styles.footerText}>
+              Don't have an account?{" "}
+              <Text
+                onPress={() => navigation.navigate("SignUp")}
+                style={styles.footerLink}
+              >
+                Create an account
+              </Text>
             </Text>
-          </Text>
+          </View>
         </View>
-      </View>
+      </KeyboardAwareScrollView>
     </SafeAreaView>
   );
 };
@@ -127,14 +129,14 @@ const styles = StyleSheet.create({
     overflow: "hidden",
     paddingLeft: 16,
     position: "absolute",
-    color: "white"
+    color: "white",
+    fontFamily: "ChakraPetch-Regular"
   },
   error: {
     color: "red",
     fontSize: 12,
     fontFamily: "ChakraPetch-Bold",
-    textAlign: "left",
-    width: "80%",
+    textAlign: "center",
   },
   button: {
     margin: 20,

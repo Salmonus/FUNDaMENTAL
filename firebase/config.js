@@ -10,16 +10,18 @@ import {
   signOut,
 } from "firebase/auth";
 import {
+  doc,
   getFirestore,
   collection,
   addDoc,
+  setDoc,
   query,
   where,
   getDoc,
   getDocs,
   serverTimestamp,
 } from "firebase/firestore";
-import { getStorage } from "firebase/storage"
+import { getStorage } from "firebase/storage";
 import {
   FIREBASE_API_KEY,
   FIREBASE_AUTH_DOMAIN,
@@ -35,10 +37,10 @@ const firebaseConfig = {
   projectId: FIREBASE_PROJECT_ID,
   storageBucket: FIREBASE_STORAGE_BUCKET,
   messagingSenderId: FIREBASE_MESSAGING_SENDER_ID,
-  appId: FIREBASE_APP_ID
+  appId: FIREBASE_APP_ID,
 };
 
-const firebase = initializeApp(firebaseConfig, {name: "FUNDaMENTAL"});
+const firebase = initializeApp(firebaseConfig, { name: "FUNDaMENTAL" });
 const auth = getAuth(firebase);
 const db = getFirestore(firebase);
 const storage = getStorage(firebase);
@@ -116,6 +118,34 @@ const signOutUser = async () => {
  * @return void, throw exception if error occurs
  */
 
+const getUserData = async (userId) => {
+  let user;
+  const querySnapshot = await getDocs(
+    query(collection(db, "users"), where("uid", "==", userId))
+  );
+  querySnapshot.forEach((doc) => {
+    user = doc.data();
+  });
+
+  return user;
+};
+
+const updateBalance = async (userId, earnedMoney) => {
+  let user = {};
+  const querySnapshot = await getDocs(
+    query(collection(db, "users"), where("uid", "==", userId))
+  );
+  querySnapshot.forEach((doc) => {
+    user.id = doc.id;
+    user.data = doc.data();
+  });
+
+  newBalance = user.data.balance += earnedMoney
+
+  const docRef = doc(db, "users", user.id);
+  setDoc(docRef, { balance: newBalance }, { merge: true });
+};
+
 const storeConversation = async (conversation, userId, language, topic) => {
   // If a valid user is not passed in, throw an error
   console.log("userId: ", userId);
@@ -161,7 +191,7 @@ const getConversations = async (userId) => {
   const querySnapshot = await getDocs(getConversationsQuery);
   querySnapshot.forEach((doc) => {
     // doc.data() is never undefined for query doc snapshots
-    console.log(doc.id, " => ", doc.data());
+    // console.log(doc.id, " => ", doc.data());
     conversations.push(doc.data());
   });
   return conversations;
@@ -210,6 +240,8 @@ export {
   signInUser,
   signUpUser,
   signOutUser,
+  getUserData,
+  updateBalance,
   getConversation,
   getConversations,
   storeConversation,

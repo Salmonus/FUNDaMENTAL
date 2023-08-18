@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
-import { StyleSheet, View, TextInput, Pressable } from "react-native";
-import { MicrophoneIcon, SendIcon } from "../../assets/icons";
+import React, { useState } from "react";
+import { StyleSheet, View, TextInput, Pressable, ImageBackground } from "react-native";
+import { SendIcon } from "../../assets/icons";
 
 const ChatInputField = ({ value, sendResponse, onFocus }) => {
   const [input, setInput] = useState(value);
@@ -11,80 +11,60 @@ const ChatInputField = ({ value, sendResponse, onFocus }) => {
   };
 
   return (
-    <View style={styles.inputContainer}>
-      <Pressable
-        style={({ pressed }) => [
-          {
-            opacity: pressed ? 0.5 : 1,
-          },
-          styles.microphoneButton,
-        ]}
-        onPress={() => console.log("Pressed Microphone")}
-      >
-        <MicrophoneIcon height={28} width={28} color={"#000"} />
-      </Pressable>
-      <TextInput
-        style={styles.input}
-        onChangeText={(input) => setInput(input)}
-        value={input}
-        placeholder="Enter response..."
-        keyboardType="default"
-        multiline={true}
-        onFocus={onFocus}
-      />
-      <Pressable
-        style={({ pressed }) => [
-          {
-            opacity: pressed ? 0.5 : 1,
-          },
-          styles.sendButton,
-        ]}
-        onPress={() => handleOnPress()}
-      >
-        <SendIcon
-          height={28}
-          width={28}
-          color={"#000"} //TODO: change color when pressed
+    <ImageBackground
+      source={require("../../assets/images/tab.png")}
+      resizeMode="stretch"
+    >
+      <View style={styles.inputContainer}>
+        <TextInput
+          style={styles.input}
+          onChangeText={(input) => setInput(input)}
+          value={input}
+          placeholder="Enter response..."
+          placeholderTextColor={"white"}
+          keyboardType="default"
+          multiline={true}
+          onFocus={onFocus}
         />
-      </Pressable>
-    </View>
+        <Pressable
+          style={({ pressed }) => [
+            {
+              opacity: pressed ? 0.5 : 1,
+            },
+            styles.sendButton,
+          ]}
+          onPress={() => handleOnPress()}
+        >
+          <SendIcon
+            height={28}
+            width={28}
+          />
+        </Pressable>
+      </View>
+    </ImageBackground>
   );
 };
 
 const styles = StyleSheet.create({
   inputContainer: {
-    width: "100%",
     flexDirection: "row",
-    padding: 10,
-    minHeight: 10,
+    padding: 12,
+    minHeight: 48,
     maxHeight: 110,
-    backgroundColor: "#fff",
-    borderRadius: 25,
-    borderWidth: 1,
-    borderColor: "#000",
-    marginTop: 10,
+    alignItems: "center", 
   },
   input: {
-    color: "#000",
+    color: "white",
     fontSize: 16,
-    fontWeight: "regular",
-    textAlign: "left",
-    padding: 5,
-    width: 250,
+    fontFamily: "ChakraPetch-Regular",
+    marginLeft: 8,
+    flex: 1,
   },
   sendButton: {
-    position: "relative",
     justifyContent: "center",
     width: "10%",
-    right: 10,
-  },
-  microphoneButton: {
-    position: "relative",
-    justifyContent: "center",
-    width: "10%",
-    left: 10,
-    marginRight: 5,
-  },
+    right: 5,
+  }
 });
 
 export default ChatInputField;
